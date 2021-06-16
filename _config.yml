@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Mitchell Watt"
 title_separator          : "-"
 name                     : &name "Mitchell Watt"
 description              : &description "Doctoral Candidate in Economics at Stanford University"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Mitchell Watt"
   avatar           : "mwatt.jpg"
-  bio              : "Doctoral Candidate in Economics at Stanford Universityr"
+  bio              : "Doctoral Candidate in Economics at Stanford University"
   location         : "Palo Alto, CA"
   employer         :
   pubmed           :
