@@ -9,13 +9,15 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Full CV available [here](files/MitchellWatt_CV.pdf).
+
+## Education
 ======
 * Bachelor of Science (Hons) in mathematics, University of Queensland, 2011
 * Master in Public Policy, Harvard Kennedy School, 2018
 * (Ongoing) Ph.D. in Economics, Stanford University, 202x
 
-Work experience
+## Work experience
 ======
 * Teaching Assistant and Research Assistant
   * Stanford University
@@ -28,7 +30,7 @@ Work experience
   * Spring 2017: Course Assistant for API-303 Game Theory and Strategic Decisions (Prof. Pinar Dogan)
   * Fall 2017: Teaching Fellow for API-303 Game Theory and Strategic Decisions (Prof. Pinar Dogan)
   * Fall 2017: Teaching Fellow for API-101-D Markets and Market Failure (Prof. Pinar Dogan)
-  * Supervisor: Professor Hub
+  * Spring 2018: Teaching Fellow for API-102-I Economic Analysis of Public Policy (Profs. Jason Furman and Robert Lawrence)
 
 * Adviser
   * 2013-2016: Office of Dr Jim Chalmers MP, Shadow Minister for Financial Services and Superannuation
