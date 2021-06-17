@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Full CV available [here](files/MitchellWatt_CV.pdf).
+Full CV available [here](../files/MitchellWatt_CV.pdf).
 
 ## Education
 ======
