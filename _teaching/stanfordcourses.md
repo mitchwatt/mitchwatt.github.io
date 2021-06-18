@@ -1,7 +1,7 @@
 ---
-title: "Teaching Assistant"
+title: "Stanford University"
 collection: teaching
-type: "Courses in the Economics Department"
+type: "Teaching Assistant"
 permalink: /teaching/stanfordcourses
 venue: "Stanford University"
 date: 2020-09-01

@@ -1,7 +1,7 @@
 ---
-title: "Casual Academic (Tutor)"
+title: "UQ Economics"
 collection: teaching
-type: "Postgraduate economics courses"
+type: "Casual Academic (Tutor)"
 permalink: /teaching/uqecon
 venue: "University of Queensland, School of Economics"
 date: 2013-03-01

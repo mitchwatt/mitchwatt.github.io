@@ -1,7 +1,7 @@
 ---
-title: "Casual Academic (Tutor)"
+title: "UQ Mathematics"
 collection: teaching
-type: "Undergraduate mathematics courses"
+type: "Casual Academic (Tutor)"
 permalink: /teaching/uqmath
 venue: "University of Queensland, Department of Mathematics"
 date: 2009-03-01
