@@ -8,11 +8,11 @@ date: 2019-02-01
 location: "Cambridge, Massachusetts"
 ---
 
-I was a teaching fellow for a number of economics courses at Harvard Kennedy School.
+I was a teaching fellow for introductory economics and game theory courses for Masters students at Harvard Kennedy School, for which I was awarded Harvard Kennedy School's Dean's Award for Excellence in Student Teaching.
 
 * Spring 2017
   * API-303 Game Theory and Strategic Behavior
-  * Course Assistant for Prof. Pinar Dogan
+    * Course Assistant for Prof. Pinar Dogan
 * Fall 2017
   * API-303 Game Theory and Strategic Behavior
     * Teaching Fellow for Prof. Pinar Dogan
