@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
+## Academic Publications
+
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
@@ -15,7 +17,7 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-# Ongoing Projects
+## Ongoing research projects
 
 * Pricing mechanisms in markets with non-convexities (with Paul Milgrom)
   * Draft soon
@@ -25,7 +27,7 @@ author_profile: true
   * Draft soon
   * We study a model of trade with repeated interaction between a single buyer and many sellers. The buyer is initially uninformed about her valuation for the various goods and sellers are uninformed about the buyer's demand. We model this interaction as a multi-armed bandit problem with strategic arms and seek to understand the welfare consequences of various models of buyer behavior. Similarly to Braverman et al. (2019), we show that a buyer using a no-regret (contextual) learning algorithm may be exploited by colluding sellers in an approximate Nash equilibrium for the sellers. We then show that a buyer with commitment power may extract almost all the gains from trade from the sellers in an approximate dominant strategy equilibrium for the sellers.
 
-# Other Publications
+## Other published work
 
 * Paul Milgrom and Mitchell Watt (2020) [Commentary on *Effective Allocation of Affordable Housing* by Nick Arnosti and Peng Shi](https://www.informs.org/Blogs/ManSci-Blogs/Management-Science-Review/Effective-Allocation-of-Affordable-Housing). *Management Science Blog*.
 
