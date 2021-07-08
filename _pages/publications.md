@@ -22,6 +22,7 @@ author_profile: true
 * Pricing mechanisms in markets with non-convexities (with Paul Milgrom)
   * Draft soon
   * When preferences and production sets are non-convex, there may be no linear prices that support efficient allocations. Nevertheless, with sufficiently many producers, the Shapley-Folkman theorem implies that prices can support allocations that are nearly efficient and nearly feasible. In this paper, we study linear pricing mechanisms that lead to exactly feasible, budget-balanced and approximately efficient outcomes, showing that they are also nearly truthful, with the maximum gain to misreporting tending quickly to zero as the economy grows in size.
+  * Presented at 32nd Stony Brook International Conference on Game Theory by Paul Milgrom as part of *Auction Research Evolving: Theorems and Market Designs*.
 
 * A bandit model of trade with two-sided learning (with Yunus Aybas)
   * Draft soon
