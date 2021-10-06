@@ -7,8 +7,7 @@ author_profile: true
 
 ## Ongoing research projects
 
-* Linear pricing mechanisms in markets with non-convexities (with [Paul Milgrom](https://milgrom.people.stanford.edu/))
-  * Draft soon
+* [Linear pricing mechanisms in markets with non-convexities](https://mitchwatt.github.io/files/PricingMechanismsNonConvex.pdf) (with [Paul Milgrom](https://milgrom.people.stanford.edu/))
   * We introduce two new linear pricing mechanisms that lead to feasible, budget-balanced and approximately efficient outcomes even when preferences or production sets are not convex and Walrasian equilibrium does not exist. One mechanism permits different prices for buyers and sellers; the other uses a single price vector but permits some agents to be rationed. In these mechanisms, both the inefficiency-to-value ratio and the maximum benefit any single agent can gain from false reporting tend quickly to zero as the numbers of producers and consumers increase.
   * Presented at 32nd Stony Brook International Conference on Game Theory by Paul Milgrom as part of *Auction Research Evolving: Theorems and Market Designs*.
   * Invited to present at the [NBER Market Design Working Group Meeting, Fall 2021](https://www.nber.org/conferences/market-design-working-group-meeting-fall-2021).
