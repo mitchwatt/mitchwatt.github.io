@@ -34,7 +34,7 @@ author_profile: true
 
 ## Mathematical Notes
 * [Concavity and convexity of order statistics in sample size](https://mitchwatt.github.io/files/orderstatistics.pdf)
-  * We show that the expectation of the kth-order statistic of an i.i.d. sample of size n from a monotone reverse hazard rate (MRHR) distribution is convex in $n$ and that the expectation of the (n-k+1)th-order statistic from a monotone hazard rate (MHR) distribution is concave in n for n greater than or equal to k. We apply this result to the analysis of independent private value auctions in which the auctioneer faces a convex cost of attracting bidders.
+  * We show that the expectation of the $k$th-order statistic of an i.i.d. sample of size $n$ from a monotone reverse hazard rate (MRHR) distribution is convex in $n$ and that the expectation of the $(n-k+1)$th-order statistic from a monotone hazard rate (MHR) distribution is concave in $n$ for $n \geq k$. We apply this result to the analysis of independent private value auctions in which the auctioneer faces a convex cost of attracting bidders.
 
 ## Other published work
 
