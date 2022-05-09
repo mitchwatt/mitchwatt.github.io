@@ -15,6 +15,7 @@ I have a Master in Public Policy from the Harvard Kennedy School of Government, 
 I am from Brisbane, Australia. Between 2013 and 2016, I was the adviser to [Dr Jim Chalmers MP](https://jimchalmers.org/), then Shadow Minister for Financial Services and Superannuation and Shadow Minister for Sport.
 
 ## Recent updates
+* May 2022: [Linear Pricing Mechanisms without Convexity](https://mitchwatt.github.io/files/PricingMechanismsNonConvex.pdf) (with [Paul Milgrom](https://milgrom.people.stanford.edu/)) has been accepted to [EC'22](https://ec22.sigecom.org/)
 * February 2022: New working paper [Strong monotonicity and perturbation-proofness of Walrasian equilibrium](https://mitchwatt.github.io/files/perturbations.pdf)
 * January 2022: Updated [Concavity and Convexity of Order Statistics in Sample Size](https://arxiv.org/abs/2111.04702) - the note now includes analysis of the auctioneer's objective in auctions with reserves.
 * December 2021: Survey article [Risk Aversion and Auction Design: Theoretical and Empirical Evidence](https://doi.org/10.1016/j.ijindorg.2021.102758) co-authored with [Shoshana Vasserman](https://shoshanavasserman.com/) published at International Journal of Industrial Organization.
