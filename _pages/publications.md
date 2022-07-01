@@ -7,11 +7,14 @@ author_profile: true
 
 ## Ongoing research projects
 
-* [Linear Pricing Mechanisms without Convexity](https://mitchwatt.github.io/files/PricingMechanismsNonConvex.pdf) (with [Paul Milgrom](https://milgrom.people.stanford.edu/))
-  * We introduce two new linear pricing mechanisms that lead to feasible, budget-balanced and approximately efficient outcomes even when preferences or production sets are not convex and Walrasian equilibrium does not exist. One mechanism permits different prices for buyers and sellers; the other uses a single price vector but permits some agents to be rationed. In these mechanisms, both the inefficiency-to-value ratio and the maximum benefit any single agent can gain from false reporting tend quickly to zero as the numbers of producers and consumers increase.
+* [Walrasian Mechanisms for Non-convex Economies and the Bound-Form First Welfare Theorem](https://mitchwatt.github.io/files/PricingMechanismsNonConvex.pdf) (with [Paul Milgrom](https://milgrom.people.stanford.edu/))
+  * Previously "Linear Pricing Mechanisms for Market without Convexity"
+  * We introduce two extensions of the Walrasian mechanism for quasilinear economies to allow agents to report non-concave values and non-convex costs. The extended mechanisms, which always deliver feasible, near-efficient allocations with no budget deficit, are computationally undemanding and nearly incentive-compatible. We also introduce an extension of the First Welfare Theorem allowing us to upper bound the welfare losses from these mechanisms.
   * Accepted to [EC'22](https://ec22.sigecom.org/)
   * Presented at [32nd Stony Brook International Conference on Game Theory](https://youtu.be/Xn09KsMNLrs?t=1771) by Paul Milgrom as part of *Auction Research Evolving: Theorems and Market Designs*.
   * Presented at the [NBER Market Design Working Group Meeting, Fall 2021](https://www.nber.org/conferences/market-design-working-group-meeting-fall-2021).
+  * See a two-minute technical preview of the paper here:
+  * <a href="https://www.youtube.com/watch?v=8-jI7cyXUSc"><img src="https://user-images.githubusercontent.com/86020085/176799493-029db73e-278c-4576-8e1c-395009e8efcb.PNG" width="320" height="180" alt="2-minute technical preview"></a>
 
 * [Strong monotonicity and perturbation-proofness of Walrasian equilibrium](https://mitchwatt.github.io/files/perturbations.pdf)
   * *Preliminary draft*
