@@ -15,6 +15,7 @@ I have a Master in Public Policy from the Harvard Kennedy School of Government, 
 I am from Brisbane, Australia. Between 2013 and 2016, I was the adviser to [The Hon Dr Jim Chalmers MP](https://jimchalmers.org/), then Shadow Minister for Financial Services and Superannuation and Shadow Minister for Sport.
 
 ## Recent updates
+* September 2022: I taught Stanford's Math Camp for incoming PhD students in economics (and other interested students in finance, health policy and political economy).
 * July 2022: I presented [Linear Pricing Mechanisms without Convexity](https://mitchwatt.github.io/files/PricingMechanismsNonConvex.pdf) at [EC'22](https://ec22.sigecom.org/). An extended abstract appeared in the [Proceedings](https://doi.org/10.1145/3490486.3538310). We have also recently renamed the working paper version to [Walrasian Mechanisms for Non-convex Economies and the Bound-Form First Welfare Theorem](https://mitchwatt.github.io/files/PricingMechanismsNonConvex.pdf).
 * June 2022: Updated [Strong monotonicity and perturbation-proofness of Walrasian equilibrium](https://mitchwatt.github.io/files/perturbations.pdf)
 * May 2022: [Linear Pricing Mechanisms without Convexity](https://mitchwatt.github.io/files/PricingMechanismsNonConvex.pdf) (with [Paul Milgrom](https://milgrom.people.stanford.edu/)) has been accepted to [EC'22](https://ec22.sigecom.org/)
