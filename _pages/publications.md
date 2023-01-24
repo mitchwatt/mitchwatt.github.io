@@ -8,6 +8,7 @@ author_profile: true
 ## Ongoing research projects
 
 * [Walrasian Mechanisms for Non-convex Economies and the Bound-Form First Welfare Theorem](https://mitchwatt.github.io/files/PricingMechanismsNonConvex.pdf) (with [Paul Milgrom](https://milgrom.people.stanford.edu/))
+  * Revise and Resubmit, *Review of Economic Studies*
   * Previously "Linear Pricing Mechanisms for Market without Convexity"
   * We introduce two extensions of the Walrasian mechanism for quasilinear economies to allow agents to report non-concave values and non-convex costs. The extended mechanisms, which always deliver feasible, near-efficient allocations with no budget deficit, are computationally undemanding and nearly incentive-compatible. We also introduce an extension of the First Welfare Theorem allowing us to upper bound the welfare losses from these mechanisms.
   * Accepted to [EC'22](https://ec22.sigecom.org/)
