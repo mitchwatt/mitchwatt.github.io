@@ -10,11 +10,16 @@ redirect_from:
 
 I am a doctoral candidate in the Department of Economics at Stanford University. My primary interests are microeconomic theory, market design, economics and computation, and industrial organization. My advisor is [Professor Paul Milgrom](https://milgrom.people.stanford.edu/). I am supported by the Koret Fellowship (part of the [Stanford Graduate Fellowship Program in Science and Engineering](https://vpge.stanford.edu/fellowships-funding/sgf/details)) and the [Ric Weiland](https://en.wikipedia.org/wiki/Ric_Weiland) Graduate Fellowship.
 
+During the 2023-24 Academic Year, I am working as a consultant at [Auctionomics](https://www.auctionomics.com) on auction design.
+
 I have a Master in Public Policy from the Harvard Kennedy School of Government, where I was a John F. Kennedy Fellow. I also hold a Bachelor of Science (Hons) in mathematics from the University of Queensland, where I was a University Medallist and Graduate of the Year in 2012.
 
 I am from Brisbane, Australia. Between 2013 and 2016, I was the adviser to [The Hon Dr Jim Chalmers MP](https://jimchalmers.org/), then Shadow Minister for Financial Services and Superannuation and Shadow Minister for Sport.
 
 ## Recent updates
+* August 2023: I will present [Strong monotonicity and perturbation-proofness of Walrasian equilibrium](https://mitchwatt.github.io/files/perturbations.pdf) at the [2023 Econometric Society Australasian Meeting](https://www.esam2023.org).
+* July 2023: I presented *Who Gets What and When: Dynamic Incentives in Repeated Matching Markets* at the [34th Stony Brook International Conference on Game Theory](https://gtcenter.org/international-conference/).
+* June 2023: I presented a poster on my new project, *Who Gets What and When: Dynamic Incentives in Repeated Matching Markets*, at the [American Economics Association CSQIEP Mentoring Conference](https://www.aeaweb.org/about-aea/committees/aealgbtq/mentor-conference).
 * September 2022: I taught Stanford's [Math Camp](https://mitchwatt.github.io/teaching/stanfordmathcamp) for incoming PhD students in economics (and other interested students in finance, health policy and political economy).
 * July 2022: I presented [Linear Pricing Mechanisms without Convexity](https://mitchwatt.github.io/files/PricingMechanismsNonConvex.pdf) at [EC'22](https://ec22.sigecom.org/). An extended abstract appeared in the [Proceedings](https://doi.org/10.1145/3490486.3538310). We have also recently renamed the working paper version to [Walrasian Mechanisms for Non-convex Economies and the Bound-Form First Welfare Theorem](https://mitchwatt.github.io/files/PricingMechanismsNonConvex.pdf).
 * June 2022: Updated [Strong monotonicity and perturbation-proofness of Walrasian equilibrium](https://mitchwatt.github.io/files/perturbations.pdf)
