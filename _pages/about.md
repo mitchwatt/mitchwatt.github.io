@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a doctoral candidate in the Department of Economics at Stanford University. My primary interests are microeconomic theory, market design, economics and computation, and industrial organization. My advisor is [Professor Paul Milgrom](https://milgrom.people.stanford.edu/). I am supported by the Koret Fellowship (part of the [Stanford Graduate Fellowship Program in Science and Engineering](https://vpge.stanford.edu/fellowships-funding/sgf/details)) and the [Ric Weiland](https://en.wikipedia.org/wiki/Ric_Weiland) Graduate Fellowship.
+I am a doctoral candidate in the Department of Economics at Stanford University. My primary interests are microeconomic theory, market design, economics and computation, and industrial organization. My advisor is [Professor Paul Milgrom](https://milgrom.people.stanford.edu/). I am supported by the Gale and Steve Kohlhagen Fellowship in Economics, the Koret Fellowship (part of the [Stanford Graduate Fellowship Program in Science and Engineering](https://vpge.stanford.edu/fellowships-funding/sgf/details)) and the [Ric Weiland](https://en.wikipedia.org/wiki/Ric_Weiland) Graduate Fellowship.
 
 During the 2023-24 Academic Year, I am working as a consultant at [Auctionomics](https://www.auctionomics.com) on auction design.
 
