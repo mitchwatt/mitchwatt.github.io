@@ -17,6 +17,8 @@ I have a Master in Public Policy from the Harvard Kennedy School of Government, 
 I am from Brisbane, Australia. Between 2013 and 2016, I was the adviser to [The Hon Dr Jim Chalmers MP](https://jimchalmers.org/), then Shadow Minister for Financial Services and Superannuation and Shadow Minister for Sport.
 
 ## Recent updates
+* September 2024: New working paper 📄  [Optimal In-Kind Redistribution](https://mitchwatt.github.io/files/OIKR.pdf) with [Zi Yang Kang](https://www.ziyangkang.com)
+* August 2024: I was awarded the [Gale and Steve Kohlhagen Fellowship in Economics](https://siepr.stanford.edu/people/graduate-student-fellowship-recipient) by the Stanford Institute of Economic Policy Research.
 * August 2023: I won the 🏆 Best Paper by Young Researcher Award 🏆 at the [2023 Econometric Society Australasian Meeting](https://www.esam2023.org).
 * August 2023: I presented [Strong monotonicity and perturbation-proofness of Walrasian equilibrium](https://mitchwatt.github.io/files/perturbations.pdf) at the [2023 Econometric Society Australasian Meeting](https://www.esam2023.org).
 * July 2023: I presented *Who Gets What and When: Dynamic Incentives in Repeated Matching Markets* at the [34th Stony Brook International Conference on Game Theory](https://gtcenter.org/international-conference/).

@@ -7,6 +7,9 @@ author_profile: true
 
 ## Ongoing research projects
 
+* [Optimal In-Kind Redistribution](https://mitchwatt.github.io/files/OIKR.pdf) (with [Zi Yang Kang](https://www.ziyangkang.com))
+  *This paper develops a model of in-kind redistribution where consumers participate in either a private market or a government-designed program, but not both. We characterize when a social planner, seeking to maximize weighted total surplus, can strictly improve upon the laissez-faire outcome. We show that the optimal mechanism consists of three components: a public option, nonlinear subsidies, and laissez-faire consumption. We quantify the resulting distortions and relate them to the correlation between consumer demand and welfare weights. Our findings reveal that while private market access constrains the social planner's ability to redistribute, it also strengthens the rationale for non-market allocations.
+
 * [Walrasian Mechanisms for Non-convex Economies and the Bound-Form First Welfare Theorem](https://mitchwatt.github.io/files/PricingMechanismsNonConvex.pdf) (with [Paul Milgrom](https://milgrom.people.stanford.edu/))
   * Revise and Resubmit, *Review of Economic Studies*
   * Previously "Linear Pricing Mechanisms for Market without Convexity"
@@ -18,12 +21,11 @@ author_profile: true
   * <a href="https://www.youtube.com/watch?v=8-jI7cyXUSc"><img src="https://user-images.githubusercontent.com/86020085/176799493-029db73e-278c-4576-8e1c-395009e8efcb.PNG" width="320" height="180" alt="2-minute technical preview"></a>
 
 * [Strong monotonicity and perturbation-proofness of Walrasian equilibrium](https://mitchwatt.github.io/files/perturbations.pdf)
-  * *Preliminary draft*
   * We study the price impact of small perturbations to Walrasian equilibrium, as might be caused by changes in the supply vector, changes in the set of participants, or misreports by an agent. A (nested) sequence of markets is *perturbation-proof* if, given any supply vector, the price impact of any bounded perturbation is inversely proportional to the number of agents. Perturbation-proofness implies good incentive properties of Walrasian equilibrium in large markets and robustness of prices to small misspecifications. Replica economies are perturbation-proof if and only if the base economy's demand correspondence is *strongly monotone*. When buyers' preferences are drawn identically and independently from a type distribution with a strongly monotone *expected* demand correspondence, the resulting sequence of economies is perturbation-proof with high probability. We argue that strong monotonicity of the expected demand correspondence is a realistic assumption in economic models with indivisibilities, reflecting variety in the set of possible preferences and uncertainty about reservation prices associated with demand changes.
 
-* A bandit model of trade with two-sided learning (with [Yunus Aybas](https://aybas.people.stanford.edu/))
-  * Draft soon
-  * We study a model of trade with repeated interaction between a single buyer and many sellers. The buyer is initially uninformed about her valuation for the various goods and sellers are uninformed about the buyer's demand. We model this interaction as a multi-armed bandit problem with strategic arms and seek to understand the welfare consequences of various models of buyer behavior. Similarly to Braverman et al. (2019), we show that a buyer using a no-regret (contextual) learning algorithm may be exploited by colluding sellers in an approximate Nash equilibrium for the sellers. We then show that a buyer with commitment power may extract almost all the gains from trade from the sellers in an approximate dominant strategy equilibrium for the sellers.
+%* A bandit model of trade with two-sided learning (with [Yunus Aybas](https://aybas.people.stanford.edu/))
+% * Draft soon
+% * We study a model of trade with repeated interaction between a single buyer and many sellers. The buyer is initially uninformed about her valuation for the various goods and sellers are uninformed about the buyer's demand. We model this interaction as a multi-armed bandit problem with strategic arms and seek to understand the welfare consequences of various models of buyer behavior. Similarly to Braverman et al. (2019), we show that a buyer using a no-regret (contextual) learning algorithm may be exploited by colluding sellers in an approximate Nash equilibrium for the sellers. We then show that a buyer with commitment power may extract almost all the gains from trade from the sellers in an approximate dominant strategy equilibrium for the sellers.
 
 ## Academic Publications
 
