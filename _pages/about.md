@@ -14,7 +14,11 @@ I am a Ph.D. candidate in the Department of Economics at Stanford University. My
 
 <details>
 
-<summary>More about me</summary>
+<summary>
+
+More about me
+
+</summary>
 
 My market design and public policy interests stem partially from my experiences outside academia. Since 2023, I have worked part-time as a consultant at [Auctionomics](https://www.auctionomics.com), analyzing market design practices in online display advertising related to a recent antitrust case against [Google](https://www.nytimes.com/2024/09/27/technology/google-antitrust-case-lawsuit.html). Before coming to the U.S. for graduate studies, I was a policy adviser and speechwriter for [The Hon Dr Jim Chalmers MP](https://jimchalmers.org/), then Shadow Minister for Financial Services and Superannuation, now Treasurer of Australia.
 
