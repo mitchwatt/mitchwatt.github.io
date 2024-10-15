@@ -55,7 +55,7 @@
   @include breakpoint($large) {
     position: relative;
     float: right;
-    width: $right-sidebar-width-narrow;
+    width: $right-sidebar-width;
     margin-left: span(0.5 of 12);
     z-index: 10;
   }
@@ -72,7 +72,7 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 45px;
+  width: 60px;
   // set width only, for non-square avatars
   // height: 36px;
 
@@ -83,8 +83,8 @@
   }
 
   img {
-    max-width: 280px;
-    border-radius: 30%;
+    max-width: 290px;
+    border-radius: 50%;
 
     @include breakpoint($large) {
       padding: 5px;
