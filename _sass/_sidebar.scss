@@ -45,7 +45,7 @@
   }
 
   img {
-    width: 110%;
+    width: 140%;
   }
 }
 
@@ -83,7 +83,7 @@
   }
 
   img {
-    max-width: 280px;
+    max-width: 300px;
     border-radius: 20%;
 
     @include breakpoint($large) {
