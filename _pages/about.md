@@ -50,14 +50,15 @@ _Link coming soon_
 
 We report the results of a field experiment on an online labor market platform that introduced a ``soft'' cap on the number of applications that could be received for a job opening and the number of days applications were accepted. Despite reducing the number of applications per opening, the intervention did not reduce the hiring probability or reported match quality. We interpret this as evidence of _inefficient congestion_: before the intervention, applicants submitted too many applications to popular jobs and too few to less popular ones. We show that inefficient congestion can arise due to a "missing market" for job applications and the associated failure of applicants to internalize their effects on the hiring probability of competing applicants. We find that application fees introduced by the platform reduced hire rates and competition among candidates, suggesting that these fees may have been miscalibrated or higher than socially efficient.
 
-## Other Published Work
-
 ### [Risk aversion and auction design: Theoretical and empirical evidence](https://doi.org/10.1016/j.ijindorg.2021.102758) (with  [Shoshana Vasserman](https://shoshanavasserman.com/) )
+_International Journal of Industrial Organization, 79 (2021)_
 
 Auctions are inherently risky: bidders face uncertainty about their prospects of winning and payments, while sellers are unsure about revenue and chances of a successful sale. Auction rules influence the allocation of risk among agents and the behavior of risk-averse bidders, leading to a breakdown of payoff and revenue equivalence and a heightened significance of auction design decisions by sellers. In this paper, we review the literature on risk aversion in auctions, with an emphasis on what can be learned about auction design from theoretical modeling and empirical studies. We survey theoretical results relating to the behavior of risk-averse agents in auctions, the comparison of standard auction formats in the presence of risk aversion and implications for auction design. We discuss standard and more recent approaches to identifying risk preferences in empirical studies and evidence for the significance of risk aversion in auction applications. Finally, we identify areas where existing evidence is relatively scant and ask what questions empirical research might ask given the theory and where further theoretical research may be beneficial given existing empirical results.
 
 ### [Concavity and convexity of order statistics in sample size](https://arxiv.org/abs/2111.04702)
 I show that the expectation of the $k$th-order statistic of an i.i.d. sample of size $n$ from a monotone reverse hazard rate (MRHR) distribution is convex in $n$ and that the expectation of the $(n-k+1)$th-order statistic from a monotone hazard rate (MHR) distribution is concave in $n$ for $n \geq k$. We apply this result to the analysis of independent private value auctions in which the auctioneer faces a convex cost of attracting bidders.
+
+## Other Published Work
 
 Paul Milgrom and Mitchell Watt (2020) [Commentary on *Effective Allocation of Affordable Housing* by Nick Arnosti and Peng Shi](https://www.informs.org/Blogs/ManSci-Blogs/Management-Science-Review/Effective-Allocation-of-Affordable-Housing). *Management Science Blog*.
 
