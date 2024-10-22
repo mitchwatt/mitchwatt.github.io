@@ -45,10 +45,12 @@ We introduce Markup equilbrium, an extension of Walrasian equilibrium that adds 
 
 We study the price impact of small perturbations to Walrasian equilibrium, as might be caused by changes in the supply vector, changes in the set of participants, or misreports by an agent. A (nested) sequence of markets is *perturbation-proof* if, given any supply vector, the price impact of any bounded perturbation is inversely proportional to the number of agents. Perturbation-proofness implies good incentive properties of Walrasian equilibrium in large markets and robustness of prices to small misspecifications. Replica economies are perturbation-proof if and only if the base economy's demand correspondence is *strongly monotone*. When buyers' preferences are drawn identically and independently from a type distribution with a strongly monotone *expected* demand correspondence, the resulting sequence of economies is perturbation-proof with high probability. We argue that strong monotonicity of the expected demand correspondence is a realistic assumption in economic models with indivisibilities, reflecting variety in the set of possible preferences and uncertainty about reservation prices associated with demand changes.
   
-### Congestion in Labor Markets (with [Shoshana Vasserman](https://shoshanavasserman.com/) and [John J. Horton](http://john-joseph-horton.com/))
+### Reducing Congestion in Labor Markets: A Case Study in Simple Market Design (with [Shoshana Vasserman](https://shoshanavasserman.com/) and [John J. Horton](http://john-joseph-horton.com/))
 _Link coming soon_
 
-We report the results of a field experiment on an online labor market platform that introduced a ``soft'' cap on the number of applications that could be received for a job opening and the number of days applications were accepted. Despite reducing the number of applications per opening, the intervention did not reduce the hiring probability or reported match quality. We interpret this as evidence of _inefficient congestion_: before the intervention, applicants submitted too many applications to popular jobs and too few to less popular ones. We show that inefficient congestion can arise due to a "missing market" for job applications and the associated failure of applicants to internalize their effects on the hiring probability of competing applicants. We find that application fees introduced by the platform reduced hire rates and competition among candidates, suggesting that these fees may have been miscalibrated or higher than socially efficient.
+Many matching markets are suspected to suffer from inefficient levels of congestion. We show this is a real concern in an online labor market and present results of two market-wide experiments designed to reduce congestion.  
+The first intervention introduced a "soft" cap on the number of applications that could be received for a job opening and the number of days applications were accepted. Despite reducing the number of applications per opening, the intervention did not reduce the hiring probability or reported match quality. 
+A second, more complex intervention that attempted to price externalities directly failed. We find that application fees introduced by the platform reduced hire rates and competition among candidates, suggesting that these fees may have been miscalibrated or higher than socially efficient.
 
 ### [Risk aversion and auction design: Theoretical and empirical evidence](https://doi.org/10.1016/j.ijindorg.2021.102758) (with  [Shoshana Vasserman](https://shoshanavasserman.com/) )
 _International Journal of Industrial Organization, 79 (2021)_
@@ -57,6 +59,15 @@ Auctions are inherently risky: bidders face uncertainty about their prospects of
 
 ### [Concavity and convexity of order statistics in sample size](https://arxiv.org/abs/2111.04702)
 I show that the expectation of the $k$th-order statistic of an i.i.d. sample of size $n$ from a monotone reverse hazard rate (MRHR) distribution is convex in $n$ and that the expectation of the $(n-k+1)$th-order statistic from a monotone hazard rate (MHR) distribution is concave in $n$ for $n \geq k$. We apply this result to the analysis of independent private value auctions in which the auctioneer faces a convex cost of attracting bidders.
+
+## Work In Progress
+
+### Who Gets What and When: Dynamic Allocation without Transfers ([slides](https://www.mitchellwatt.com/files/dynamicmatching.pdf))
+A principal is endowed with a stream of items to be allocated to a fixed population of agents. Items arrive with random quality—some items are "goods," desired by all agents, while others are "bads," conferring negative flow payoffs to agents—and no transfers are allowed. The principal seeks to allocate as many items as possible while respecting the agents’ participation constraints. I characterize the optimal allocation, which involves incentivizing undesirable allocations today using promises of improved future allocations. The principal is optimally "loyal" to agents with worse historical allocations, assigning them priority for the best arriving goods. I discuss the implications of these results for the design of markets for ridesharing and the centralized allocation of teachers to schools.
+
+### A Bandit Model of Trade with Two-Sided Learning (with [Yunus Aybas](https://aybas.people.stanford.edu/), [slides](https://www.mitchellwatt.com/files/bandits.pdf))
+We study a model of trade with repeated interaction between a single buyer and many sellers. The buyer is initially uninformed about her valuations for the various goods and sellers are uninformed about the buyer’s demand. We model this interaction as a multi-armed bandit problem with strategic arms and seek to understand the welfare consequences of various models of buyer behavior. We show that a buyer using a no-regret (contextual) learning algorithm may be exploited by colluding sellers in an approximate Nash equilibrium for the sellers. However, a buyer with commitment power may extract almost all the gains from trade from the sellers in an approximate dominant strategy equilibrium for the sellers.
+
 
 ## Other Published Work
 
