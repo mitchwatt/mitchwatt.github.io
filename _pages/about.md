@@ -27,7 +27,7 @@ More about me
 </details>
 
 ## Academic Research
-### [Optimal Redistribution Through Subsidies](https://www.mitchellwatt.com/files/toppingup.pdf) (Job Market Paper) with [Zi Yang Kang](https://www.ziyangkang.com)
+### [Optimal Redistribution Through Subsidies](https://www.mitchellwatt.com/files/toppingup.pdf) (Job Market Paper, with [Zi Yang Kang](https://www.ziyangkang.com))
 
 We develop a model of redistribution where a social planner, seeking to maximize weighted total surplus, can subsidize consumers who participate in a private market.  We identify when subsidies can strictly improve upon the laissez-faire outcome, which depends on the correlation between consumers' demand and need.  We characterize the optimal nonlinear subsidy by quantifying when---and for which units of the good---the social planner uses a full subsidy (i.e., free provision) rather than a partial subsidy or no subsidy.  Our findings provide justifications for *(i)* free provision of a baseline quantity and *(ii)* subsidizing goods for which demand and need are positively correlated.
 

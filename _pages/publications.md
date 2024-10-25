@@ -7,7 +7,7 @@ author_profile: true
 
 ## Research Papers
 
-### [Optimal Redistribution Through Subsidies](https://www.mitchellwatt.com/files/toppingup.pdf) (Job Market Paper) with [Zi Yang Kang](https://www.ziyangkang.com)
+### [Optimal Redistribution Through Subsidies](https://www.mitchellwatt.com/files/toppingup.pdf) (Job Market Paper, with [Zi Yang Kang](https://www.ziyangkang.com))
 
 We develop a model of redistribution where a social planner, seeking to maximize weighted total surplus, can subsidize consumers who participate in a private market.  We identify when subsidies can strictly improve upon the laissez-faire outcome, which depends on the correlation between consumers' demand and need.  We characterize the optimal nonlinear subsidy by quantifying when---and for which units of the good---the social planner uses a full subsidy (i.e., free provision) rather than a partial subsidy or no subsidy.  Our findings provide justifications for *(i)* free provision of a baseline quantity and *(ii)* subsidizing goods for which demand and need are positively correlated.
 
@@ -21,6 +21,7 @@ Previously "Linear Pricing Mechanisms for Market without Convexity" and "Walrasi
 We introduce Markup equilbrium, an extension of Walrasian equilibrium that adds a markup to the prices that consumers pay to ensure existence even in nonconvex quasilinear economies. Markup equilibria are resource-feasible, incur no budget deficit, and require little more communication and computation than the Walrasian equilibrium. The Markup direct mechanism is large-market incentive-compatible. Our Bound-Form First Welfare Theorem states that for any feasible allocation and price vector, the welfare loss compared to a first-best allocation is at most the sum of (i) the budget surplus and (ii) any rationing losses suffered by the participants. This implies that any Markup equilibrium with a small markup is nearly efficient.
 
 Abstract appeared in [EC'22](https://ec22.sigecom.org/) as "Linear Pricing Mechanisms for Market without Convexity." Also presented at the [NBER Market Design Working Group Meeting, Fall 2021](https://www.nber.org/conferences/market-design-working-group-meeting-fall-2021), at [32nd Stony Brook International Conference on Game Theory](https://youtu.be/Xn09KsMNLrs?t=1771) by Paul Milgrom as part of *Auction Research Evolving: Theorems and Market Designs*, and at the [Simons Laufer Mathematical Sciences Institute Workshop on Algorithms, Approximation, and Learning in Market and Mechanism Design](https://www.slmath.org/workshops/1082#overview_workshop). 
+
 See a two-minute technical preview of the paper here:
 <a href="https://www.youtube.com/watch?v=8-jI7cyXUSc"><img src="https://user-images.githubusercontent.com/86020085/176799493-029db73e-278c-4576-8e1c-395009e8efcb.PNG" width="320" height="180" alt="2-minute technical preview"></a>
 
