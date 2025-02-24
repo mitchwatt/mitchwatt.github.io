@@ -7,7 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a Ph.D. candidate in the Department of Economics at Stanford University. In July 2025, I will join the [Department of Economics at Monash University](https://www.monash.edu/business/economics) as a Lecturer (Assistant Professor). My primary interests are microeconomic theory and market design, with a focus on questions relevant to public policy and regulation. My advisor is [Professor Paul Milgrom](mailto:milgrom@stanford.edu).  My committee also includes Professors [Andrzej Skrzypacz](mailto:skrz@stanford.edu), [Ilya Segal](mailto:isegal@stanford.edu), [Al Roth](mailto:alroth@stanford.edu), [Shoshana Vasserman](mailto:svass@stanford.edu), and [Ravi Jagadeesan](mailto:rjagadee@stanford.edu).
+I am a Ph.D. candidate in the Department of Economics at Stanford University. My primary interests are microeconomic theory and market design, with a focus on questions relevant to public policy and regulation. My advisor is [Professor Paul Milgrom](mailto:milgrom@stanford.edu).  My committee also includes Professors [Andrzej Skrzypacz](mailto:skrz@stanford.edu), [Ilya Segal](mailto:isegal@stanford.edu), [Al Roth](mailto:alroth@stanford.edu), [Shoshana Vasserman](mailto:svass@stanford.edu), and [Ravi Jagadeesan](mailto:rjagadee@stanford.edu).
+
+In July 2025, I will join the [Department of Economics at Monash University](https://www.monash.edu/business/economics) as a Lecturer (equivalent to Assistant Professor in the US academic system).
 
 <details>
 

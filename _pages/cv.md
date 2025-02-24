@@ -23,7 +23,7 @@ Full CV available [here](../files/MitchellWatt_CV.pdf).
   * Stanford University
   * Fall 2019 - Spring 2020, Spring 2021: Research Assistant to Professor Paul Milgrom
   * Fall 2020: Teaching Assistant for ECON 202 Microeconomics I (for graduate students) (Profs. Doug Bernheim and Paul Milgrom)
-  * Winter 2021: Teaching Assistant for ECON 136 Market Design (undegraduate) (Prof. Paul Milgrom)
+  * Winter 2021: Teaching Assistant for ECON 136 Market Design (undergraduate) (Prof. Paul Milgrom)
 
 * Teaching Fellow
   * Harvard Kennedy School
