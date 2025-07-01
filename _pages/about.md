@@ -7,9 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a Ph.D. candidate in the Department of Economics at Stanford University. My primary interests are microeconomic theory and market design, with a focus on questions relevant to public policy and regulation. My advisor is [Professor Paul Milgrom](mailto:milgrom@stanford.edu).  My committee also includes Professors [Andrzej Skrzypacz](mailto:skrz@stanford.edu), [Ilya Segal](mailto:isegal@stanford.edu), [Al Roth](mailto:alroth@stanford.edu), [Shoshana Vasserman](mailto:svass@stanford.edu), and [Ravi Jagadeesan](mailto:rjagadee@stanford.edu).
+I am a Lecturer in Economics at [Monash University](https://www.monash.edu/business/economics) (equivalent to Assistant Professor in the US academic system). My primary interests are microeconomic theory and market design, with a focus on questions relevant to public policy and regulation.
 
-In July 2025, I will join the [Department of Economics at Monash University](https://www.monash.edu/business/economics) as a Lecturer (equivalent to Assistant Professor in the US academic system).
+I completed my Ph.D. at Stanford University, where I was advised by [Professor Paul Milgrom](https://milgrom.people.stanford.edu).  My committee also included Professors [Andrzej Skrzypacz](https://web.stanford.edu/~skrz/), [Al Roth](https://web.stanford.edu/~alroth/), [Shoshana Vasserman](https://shoshanavasserman.com/), and [Ravi Jagadeesan](https://sites.google.com/site/ravijagadeesan/).
 
 <details>
 
@@ -33,10 +33,10 @@ We develop a model of redistribution where a social planner, seeking to maximize
 ### [Optimal In-Kind Redistribution](https://mitchwatt.github.io/files/OIKR.pdf) (with [Zi Yang Kang](https://www.ziyangkang.com))
 This paper develops a model of in-kind redistribution where consumers participate in either a private market or a government-designed program, but not both. We characterize when a social planner, seeking to maximize weighted total surplus, can strictly improve upon the laissez-faire outcome. We show that the optimal mechanism consists of three components: a public option, nonlinear subsidies, and laissez-faire consumption. We quantify the resulting distortions and relate them to the correlation between consumer demand and welfare weights. Our findings reveal that while private market access constrains the social planner's ability to redistribute, it also strengthens the rationale for non-market allocations.
 
-### [A Walrasian Mechanism with Markups for Nonconvex Economies](https://mitchwatt.github.io/files/PricingMechanismsNonConvex.pdf) (with [Paul Milgrom](https://milgrom.people.stanford.edu/))
+### [A Walrasian Mechanism with Markups for Nonconvex Markets](https://mitchwatt.github.io/files/PricingMechanismsNonConvex.pdf) (with [Paul Milgrom](https://milgrom.people.stanford.edu/))
 *Conditionally Accepted at Review of Economic Studies*
 
-We introduce Markup equilbrium, an extension of Walrasian equilibrium that adds a markup to the prices that consumers pay to ensure existence even in nonconvex quasilinear economies. Markup equilibria are resource-feasible, incur no budget deficit, and require little more communication and computation than the Walrasian equilibrium. The Markup direct mechanism is large-market incentive-compatible. Our Bound-Form First Welfare Theorem states that for any feasible allocation and price vector, the welfare loss compared to a first-best allocation is at most the sum of (i) the budget surplus and (ii) any rationing losses suffered by the participants. This implies that any Markup equilibrium with a small markup is nearly efficient. (Previously circulated as "Linear Pricing Mechanisms for Market without Convexity").
+We introduce *markup equilibrium*---an extension of Walrasian equilibrium in which consumers pay a fixed percentage markup over producer prices. In quasilinear markets, markup equilibria exist despite non-convexities. They are resource-feasible and envy-free, incur no budget deficit, and require little more communication and computation than ordinary Walrasian equilibrium. The associated markup mechanism is asymptotically incentive-compatible. We also introduce a Bound-Form First Welfare Theorem, which states that for any feasible allocation, the welfare loss compared to the first-best is bounded, using any price vector, by the sum of the resulting *(i)* budget surplus and *(ii)* rationing losses suffered by the participants. Using producer prices, this bound implies that any markup equilibrium with a small markup and few unallocated goods is nearly efficient.
 
 ### [Strong monotonicity and perturbation-proofness of Walrasian equilibrium](https://mitchwatt.github.io/files/perturbations.pdf)
 *Awarded [Best Paper by Young Researcher](https://www.mitchellwatt.com/files/ESAM_2023_UNSW_Credit_CassandraHannagan-31.jpg) at the [2023 Econometric Society Australasian Meeting](https://www.esam2023.org).*
