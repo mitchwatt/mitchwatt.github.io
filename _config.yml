@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Mitchell Watt"
 title_separator          : "-"
 name                     : &name "Mitchell Watt"
-description              : &description "Doctoral Candidate in Economics at Stanford University"
+description              : &description "Lecturer (AP) in Economics at Monash University"
 url                      : "https://www.mitchellwatt.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mitchwatt.github.io"
@@ -87,7 +87,7 @@ author:
   employer         : "Stanford University"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=_BFZjeIAAAAJ&hl=en&oi=ao"
-  email            : "mwatt@stanford.edu"
+  email            : "mitch.watt@monash.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
