@@ -27,7 +27,7 @@ More about me
 
 ## Published and Forthcoming
 
-### [A Walrasian Mechanism with Markups for Nonconvex Markets](https://mitchwatt.github.io/files/PricingMechanismsNonConvex.pdf) (with [Paul Milgrom](https://milgrom.people.stanford.edu/))
+### [A Walrasian Mechanism with Markups for Nonconvex Markets](https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdaf067/) (with [Paul Milgrom](https://milgrom.people.stanford.edu/))
 Forthcoming in *Review of Economic Studies*
 
 We introduce *markup equilibrium*---an extension of Walrasian equilibrium in which consumers pay a fixed percentage markup over producer prices. In quasilinear markets, markup equilibria exist despite non-convexities. They are resource-feasible and envy-free, incur no budget deficit, and require little more communication and computation than ordinary Walrasian equilibrium. The associated markup mechanism is asymptotically incentive-compatible. We also introduce a Bound-Form First Welfare Theorem, which states that for any feasible allocation, the welfare loss compared to the first-best is bounded, using any price vector, by the sum of the resulting *(i)* budget surplus and *(ii)* rationing losses suffered by the participants. Using producer prices, this bound implies that any markup equilibrium with a small markup and few unallocated goods is nearly efficient.
