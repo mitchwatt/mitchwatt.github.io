@@ -27,19 +27,19 @@ More about me
 
 ## Published and Forthcoming
 
-### [A Walrasian Mechanism with Markups for Nonconvex Markets](https://mitchwatt.github.io/files/PricingMechanismsNonConvex.pdf) (with [Paul Milgrom](https://milgrom.people.stanford.edu/))
-Forthcoming in *Review of Economic Studies*
+### [A Walrasian Mechanism with Markups for Nonconvex Markets](https://doi.org/10.1093/restud/rdaf067) (with [Paul Milgrom](https://milgrom.people.stanford.edu/))
+*Review of Economic Studies*, Forthcoming
 
-We introduce *markup equilibrium*---an extension of Walrasian equilibrium in which consumers pay a fixed percentage markup over producer prices. In quasilinear markets, markup equilibria exist despite non-convexities. They are resource-feasible and envy-free, incur no budget deficit, and require little more communication and computation than ordinary Walrasian equilibrium. The associated markup mechanism is asymptotically incentive-compatible. We also introduce a Bound-Form First Welfare Theorem, which states that for any feasible allocation, the welfare loss compared to the first-best is bounded, using any price vector, by the sum of the resulting *(i)* budget surplus and *(ii)* rationing losses suffered by the participants. Using producer prices, this bound implies that any markup equilibrium with a small markup and few unallocated goods is nearly efficient.
+We introduce *markup equilibrium*---an extension of Walrasian equilibrium in which consumers pay a fixed percentage markup over producer prices. In quasilinear markets, markup equilibria exist despite non-convexities. They are resource-feasible and envy-free, incur no budget deficit, and require little more communication and computation than the ordinary Walrasian equilibrium. The associated markup mechanism is asymptotically incentive-compatible. We also introduce a Bound-Form First Welfare Theorem, which states that for any feasible allocation, the welfare loss compared to the first-best is bounded, using any price vector, by the sum of the resulting *(i)* budget surplus and *(ii)* rationing losses suffered by the participants. Using producer prices, this bound implies that any markup equilibrium with a small markup and few unallocated goods is nearly efficient.
 
 
-### [Concavity and convexity of order statistics in sample size](https://arxiv.org/abs/2111.04702)
-Forthcoming in *Economics Letters*
+### [Concavity  of order statistics in sample size: Implications for auction design](https://doi.org/10.1016/j.econlet.2025.112628)
+*Economics Letters* 256 (2025): 11268.
 
-I show that the expectation of the $k$th-order statistic of an i.i.d. sample of size $n$ from a monotone reverse hazard rate (MRHR) distribution is convex in $n$ and that the expectation of the $(n-k+1)$th-order statistic from a monotone hazard rate (MHR) distribution is concave in $n$ for $n \geq k$. We apply this result to the analysis of independent private value auctions in which the auctioneer faces a convex cost of attracting bidders.
+I show that the expected  $k$th-highest order statistic from a monotone hazard rate distribution is concave in sample size. In independent private value auctions with convex marketing costs, this ensures that the seller’s objective is concave, yielding a finite optimum. (Previously circulated as *Concavity and convexity of order statistics in sample size*).
 
 ### [Risk aversion and auction design: Theoretical and empirical evidence](https://doi.org/10.1016/j.ijindorg.2021.102758) (with  [Shoshana Vasserman](https://shoshanavasserman.com/) )
-_International Journal of Industrial Organization, 79 (2021)_
+*International Journal of Industrial Organization*, 79 (2021): 102758.
 
 Auctions are inherently risky: bidders face uncertainty about their prospects of winning and payments, while sellers are unsure about revenue and chances of a successful sale. Auction rules influence the allocation of risk among agents and the behavior of risk-averse bidders, leading to a breakdown of payoff and revenue equivalence and a heightened significance of auction design decisions by sellers. In this paper, we review the literature on risk aversion in auctions, with an emphasis on what can be learned about auction design from theoretical modeling and empirical studies. We survey theoretical results relating to the behavior of risk-averse agents in auctions, the comparison of standard auction formats in the presence of risk aversion and implications for auction design. We discuss standard and more recent approaches to identifying risk preferences in empirical studies and evidence for the significance of risk aversion in auction applications. Finally, we identify areas where existing evidence is relatively scant and ask what questions empirical research might ask given the theory and where further theoretical research may be beneficial given existing empirical results.
 
