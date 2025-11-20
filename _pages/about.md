@@ -34,7 +34,7 @@ We introduce *markup equilibrium*---an extension of Walrasian equilibrium in whi
 
 
 ### [Concavity  of order statistics in sample size: Implications for auction design](https://doi.org/10.1016/j.econlet.2025.112628)
-*Economics Letters* 256 (2025): 11268.
+*Economics Letters*, 256 (2025): 11268.
 
 I show that the expected  $k$th-highest order statistic from a monotone hazard rate distribution is concave in sample size. In independent private value auctions with convex marketing costs, this ensures that the seller’s objective is concave, yielding a finite optimum. (Previously circulated as *Concavity and convexity of order statistics in sample size*).
 
