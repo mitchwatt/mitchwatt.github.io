@@ -46,19 +46,16 @@ Auctions are inherently risky: bidders face uncertainty about their prospects of
 
 ## Working Papers
 
+### [Topping Up and Optimal Redistribution](https://mitchwatt.github.io/files/TUOR.pdf) (with [Zi Yang Kang](https://www.ziyangkang.com))
+*Subsumes [Optimal Redistribution Through Subsidies](https://www.mitchellwatt.com/files/toppingup.pdf) and [Optimal In-Kind Redistribution](https://mitchwatt.github.io/files/OIKR.pdf), an extended abstract of which appears in \emph{Proceedings of The Twenty-Sixth ACM Conference on Economics and Computation (EC'25)}*
+
+This paper studies how topping up---allowing recipients of in-kind transfers to supplement subsidized consumption in a private market---affects optimal redistribution. Consumers can access a competitive private market, while a social planner offers an alternative nonlinear price schedule. We show that the effect of topping up depends on the correlation between redistributive priority and demand. When the correlation is positive, topping up does not affect the optimal mechanism. When the correlation is negative, topping up weakens screening and reduces redistribution. At the extensive margin, topping up reduces the set of environments in which intervention is optimal. At the intensive margin, topping up weakly reduces both the scope of a free public option and the mass of consumers served, and shifts redistribution away from the consumers with the highest redistributive priority. We characterize the optimal mechanisms and show how topping up changes the comparative statics of optimal redistribution with respect to redistributive priorities. 
 
 ### [Perturbations, Prices, and Incentives in Large Markets](https://mitchwatt.github.io/files/perturbations.pdf)
 *Awarded [Best Paper by Young Researcher](https://www.mitchellwatt.com/files/ESAM_2023_UNSW_Credit_CassandraHannagan-31.jpg) at the [2023 Econometric Society Australasian Meeting](https://www.esam2023.org).*
 
 This paper studies how small perturbations---misreports, supply shocks, or changes in market participants---affect Walrasian equilibrium prices in finite exchange economies. A sequence of economies is *perturbation-proof* if the price effect of any bounded perturbation shrinks in proportion to market size. Perturbation-proofness captures both robustness of equilibrium prices to small misspecifications and approximate incentive-compatibility of Walrasian mechanisms. Strong monotonicity is the key driver of this property: it is necessary and sufficient for perturbation-proofness in replica economies and implies it with high probability in i.i.d. random economies. Applying these results to indivisible goods markets shows that sufficient heterogeneity in buyers' demand yields perturbation-proofness even when individual demand is inelastic.(Updated April 2026. Previously circulated as *Strong Monotonicity and Perturbation-Proofness of Exchange Economies.*)
 
-### [Optimal Redistribution Through Subsidies](https://www.mitchellwatt.com/files/toppingup.pdf) (Job Market Paper, with [Zi Yang Kang](https://www.ziyangkang.com))
-
-We develop a model of redistribution where a social planner, seeking to maximize weighted total surplus, can subsidize consumers who participate in a private market.  We identify when subsidies can strictly improve upon the laissez-faire outcome, which depends on the correlation between consumers' demand and need.  We characterize the optimal nonlinear subsidy by quantifying when---and for which units of the good---the social planner uses a full subsidy (i.e., free provision) rather than a partial subsidy or no subsidy.  Our findings provide justifications for *(i)* free provision of a baseline quantity and *(ii)* subsidizing goods for which demand and need are positively correlated.
-
-### [Optimal In-Kind Redistribution](https://mitchwatt.github.io/files/OIKR.pdf) (with [Zi Yang Kang](https://www.ziyangkang.com))
-This paper develops a model of in-kind redistribution where consumers participate in either a private market or a government-designed program, but not both. We characterize when a social planner, seeking to maximize weighted total surplus, can strictly improve upon the laissez-faire outcome. We show that the optimal mechanism consists of three components: a public option, nonlinear subsidies, and laissez-faire consumption. We quantify the resulting distortions and relate them to the correlation between consumer demand and welfare weights. Our findings reveal that while private market access constrains the social planner's ability to redistribute, it also strengthens the rationale for non-market allocations.
-  
 ### [Reducing Congestion in Labor Markets: A Case Study in Simple Market Design](https://www.mitchellwatt.com/files/congestion.pdf) (with [Shoshana Vasserman](https://shoshanavasserman.com/) and [John J. Horton](http://john-joseph-horton.com/))
 *Revise and Resubmit at American Economic Journal: Microeconomics*
 
@@ -68,7 +65,7 @@ A second, more complex intervention that attempted to price externalities direct
 
 ## Early Stage
 
-### Who Gets What and When: Dynamic Allocation without Transfers ([slides](https://www.mitchellwatt.com/files/dynamicmatching.pdf))
+### Incentivizing Effort Without Flexible Transfers ([slides](https://www.mitchellwatt.com/files/dynamicmatching.pdf))
 A principal is endowed with a stream of items to be allocated to a fixed population of agents. Items arrive with random quality—some items are "goods," desired by all agents, while others are "bads," conferring negative flow payoffs to agents—and no transfers are allowed. The principal seeks to allocate as many items as possible while respecting the agents’ participation constraints. I characterize the optimal allocation, which involves incentivizing undesirable allocations today using promises of improved future allocations. The principal is optimally "loyal" to agents with worse historical allocations, assigning them priority for the best arriving goods. I discuss the implications of these results for the design of markets for ridesharing and the centralized allocation of teachers to schools.
 
 ### A Bandit Model of Trade with Two-Sided Learning (with [Yunus Aybas](https://aybas.people.stanford.edu/), [slides](https://www.mitchellwatt.com/files/bandits.pdf))
