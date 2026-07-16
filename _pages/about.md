@@ -45,6 +45,19 @@ Auctions are inherently risky: bidders face uncertainty about their prospects of
 
 ## Working Papers
 
+### [Perturbations, Prices, and Incentives in Large Markets](https://mitchwatt.github.io/files/perturbations.pdf)
+*Revise and Resubmit at Econometrica*
+*Awarded [Best Paper by Young Researcher](https://www.mitchellwatt.com/files/ESAM_2023_UNSW_Credit_CassandraHannagan-31.jpg) at the [2023 Econometric Society Australasian Meeting](https://www.esam2023.org).*
+
+This paper studies how small perturbations---misreports, supply shocks, or changes in market participants---affect Walrasian equilibrium prices in finite exchange economies. A sequence of economies is *perturbation-proof* if the price effect of any bounded perturbation shrinks in proportion to market size. Perturbation-proofness captures both robustness of equilibrium prices to small misspecifications and approximate incentive-compatibility of Walrasian mechanisms. Strong monotonicity is the key driver of this property: it is necessary and sufficient for perturbation-proofness in replica economies and implies it with high probability in i.i.d. random economies. Applying these results to indivisible goods markets shows that sufficient heterogeneity in buyers' demand yields perturbation-proofness even when individual demand is inelastic. (Updated April 2026. Previously circulated as *Strong Monotonicity and Perturbation-Proofness of Exchange Economies.*)
+
+### [Reducing Congestion in Labor Markets: A Case Study in Simple Market Design](https://www.mitchellwatt.com/files/congestion.pdf) (with [Shoshana Vasserman](https://shoshanavasserman.com/) and [John J. Horton](http://john-joseph-horton.com/))
+*Revise and Resubmit at American Economic Journal: Microeconomics*
+
+Many matching markets are suspected to suffer from inefficient levels of congestion. We show this is a real concern in an online labor market and present results of two market-wide experiments designed to reduce congestion.  
+The first intervention introduced a "soft" cap on the number of applications that could be received for a job opening and the number of days applications were accepted. Despite reducing the number of applications per opening, the intervention did not reduce the hiring probability or reported match quality. 
+A second, more complex intervention that attempted to price externalities directly failed. We find that application fees introduced by the platform reduced hire rates and competition among candidates, suggesting that these fees may have been miscalibrated or higher than socially efficient.
+
 ### [Topping Up and Optimal Redistribution](https://mitchwatt.github.io/files/TUOR.pdf) (with [Zi Yang Kang](https://www.ziyangkang.com))
 *Subsumes [Optimal Redistribution Through Subsidies](https://www.mitchellwatt.com/files/toppingup.pdf) and [Optimal In-Kind Redistribution](https://mitchwatt.github.io/files/OIKR.pdf), an extended abstract of which appears in Proceedings of The Twenty-Sixth ACM Conference on Economics and Computation (EC'25)*
 
@@ -54,17 +67,6 @@ This paper studies how topping up---allowing recipients of in-kind transfers to 
 
 Wages are often fixed even though tasks vary in difficulty. I study how a firm motivates workers when task assignment is its only incentive instrument. Workers observe task costs and may refuse or quit; the firm commits to compensating unpleasant work with better future assignments. With one worker, the optimal contract assigns tasks above a cutoff that rises with promised utility. With several workers, larger promises earn better tasks on average; workers complete every positive-value task and the least costly negative-value tasks. Pooling tasks among workers adds value, and spare workers expand capacity. Dynamics add value exactly when a static rule assigning all tasks is infeasible. Relative patience governs long-run assignments: negative tasks eventually disappear when workers are more patient, assignments become effectively stationary under equal patience, and difficult tasks recur when the firm is more patient. The model rationalizes task rotation and seniority rules as substitutes for task-contingent pay.
 
-### [Perturbations, Prices, and Incentives in Large Markets](https://mitchwatt.github.io/files/perturbations.pdf)
-*Awarded [Best Paper by Young Researcher](https://www.mitchellwatt.com/files/ESAM_2023_UNSW_Credit_CassandraHannagan-31.jpg) at the [2023 Econometric Society Australasian Meeting](https://www.esam2023.org).*
-
-This paper studies how small perturbations---misreports, supply shocks, or changes in market participants---affect Walrasian equilibrium prices in finite exchange economies. A sequence of economies is *perturbation-proof* if the price effect of any bounded perturbation shrinks in proportion to market size. Perturbation-proofness captures both robustness of equilibrium prices to small misspecifications and approximate incentive-compatibility of Walrasian mechanisms. Strong monotonicity is the key driver of this property: it is necessary and sufficient for perturbation-proofness in replica economies and implies it with high probability in i.i.d. random economies. Applying these results to indivisible goods markets shows that sufficient heterogeneity in buyers' demand yields perturbation-proofness even when individual demand is inelastic.(Updated April 2026. Previously circulated as *Strong Monotonicity and Perturbation-Proofness of Exchange Economies.*)
-
-### [Reducing Congestion in Labor Markets: A Case Study in Simple Market Design](https://www.mitchellwatt.com/files/congestion.pdf) (with [Shoshana Vasserman](https://shoshanavasserman.com/) and [John J. Horton](http://john-joseph-horton.com/))
-*Revise and Resubmit at American Economic Journal: Microeconomics*
-
-Many matching markets are suspected to suffer from inefficient levels of congestion. We show this is a real concern in an online labor market and present results of two market-wide experiments designed to reduce congestion.  
-The first intervention introduced a "soft" cap on the number of applications that could be received for a job opening and the number of days applications were accepted. Despite reducing the number of applications per opening, the intervention did not reduce the hiring probability or reported match quality. 
-A second, more complex intervention that attempted to price externalities directly failed. We find that application fees introduced by the platform reduced hire rates and competition among candidates, suggesting that these fees may have been miscalibrated or higher than socially efficient.
 
 ## Early Stage
 
