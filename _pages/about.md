@@ -47,6 +47,7 @@ Auctions are inherently risky: bidders face uncertainty about their prospects of
 
 ### [Perturbations, Prices, and Incentives in Large Markets](https://mitchwatt.github.io/files/perturbations.pdf)
 *Revise and Resubmit at Econometrica*
+
 *Awarded [Best Paper by Young Researcher](https://www.mitchellwatt.com/files/ESAM_2023_UNSW_Credit_CassandraHannagan-31.jpg) at the [2023 Econometric Society Australasian Meeting](https://www.esam2023.org).*
 
 This paper studies how small perturbations---misreports, supply shocks, or changes in market participants---affect Walrasian equilibrium prices in finite exchange economies. A sequence of economies is *perturbation-proof* if the price effect of any bounded perturbation shrinks in proportion to market size. Perturbation-proofness captures both robustness of equilibrium prices to small misspecifications and approximate incentive-compatibility of Walrasian mechanisms. Strong monotonicity is the key driver of this property: it is necessary and sufficient for perturbation-proofness in replica economies and implies it with high probability in i.i.d. random economies. Applying these results to indivisible goods markets shows that sufficient heterogeneity in buyers' demand yields perturbation-proofness even when individual demand is inelastic. (Updated April 2026. Previously circulated as *Strong Monotonicity and Perturbation-Proofness of Exchange Economies.*)
