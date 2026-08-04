@@ -144,6 +144,7 @@ exclude:
   - log
   - node_modules
   - package.json
+  - "Preview Website.command"
   - tmp
   - vendor
 keep_files:
@@ -216,8 +217,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _publications
   - scope:
       path: ""

@@ -1,0 +1,54 @@
+{% assign paper = include.paper %}
+<article class="research-card">
+  {% if paper.status %}
+    <span class="research-card__status">{{ paper.status }}</span>
+  {% endif %}
+
+  <h3 class="research-card__title">
+    {% if paper.links %}
+      <a class="research-card__title-link" href="{{ paper.links.first.url }}">{{ paper.title }}</a>
+    {% else %}
+      {{ paper.title }}
+    {% endif %}
+  </h3>
+
+  {% if paper.coauthors %}
+    <p class="research-card__coauthors">
+      with
+      {% for coauthor in paper.coauthors %}
+        {% unless forloop.first %}
+          {% if forloop.last %}
+            {% if forloop.length == 2 %} and {% else %}, and {% endif %}
+          {% else %}, {% endif %}
+        {% endunless %}
+        {% if coauthor.url %}<a href="{{ coauthor.url }}">{{ coauthor.name }}</a>{% else %}{{ coauthor.name }}{% endif %}
+      {% endfor %}
+    </p>
+  {% endif %}
+
+  {% if paper.citation %}
+    <div class="research-card__citation">{{ paper.citation | markdownify }}</div>
+  {% endif %}
+
+  {% if paper.note %}
+    <div class="research-card__note">{{ paper.note | markdownify }}</div>
+  {% endif %}
+
+  {% if paper.links %}
+    <div class="research-card__links" aria-label="Links for {{ paper.title | escape }}">
+      {% for link in paper.links %}
+        <a class="research-card__link" href="{{ link.url }}">{{ link.label }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% if paper.abstract %}
+    <details class="research-card__abstract">
+      <summary>
+        <span class="research-card__abstract-label--closed">Show abstract</span>
+        <span class="research-card__abstract-label--open">Hide abstract</span>
+      </summary>
+      <div class="research-card__abstract-body">{{ paper.abstract | markdownify }}</div>
+    </details>
+  {% endif %}
+</article>
