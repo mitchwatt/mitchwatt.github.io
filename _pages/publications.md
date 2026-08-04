@@ -13,8 +13,8 @@ author_profile: true
 We introduce *markup equilibrium*---an extension of Walrasian equilibrium in which consumers pay a fixed percentage markup over producer prices. In quasilinear markets, markup equilibria exist despite non-convexities. They are resource-feasible and envy-free, incur no budget deficit, and require little more communication and computation than the ordinary Walrasian equilibrium. The associated markup mechanism is asymptotically incentive-compatible. We also introduce a Bound-Form First Welfare Theorem, which states that for any feasible allocation, the welfare loss compared to the first-best is bounded, using any price vector, by the sum of the resulting *(i)* budget surplus and *(ii)* rationing losses suffered by the participants. Using producer prices, this bound implies that any markup equilibrium with a small markup and few unallocated goods is nearly efficient.
 
 
-### [Concavity  of order statistics in sample size: Implications for auction design](https://doi.org/10.1016/j.econlet.2025.112628)
-*Economics Letters*, 256 (2025): 11268.
+### [Concavity of order statistics in sample size: Implications for auction design](https://doi.org/10.1016/j.econlet.2025.112628)
+*Economics Letters*, 256 (2025): 112628.
 
 I show that the expected  $k$th-highest order statistic from a monotone hazard rate distribution is concave in sample size. In independent private value auctions with convex marketing costs, this ensures that the seller’s objective is concave, yielding a finite optimum. (Previously circulated as *Concavity and convexity of order statistics in sample size*).
 
