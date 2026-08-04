@@ -1,0 +1,18 @@
+<section class="teaching-section" aria-labelledby="current-teaching-heading">
+  <h2 class="teaching-section__title" id="current-teaching-heading">Current teaching</h2>
+  <div class="teaching-list">
+    {% assign teaching_sorted = site.teaching | sort: "date" | reverse %}
+    {% for teaching in teaching_sorted %}
+      {% if teaching.current %}{% include teaching-card.html teaching=teaching %}{% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="teaching-section" aria-labelledby="previous-teaching-heading">
+  <h2 class="teaching-section__title" id="previous-teaching-heading">Previous teaching</h2>
+  <div class="teaching-list">
+    {% for teaching in teaching_sorted %}
+      {% unless teaching.current %}{% include teaching-card.html teaching=teaching %}{% endunless %}
+    {% endfor %}
+  </div>
+</section>

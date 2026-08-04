@@ -1,0 +1,11 @@
+{% for section in site.data.research %}
+  <section class="research-section" aria-labelledby="research-{{ section.id }}">
+    <h2 class="research-section__title" id="research-{{ section.id }}">{{ section.title }}</h2>
+
+    <div class="research-list">
+      {% for paper in section.papers %}
+        {% include research-card.html paper=paper %}
+      {% endfor %}
+    </div>
+  </section>
+{% endfor %}

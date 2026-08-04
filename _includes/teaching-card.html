@@ -1,0 +1,21 @@
+{% assign teaching = include.teaching %}
+<article class="teaching-card{% if teaching.current %} teaching-card--current{% endif %}">
+  <div class="teaching-card__heading">
+    <div>
+      {% if teaching.current %}<span class="teaching-card__status">Current teaching</span>{% endif %}
+      <h3 class="teaching-card__title">{{ teaching.title }}</h3>
+    </div>
+    {% if teaching.years %}<span class="teaching-card__years">{{ teaching.years }}</span>{% endif %}
+  </div>
+
+  <p class="teaching-card__meta">
+    <span>{{ teaching.type }}</span>
+    {% if teaching.location %}<span>{{ teaching.location }}</span>{% endif %}
+  </p>
+
+  {% if teaching.summary %}<p class="teaching-card__summary">{{ teaching.summary }}</p>{% endif %}
+
+  {% unless teaching.current %}
+    <a class="teaching-card__link" href="{{ teaching.url }}">View teaching details <span aria-hidden="true">→</span></a>
+  {% endunless %}
+</article>

@@ -1,0 +1,9 @@
+<div class="research-list research-list--selected">
+  {% for section in site.data.research %}
+    {% for paper in section.papers %}
+      {% if paper.featured %}
+        {% include research-card.html paper=paper %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>

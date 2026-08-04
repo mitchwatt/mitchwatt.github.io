@@ -1,84 +1,57 @@
 ---
+layout: home
 permalink: /
-title: "Welcome"
-excerpt: "About me"
-author_profile: true
+excerpt: "Economist working in market design, microeconomic theory, public policy, and regulation."
 redirect_from:
   - /about/
   - /about.html
 ---
-I am a Lecturer in Economics at [Monash University](https://www.monash.edu/business/economics) (equivalent to Assistant Professor in the US academic system). My primary interests are microeconomic theory and market design, with a focus on questions relevant to public policy and regulation.
+<section class="home-hero" aria-labelledby="home-title">
+  <div class="home-hero__content">
+    <p class="home-hero__eyebrow">Market design · Microeconomic theory · Public policy</p>
+    <h1 id="home-title">Mitchell Watt</h1>
+    <p class="home-hero__role">Lecturer in Economics at <a href="https://www.monash.edu/business/economics">Monash University</a></p>
+    <p class="home-hero__summary">I am an economist working in microeconomic theory and market design. My research focuses on questions relevant to public policy, regulation, and business strategy.</p>
 
-I completed my Ph.D. at Stanford University, where I was advised by [Professor Paul Milgrom](https://milgrom.people.stanford.edu).  My committee also included Professors [Andrzej Skrzypacz](https://web.stanford.edu/~skrz/), [Al Roth](https://web.stanford.edu/~alroth/), [Shoshana Vasserman](https://shoshanavasserman.com/), and [Ravi Jagadeesan](https://sites.google.com/site/ravijagadeesan/).
+    <div class="home-hero__actions">
+      <a class="home-button home-button--primary" href="/publications/">View research</a>
+      <a class="home-button" href="/files/MitchellWatt_CV.pdf">Download CV</a>
+    </div>
 
-<details>
+    <div class="home-hero__links" aria-label="Professional links">
+      <a href="mailto:mitch.watt@monash.edu">Email</a>
+      <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>
+    </div>
+  </div>
 
-<summary>
+  <figure class="home-hero__portrait">
+    <img src="/images/mwatt.jpeg" alt="Mitchell Watt">
+  </figure>
+</section>
 
-More about me
+<section class="home-section home-about" aria-labelledby="about-heading">
+  <h2 id="about-heading">About</h2>
+  <p>I completed my Ph.D. at Stanford University, where I was advised by <a href="https://milgrom.people.stanford.edu">Professor Paul Milgrom</a>. My committee also included Professors <a href="https://web.stanford.edu/~skrz/">Andrzej Skrzypacz</a>, <a href="https://web.stanford.edu/~alroth/">Al Roth</a>, <a href="https://shoshanavasserman.com/">Shoshana Vasserman</a>, and <a href="https://sites.google.com/site/ravijagadeesan/">Ravi Jagadeesan</a>.</p>
 
-</summary>
+  <details class="home-more">
+    <summary>More about me</summary>
+    <div class="home-more__content">
+      <p>My market design and public policy interests stem partially from my experiences outside academia. Since 2023, I have worked part-time as a consultant at <a href="https://www.auctionomics.com">Auctionomics</a>, analyzing market design practices in online display advertising related to a recent antitrust case against <a href="https://www.nytimes.com/2024/09/27/technology/google-antitrust-case-lawsuit.html">Google</a>. Before coming to the U.S. for graduate studies, I was a policy adviser and speechwriter for <a href="https://jimchalmers.org">The Hon Dr Jim Chalmers MP</a>, then Shadow Minister for Financial Services and Superannuation, now Treasurer of Australia.</p>
 
-<p>My market design and public policy interests stem partially from my experiences outside academia. Since 2023, I have worked part-time as a consultant at <a href="https://www.auctionomics.com">Auctionomics</a>, analyzing market design practices in online display advertising related to a recent antitrust case against <a href="https://www.nytimes.com/2024/09/27/technology/google-antitrust-case-lawsuit.html">Google</a>. Before coming to the U.S. for graduate studies, I was a policy adviser and speechwriter for <a href="https://jimchalmers.org">The Hon Dr Jim Chalmers MP</a>, then Shadow Minister for Financial Services and Superannuation, now Treasurer of Australia.</p>
+      <p>At Stanford, I was supported by the <a href="https://siepr.stanford.edu/people/graduate-fellowship-recipients">Gale and Steve Kohlhagen Fellowship in Economics</a>, the Koret Fellowship (part of the <a href="https://vpge.stanford.edu/fellowships-funding/sgf/details">Stanford Graduate Fellowship Program in Science and Engineering</a>), and the <a href="https://en.wikipedia.org/wiki/Ric_Weiland">Ric Weiland Graduate Fellowship</a>. I hold a Master in Public Policy from the Harvard Kennedy School of Government, where I was a John F. Kennedy Fellow, and a Bachelor of Science (Hons) in mathematics from the University of Queensland, where I was University Medallist and <a href="https://www.uq.edu.au/news/article/2012/10/alumni-leaders-lauded">Graduate of the Year</a>.</p>
+    </div>
+  </details>
+</section>
 
-<p>At Stanford, I was supported by the <a href="https://siepr.stanford.edu/people/graduate-fellowship-recipients">Gale and Steve Kohlhagen Fellowship in Economics</a>, the Koret Fellowship (part of the <a href="https://vpge.stanford.edu/fellowships-funding/sgf/details">Stanford Graduate Fellowship Program in Science and Engineering</a>) and the <a href="https://en.wikipedia.org/wiki/Ric_Weiland">Ric Weiland</a> Graduate Fellowship. I hold a Master in Public Policy from the Harvard Kennedy School of Government, where I was a John F. Kennedy Fellow, and a Bachelor of Science (Hons) in mathematics from the University of Queensland, where I was University Medallist and <a href="https://www.uq.edu.au/news/article/2012/10/alumni-leaders-lauded">Graduate of the Year</a>.</p>
+<section class="home-section home-research" aria-labelledby="selected-research-heading">
+  <div class="home-section__heading">
+    <div>
+      <p class="home-section__eyebrow">Recent and current work</p>
+      <h2 id="selected-research-heading">Selected research</h2>
+    </div>
+    <a class="home-section__all-link" href="/publications/">View all research <span aria-hidden="true">→</span></a>
+  </div>
 
-</details>
-
-## Published and Forthcoming
-
-### [A Walrasian Mechanism with Markups for Nonconvex Markets](https://doi.org/10.1093/restud/rdaf067) (with [Paul Milgrom](https://milgrom.people.stanford.edu/))
-*Review of Economic Studies*, 93(3) (2026): 1995–2020.
-
-We introduce *markup equilibrium*---an extension of Walrasian equilibrium in which consumers pay a fixed percentage markup over producer prices. In quasilinear markets, markup equilibria exist despite non-convexities. They are resource-feasible and envy-free, incur no budget deficit, and require little more communication and computation than the ordinary Walrasian equilibrium. The associated markup mechanism is asymptotically incentive-compatible. We also introduce a Bound-Form First Welfare Theorem, which states that for any feasible allocation, the welfare loss compared to the first-best is bounded, using any price vector, by the sum of the resulting *(i)* budget surplus and *(ii)* rationing losses suffered by the participants. Using producer prices, this bound implies that any markup equilibrium with a small markup and few unallocated goods is nearly efficient.
-
-
-### [Concavity of order statistics in sample size: Implications for auction design](https://doi.org/10.1016/j.econlet.2025.112628)
-*Economics Letters*, 256 (2025): 112628.
-
-I show that the expected  $k$th-highest order statistic from a monotone hazard rate distribution is concave in sample size. In independent private value auctions with convex marketing costs, this ensures that the seller’s objective is concave, yielding a finite optimum. (Previously circulated as *Concavity and convexity of order statistics in sample size*).
-
-### [Risk aversion and auction design: Theoretical and empirical evidence](https://doi.org/10.1016/j.ijindorg.2021.102758) (with  [Shoshana Vasserman](https://shoshanavasserman.com/) )
-*International Journal of Industrial Organization*, 79 (2021): 102758.
-
-Auctions are inherently risky: bidders face uncertainty about their prospects of winning and payments, while sellers are unsure about revenue and chances of a successful sale. Auction rules influence the allocation of risk among agents and the behavior of risk-averse bidders, leading to a breakdown of payoff and revenue equivalence and a heightened significance of auction design decisions by sellers. In this paper, we review the literature on risk aversion in auctions, with an emphasis on what can be learned about auction design from theoretical modeling and empirical studies. We survey theoretical results relating to the behavior of risk-averse agents in auctions, the comparison of standard auction formats in the presence of risk aversion and implications for auction design. We discuss standard and more recent approaches to identifying risk preferences in empirical studies and evidence for the significance of risk aversion in auction applications. Finally, we identify areas where existing evidence is relatively scant and ask what questions empirical research might ask given the theory and where further theoretical research may be beneficial given existing empirical results.
-
-## Working Papers
-
-### [Perturbations, Prices, and Incentives in Large Markets](https://mitchwatt.github.io/files/perturbations.pdf)
-*Revise and Resubmit at Econometrica*
-
-*Awarded [Best Paper by Young Researcher](https://www.mitchellwatt.com/files/ESAM_2023_UNSW_Credit_CassandraHannagan-31.jpg) at the [2023 Econometric Society Australasian Meeting](https://www.esam2023.org).*
-
-This paper studies how small perturbations---misreports, supply shocks, or changes in market participants---affect Walrasian equilibrium prices in finite exchange economies. A sequence of economies is *perturbation-proof* if the price effect of any bounded perturbation shrinks in proportion to market size. Perturbation-proofness captures both robustness of equilibrium prices to small misspecifications and approximate incentive-compatibility of Walrasian mechanisms. Strong monotonicity is the key driver of this property: it is necessary and sufficient for perturbation-proofness in replica economies and implies it with high probability in i.i.d. random economies. Applying these results to indivisible goods markets shows that sufficient heterogeneity in buyers' demand yields perturbation-proofness even when individual demand is inelastic. (Updated April 2026. Previously circulated as *Strong Monotonicity and Perturbation-Proofness of Exchange Economies.*)
-
-### [Reducing Congestion in Labor Markets: A Case Study in Simple Market Design](https://www.mitchellwatt.com/files/congestion.pdf) (with [Shoshana Vasserman](https://shoshanavasserman.com/) and [John J. Horton](http://john-joseph-horton.com/))
-*Revise and Resubmit at American Economic Journal: Microeconomics*
-
-Many matching markets are suspected to suffer from inefficient levels of congestion. We show this is a real concern in an online labor market and present results of two market-wide experiments designed to reduce congestion.  
-The first intervention introduced a "soft" cap on the number of applications that could be received for a job opening and the number of days applications were accepted. Despite reducing the number of applications per opening, the intervention did not reduce the hiring probability or reported match quality. 
-A second, more complex intervention that attempted to price externalities directly failed. We find that application fees introduced by the platform reduced hire rates and competition among candidates, suggesting that these fees may have been miscalibrated or higher than socially efficient.
-
-### [Topping Up and Optimal Redistribution](https://mitchwatt.github.io/files/TUOR.pdf) (with [Zi Yang Kang](https://www.ziyangkang.com))
-*Subsumes [Optimal Redistribution Through Subsidies](https://www.mitchellwatt.com/files/toppingup.pdf) and [Optimal In-Kind Redistribution](https://mitchwatt.github.io/files/OIKR.pdf), an extended abstract of which appears in Proceedings of The Twenty-Sixth ACM Conference on Economics and Computation (EC'25)*
-
-This paper studies how topping up---allowing recipients of in-kind transfers to supplement subsidized consumption in a private market---affects optimal redistribution. Consumers can access a competitive private market, while a social planner offers an alternative nonlinear price schedule. We show that the effect of topping up depends on the correlation between redistributive priority and demand. When the correlation is positive, topping up does not affect the optimal mechanism. When the correlation is negative, topping up weakens screening and reduces redistribution. At the extensive margin, topping up reduces the set of environments in which intervention is optimal. At the intensive margin, topping up weakly reduces both the scope of a free public option and the mass of consumers served, and shifts redistribution away from the consumers with the highest redistributive priority. We characterize the optimal mechanisms and show how topping up changes the comparative statics of optimal redistribution with respect to redistributive priorities. 
-
-### [Paying With Promises](https://mitchwatt.github.io/files/promises.pdf)
-
-Wages are often fixed even though tasks vary in difficulty. I study how a firm motivates workers when task assignment is its only incentive instrument. Workers observe task costs and may refuse or quit; the firm commits to compensating unpleasant work with better future assignments. With one worker, the optimal contract assigns tasks above a cutoff that rises with promised utility. With several workers, larger promises earn better tasks on average; workers complete every positive-value task and the least costly negative-value tasks. Pooling tasks among workers adds value, and spare workers expand capacity. Dynamics add value exactly when a static rule assigning all tasks is infeasible. Relative patience governs long-run assignments: negative tasks eventually disappear when workers are more patient, assignments become effectively stationary under equal patience, and difficult tasks recur when the firm is more patient. The model rationalizes task rotation and seniority rules as substitutes for task-contingent pay.
-
-
-## Early Stage
-
-### A Bandit Model of Trade with Two-Sided Learning (with [Yunus Aybas](https://aybas.people.stanford.edu/), [slides](https://www.mitchellwatt.com/files/bandits.pdf))
-We study a model of trade with repeated interaction between a single buyer and many sellers. The buyer is initially uninformed about her valuations for the various goods and sellers are uninformed about the buyer’s demand. We model this interaction as a multi-armed bandit problem with strategic arms and seek to understand the welfare consequences of various models of buyer behavior. We show that a buyer using a no-regret (contextual) learning algorithm may be exploited by colluding sellers in an approximate Nash equilibrium for the sellers. However, a buyer with commitment power may extract almost all the gains from trade from the sellers in an approximate dominant strategy equilibrium for the sellers.
-
-
-## Other Published Work
-
-Paul Milgrom and Mitchell Watt (2020) [Commentary on *Effective Allocation of Affordable Housing* by Nick Arnosti and Peng Shi](https://www.informs.org/Blogs/ManSci-Blogs/Management-Science-Review/Effective-Allocation-of-Affordable-Housing). *Management Science Blog*.
-
-Mitchell Watt and Hubert Wu (2018) [Trust mechanisms and online platforms: A regulatory response](https://www.hks.harvard.edu/centers/mrcbg/publications/awp/awp97). *Harvard Mossavar-Rahmani Center for Business and Governance Associate Working Paper Series* No. 97.
-
-Jim Chalmers and Mitchell Watt (2013) [Labor should fight for economic mobility.](https://web.archive.org/web/20200331215925/https://www.chifley.org.au/labor-should-fight-for-economic-mobility/) *Chifley Research Centre Blog*.
+  {% include selected-research.html %}
+</section>

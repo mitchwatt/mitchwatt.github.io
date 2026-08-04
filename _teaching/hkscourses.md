@@ -6,6 +6,8 @@ permalink: /teaching/hkscourses
 venue: "Harvard Kennedy School"
 date: 2017-02-01
 location: "Cambridge, Massachusetts"
+years: "2017–2018"
+summary: "Teaching fellow and course assistant for game theory, introductory economics, and economic analysis of public policy. Recipient of the Harvard Kennedy School Dean's Award for Excellence in Student Teaching."
 ---
 
 I was a teaching fellow for introductory economics and game theory courses for Masters students at Harvard Kennedy School, for which I was awarded Harvard Kennedy School's Dean's Award for Excellence in Student Teaching.
