@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Two hints for each part of the Week 7 Cournot merger exercises.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="color-scheme" content="light">
+  <title>Week 7 hints | ECF3900</title>
+  <style>
+    :root { --blue:#005a8b; --navy:#123349; --ink:#172f40; --muted:#526776; --line:#d5e2ea; --wash:#f2f7fa; --white:#fff; --focus:#9e4a00; }
+    * { box-sizing:border-box; }
+    html { font-size:100%; }
+    body { margin:0; background:var(--white); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:1.0625rem; line-height:1.65; }
+    button,a { -webkit-tap-highlight-color:transparent; }
+    a { color:var(--blue); text-underline-offset:.22em; }
+    button { font:inherit; cursor:pointer; }
+    button:focus-visible,a:focus-visible { outline:3px solid var(--focus); outline-offset:5px; }
+    [tabindex="-1"]:focus { outline:none; }
+    .skip { position:absolute; left:1rem; top:-6rem; background:white; z-index:10; padding:.65rem 1rem; }
+    .skip:focus { top:.4rem; }
+    .masthead { border-top:5px solid var(--blue); border-bottom:1px solid var(--line); }
+    .masthead-inner { max-width:58rem; margin:auto; padding:1.15rem 1.75rem; display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap; align-items:baseline; }
+    .course { font-size:.875rem; font-weight:700; letter-spacing:.06em; }
+    .week { font-size:.9375rem; color:var(--muted); }
+    main { max-width:58rem; margin:auto; padding:2rem 1.75rem 3rem; min-height:30rem; }
+    .stages { display:flex; gap:1.5rem; list-style:none; padding:0; margin:0 0 2rem; font-size:.875rem; color:var(--muted); }
+    .stages li { display:flex; gap:.5rem; align-items:center; }
+    .step-number { width:1.65rem; height:1.65rem; border:1px solid var(--line); border-radius:50%; display:inline-flex; align-items:center; justify-content:center; font-size:.8rem; }
+    .stages [aria-current="step"] { color:var(--blue); font-weight:700; }
+    .stages [aria-current="step"] .step-number { background:var(--blue); color:white; border-color:var(--blue); }
+    .breadcrumb { display:flex; flex-wrap:wrap; align-items:center; gap:.7rem; margin:0 0 1.2rem; font-size:.9375rem; }
+    .breadcrumb a { text-decoration:none; }
+    .breadcrumb a:hover { text-decoration:underline; }
+    .breadcrumb .separator { color:#7a8e9a; }
+    .eyebrow { margin:0 0 .35rem; color:var(--blue); font-size:.9375rem; font-weight:650; }
+    h1 { margin:0 0 .8rem; color:var(--navy); font-family:Georgia,"Times New Roman",serif; font-size:clamp(1.85rem,4.5vw,2.65rem); line-height:1.2; font-weight:500; max-width:48rem; text-wrap:balance; }
+    .intro { margin:0 0 1.8rem; color:var(--muted); }
+    .questions { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.15rem; }
+    .question-card { display:flex; flex-direction:column; text-decoration:none; color:var(--ink); padding:1.65rem; border:1px solid var(--line); border-top:3px solid var(--blue); border-radius:4px; background:var(--wash); transition:background .15s,border-color .15s; }
+    .question-card:hover { background:#e8f2f8; border-color:var(--blue); }
+    .question-card .number { color:var(--blue); font-size:.9375rem; font-weight:700; }
+    .question-card h2 { margin:.65rem 0 1.3rem; font-family:Georgia,"Times New Roman",serif; font-size:1.65rem; line-height:1.3; font-weight:500; }
+    .question-card .card-bottom { margin-top:auto; display:flex; align-items:center; justify-content:space-between; gap:.6rem; color:var(--muted); font-size:.9375rem; }
+    .arrow { font-size:1.45rem; color:var(--blue); line-height:1; }
+    .part-list { display:grid; gap:.6rem; margin-top:1.2rem; }
+    .part-link { display:flex; align-items:center; gap:1rem; text-decoration:none; color:var(--ink); padding:1rem 1.15rem; border:1px solid var(--line); border-radius:4px; }
+    .part-link:hover { background:var(--wash); border-color:var(--blue); }
+    .part-letter { display:flex; align-items:center; justify-content:center; flex:none; background:var(--wash); color:var(--blue); width:2.5rem; height:2.5rem; border-radius:50%; font-weight:700; }
+    .part-title { flex:1; font-weight:600; }
+    .question-text { border-left:3px solid var(--line); margin:1.4rem 0 1.8rem; padding:.15rem 0 .15rem 1.1rem; line-height:1.7; }
+    .question-text p { margin:0 0 .65rem; }
+    .question-text p:last-child { margin-bottom:0; }
+    .math { font-family:Georgia,"Times New Roman",serif; white-space:nowrap; font-size:1.075em; }
+    .math i { font-style:italic; }
+    .math sub,.math sup { font-size:.72em; line-height:0; position:relative; vertical-align:baseline; }
+    .math sub { bottom:-.25em; }
+    .math sup { top:-.55em; }
+    .formula { display:block; margin:.55rem 0; font-family:Georgia,"Times New Roman",serif; font-size:1.075em; font-style:italic; }
+    .hint-intro { margin:0 0 1rem; color:var(--muted); }
+    .hint-options { display:grid; gap:.85rem; }
+    .hint-option { border:1px solid var(--line); border-radius:4px; overflow:hidden; }
+    .hint-choice { width:100%; min-height:4.4rem; padding:.8rem 1rem; border:0; background:var(--white); color:var(--ink); display:grid; grid-template-columns:1fr auto; gap:1rem; align-items:center; text-align:left; }
+    .hint-choice:hover { background:var(--wash); }
+    .choice-kind { display:block; color:var(--blue); font-size:.875rem; font-weight:700; margin-bottom:.12rem; }
+    .choice-title { display:block; font-weight:650; }
+    .choice-action { color:var(--blue); font-size:.9375rem; font-weight:650; white-space:nowrap; }
+    .hint { background:var(--wash); padding:1.15rem 1.35rem; border-top:1px solid var(--line); animation:reveal .18s ease-out; }
+    .hint p { margin:0; }
+    .part-navigation { display:flex; justify-content:space-between; gap:1rem; margin-top:2rem; padding-top:1.3rem; border-top:1px solid var(--line); }
+    .nav-button { display:inline-flex; align-items:center; min-height:3rem; padding:.65rem 1rem; border:2px solid var(--blue); border-radius:4px; font-weight:650; line-height:1.3; text-decoration:none; }
+    .nav-button.back { color:var(--blue); background:var(--white); }
+    .nav-button.back:hover { background:var(--wash); }
+    .nav-button.next { margin-left:auto; color:var(--white); background:var(--blue); text-align:right; }
+    .nav-button.next:hover { background:var(--navy); border-color:var(--navy); }
+    .footer { max-width:54.5rem; margin:0 auto; border-top:1px solid var(--line); padding:1rem 0 1.5rem; font-size:.875rem; color:var(--muted); }
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+    noscript p { padding:1rem; background:var(--wash); }
+    @keyframes reveal { from { opacity:0; transform:translateY(4px); } to { opacity:1; transform:translateY(0); } }
+    @media (max-width:620px) { main { padding:1.4rem 1.1rem 2rem; } .masthead-inner { padding:1rem 1.1rem; } .questions { grid-template-columns:1fr; } .question-card { padding:1.3rem; } .question-card h2 { margin:.5rem 0 1rem; font-size:1.5rem; } .stages { gap:1rem; margin-bottom:1.5rem; } .part-link { padding:.85rem; gap:.7rem; } .hint { padding:1.05rem; } .hint-choice { padding:.75rem .85rem; } .part-navigation { align-items:stretch; } .nav-button { flex:1; } .footer { margin:0 1.1rem; } }
+    @media (max-width:360px) { .part-navigation { flex-direction:column; } .nav-button,.nav-button.next { justify-content:center; margin-left:0; text-align:center; } }
+    @media (prefers-reduced-motion:reduce) { *,*::before,*::after { animation:none!important; transition:none!important; scroll-behavior:auto!important; } }
+    @media print { .masthead { border-top:0; } .stages,.breadcrumb,.hint-choice,.part-navigation,.skip { display:none; } main { max-width:none; min-height:0; padding:1rem 0; } .hint-option { border:0; } .hint { border:1px solid var(--line); break-inside:avoid; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead"><div class="masthead-inner"><span class="course">ECF3900</span><span class="week">Week 7 · Applied exercises</span></div></header>
+  <main id="main"><noscript><h1>Week 7 hints</h1><p>Enable JavaScript to choose a question and reveal its hints.</p></noscript></main>
+  <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
+  <footer class="footer">A Cournot merger: output, costs and welfare</footer>
+  <script id="hint-data" type="application/json">[
+  {
+    "id": "1a",
+    "title": "The original three-firm market",
+    "summary": "Calculate each firm's output and profit, total output and market price before the merger.",
+    "hints": [
+      {
+        "title": "Using the formulas to get output per firm",
+        "text": "Compare P = 100 − Q with P = A − BQ to identify A and B. There are three firms, each with marginal cost 40. Substitute these values into the worksheet's formula for output per firm.",
+        "category": "Getting started"
+      },
+      {
+        "title": "Calculating total output and prices",
+        "text": "Multiply one firm's output by three to find total output. Substitute that total into P = 100 − Q to find price. Each firm's profit is its margin, P − 40, multiplied by its own output. Label your results as the pre-merger values.",
+        "category": "Calculation"
+      }
+    ]
+  },
+  {
+    "id": "1b",
+    "title": "Output after the merger",
+    "summary": "Calculate the merged firm's output, the outsider's output, total output and market price when both firms still have marginal cost 40.",
+    "hints": [
+      {
+        "title": "Using the formulas to calculate output per firm",
+        "text": "After the merger, the merged business chooses one combined output and the outsider chooses another. Use n = 2 in the symmetric Cournot formula. Both businesses have the same marginal cost, so symmetry tells you how their equilibrium outputs compare.",
+        "category": "Getting started"
+      },
+      {
+        "title": "Calculating total output and market prices",
+        "text": "The output you obtain for the merged firm already covers its whole business. Add q_m and q_o once each to get total output, then use P = 100 − Q. Compare your post-merger price and total output with the values from 1(a).",
+        "category": "Calculation"
+      }
+    ]
+  },
+  {
+    "id": "1c",
+    "title": "Who gains from the merger?",
+    "summary": "Compare the merging firms' combined profit and the outsider's profit before and after the merger, and explain who gains or loses.",
+    "hints": [
+      {
+        "title": "Calculating the merging firms’ profits pre- and post-merger",
+        "category": "Profit calculation",
+        "text": "Before the merger, add firms 1 and 2's profits from 1(a): pi_1^pre + pi_2^pre. After the merger, treat the merged firm as one business and calculate pi_m^post using its price-cost margin and combined output q_m^post. Compare the post-merger profit with the pre-merger sum."
+      },
+      {
+        "title": "Calculating the outsider’s profits pre- and post-merger",
+        "category": "Profit calculation",
+        "text": "Use the outsider's *own* output in each market. Before the merger, calculate pi_o^pre using P^pre, marginal cost 40 and q_o^pre. After the merger, calculate pi_o^post using P^post, marginal cost 40 and q_o^post. Subtract the pre-merger profit from the post-merger profit to determine its gain or loss."
+      },
+      {
+        "title": "Evaluating the market effects",
+        "category": "Economic intuition",
+        "text": "Compare the merging firms' combined output before the merger with q_m^post, then examine the outsider's response. Connect the net change in total output to the change in price. How do the changes in price and sales work together for each business? This strategic response is the source of the Cournot merger paradox."
+      }
+    ]
+  },
+  {
+    "id": "1d",
+    "title": "Surplus with unchanged costs",
+    "summary": "Complete both diagrams, calculate consumer, producer and total surplus before and after the merger, and explain the welfare change.",
+    "hints": [
+      {
+        "title": "Using the diagram",
+        "category": "Diagram and calculation",
+        "text": "Fill in price and total output from 1(a) and 1(b). Consumer surplus is the triangle above price and below demand: its height is 100 − P and its base is Q. Producer surplus is the rectangle between price and marginal cost 40, extending to Q. Label both areas."
+      },
+      {
+        "title": "Interpreting changes",
+        "category": "Economic intuition",
+        "text": "Compare the consumer-surplus triangles before and after the merger. How does the triangle change? Then compare producer surplus before and after the merger. How does it change? Is any lost consumer surplus captured by producers? Look for the rectangle between the pre- and post-merger prices over the units still sold, and calculate its area. Is that the same as the total change in producer surplus?"
+      }
+    ]
+  },
+  {
+    "id": "2a",
+    "title": "Write the profit functions",
+    "summary": "Express each firm's profit using q_m and q_o, keeping the merged firm's marginal cost c_m as a variable.",
+    "hints": [
+      {
+        "title": "Start with margin times output",
+        "text": "Each firm's profit is its price minus its *own* marginal cost, multiplied by its *own* output. Both receive the market price P = 100 − q_m − q_o. The merged firm's marginal cost is c_m and the outsider's is 40.",
+        "category": "Getting started"
+      },
+      {
+        "title": "Substitute and expand carefully",
+        "text": "Put 100 − q_m − q_o in place of P for each firm. Remember to multiply every term inside the brackets by the term outside: [[formula:a(b − c) = ab − ac]] With more terms, the same rule gives a(b − c − d) = ab − ac − ad. Apply this to each firm's *own* output, ready for differentiation in 2(b).",
+        "category": "Algebra"
+      }
+    ]
+  },
+  {
+    "id": "2b",
+    "title": "Find the best responses",
+    "summary": "Differentiate each firm's profit with respect to its own output, set the derivative to zero, then rearrange to find its best-response function.",
+    "hints": [
+      {
+        "title": "Apply the differentiation rules",
+        "text": "Differentiate with respect to the firm's *own* output and hold the rival's output fixed. With respect to x, treating a and y as constants: [[formula:∂(ax²)/∂x = 2ax]] [[formula:∂(axy)/∂x = ay]] Apply these rules to the expanded profit expressions from 2(a): use x = q_m for the merged firm and x = q_o for the outsider.",
+        "category": "Differentiation"
+      },
+      {
+        "title": "Isolate the firm's own output",
+        "text": "Set each first derivative equal to zero. Move the other terms across the equals sign, then divide by the coefficient on the firm's own output. Write the merged firm's chosen output as BR_m(q_o), and the outsider's as BR_o(q_m), leaving the rival's output in each expression.",
+        "category": "Best responses"
+      }
+    ]
+  },
+  {
+    "id": "2c",
+    "title": "A one-unit increase in cost",
+    "summary": "Find how q_m, q_o and total output Q change when c_m increases by one, and explain the responses intuitively.",
+    "hints": [
+      {
+        "title": "Substitute the one-unit increase",
+        "text": "Replace c_m with c_m + 1 in each equilibrium output formula, then subtract the original formula. This gives the change in q_m and q_o. Add those two changes to find the change in total output Q.",
+        "category": "Calculation"
+      },
+      {
+        "title": "Explain the firms’ opposite responses",
+        "text": "A higher marginal cost makes extra output less attractive to the merged firm, so start by deciding how it changes q_m. When the merged firm changes its output, the outsider faces a different amount of demand. Use its best response to explain why q_o moves in the opposite direction, then ask whether that response fully replaces the merged firm's change.",
+        "category": "Economic intuition"
+      }
+    ]
+  },
+  {
+    "id": "2d",
+    "title": "Set the merged firm's cost to 25",
+    "summary": "Use c_m = 25 to calculate both firms' outputs, total output and price, then check the price against the original three-firm market.",
+    "hints": [
+      {
+        "title": "Substitute into each output formula",
+        "text": "Take the equilibrium formulas for q_m and q_o from 2(c), and replace every occurrence of c_m with 25. Work out the two firms' outputs separately before adding them. The outsider's marginal cost remains 40.",
+        "category": "Substitution"
+      },
+      {
+        "title": "Check the common market price",
+        "text": "Add q_m and q_o to obtain Q, then calculate P using P = 100 − Q. Compare this price directly with your pre-merger price from 1(a). If they differ, check that you substituted 25 into both output formulas and used total market output in the demand equation.",
+        "category": "Check your work"
+      }
+    ]
+  },
+  {
+    "id": "2e",
+    "title": "Profits and the cost threshold",
+    "summary": "Compare profits at c_m = 25 with their pre-merger values, then explain price and output when c_m is below or above 25.",
+    "hints": [
+      {
+        "title": "Use each firm's own cost",
+        "text": "Use the price and outputs from 2(d). The merged firm's profit is (P − 25)q_m; the outsider's is (P − 40)q_o. Compare the merged firm's profit with the combined original profits of firms 1 and 2, and compare the outsider with its own original profit.",
+        "category": "Profit calculation"
+      },
+      {
+        "title": "Connect cost, output and price",
+        "text": "Trace the chain from c_m to the merged firm's output, then to the outsider's response and total output. Use your changes from 2(c) to decide which firm's response is larger. Since P = 100 − Q, price moves in the opposite direction to total output. Reverse this reasoning when c_m moves to the other side of 25.",
+        "category": "Economic intuition"
+      }
+    ]
+  },
+  {
+    "id": "2f",
+    "title": "Surplus and resource savings",
+    "summary": "At c_m = 25, complete the diagrams, compare consumer, producer and total surplus, and relate the welfare change to resource savings.",
+    "hints": [
+      {
+        "title": "Use two producer-surplus rectangles",
+        "text": "Use the price and quantities from 2(d). CS is the triangle with height 100 − P and base Q. Calculate PS as two rectangles: the merged firm's has height P − 25 and width q_m; the outsider's has height P − 40 and width q_o. Label these areas on the diagram.",
+        "category": "Diagram and calculation"
+      },
+      {
+        "title": "Link the cost saving to total surplus",
+        "text": "The merged firm's lower cost saves resources on every unit it produces. Compare total consumption and the outsider's output with their pre-merger values. If those do not change, ask what other source of a change in total surplus remains, and who receives that gain through profit.",
+        "category": "Welfare comparison"
+      }
+    ]
+  }
+]</script>
+  <script>
+    'use strict';
+    const hintData = JSON.parse(document.getElementById('hint-data').textContent);
+    const questions = {
+      '1': { title:'A merger with unchanged marginal cost', parts:['a','b','c','d'] },
+      '2': { title:'A merger with lower marginal cost', parts:['a','b','c','d','e','f'] }
+    };
+    const parts = Object.fromEntries(hintData.map(part => [part.id, part]));
+    const revealed = Object.create(null);
+    const main = document.getElementById('main');
+    const announcement = document.getElementById('announcement');
+    function escapeText(text) { return String(text).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char])); }
+    function math(text) {
+      const formatted=escapeText(text)
+        .replace(/\*([^*]+)\*/g,'<em>$1</em>')
+        .replace(/\[\[formula:([^\]]+)\]\]/g,'<span class="formula">$1</span>');
+      return formatted.replace(/\b(q_[imo]|c_[mo]|pi_[12imo]|BR_[mo]|Q|P|CS|PS|TS)(?:\^(pre|post))?\b/g, (match,base,power) => {
+        const [symbol,sub] = base.split('_');
+        return '<span class="math"><i>'+(symbol==='pi'?'π':symbol)+'</i>'+(sub?'<sub>'+sub+'</sub>':'')+(power?'<sup>'+power+'</sup>':'')+'</span>';
+      });
+    }
+    function route(hash) {
+      const match = /^#q([12])(?:\/([a-f]))?$/.exec(hash);
+      if (!match) return {};
+      const question=match[1], letter=match[2];
+      if (letter && !questions[question].parts.includes(letter)) return {};
+      return { question, letter };
+    }
+    function stages(active) {
+      return '<ol class="stages" aria-label="Find a hint">'+['Question','Part','Hints'].map((name,index)=>'<li'+(active===index?' aria-current="step"':'')+'><span class="step-number" aria-hidden="true">'+(index+1)+'</span>'+name+'</li>').join('')+'</ol>';
+    }
+    function nextDestination(question,letter) {
+      const questionParts=questions[question].parts, index=questionParts.indexOf(letter);
+      if(index<questionParts.length-1) return { href:'#q'+question+'/'+questionParts[index+1], label:'Next part: ('+questionParts[index+1]+') →' };
+      if(question==='1') return { href:'#q2', label:'Continue to Question 2 →' };
+      return { href:'#', label:'Choose another question →' };
+    }
+    function render(focus=true) {
+      const {question,letter}=route(location.hash);
+      announcement.textContent='';
+      if (!question) {
+        document.title='Week 7 hints | ECF3900';
+        main.innerHTML=stages(0)+'<h1 tabindex="-1">Which question are you working on?</h1><p class="intro">Choose a question, then the part you need help with.</p><div class="questions">'+Object.entries(questions).map(([id,q])=>'<a class="question-card" href="#q'+id+'"><span class="number">Question '+id+'</span><h2>'+q.title+'</h2><span class="card-bottom"><span>Parts (a)–('+q.parts.at(-1)+')</span><span class="arrow" aria-hidden="true">→</span></span></a>').join('')+'</div>';
+      } else if (!letter) {
+        const nextQuestion=question==='1'?'<a class="nav-button next" href="#q2">Next question: Question 2 →</a>':'';
+        document.title='Question '+question+' hints | Week 7';
+        main.innerHTML=stages(1)+'<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#">← All questions</a></nav><p class="eyebrow">Question '+question+'</p><h1 tabindex="-1">'+questions[question].title+'</h1><p class="intro">Which part would you like a hint for?</p><div class="part-list">'+questions[question].parts.map(letter=>'<a class="part-link" href="#q'+question+'/'+letter+'"><span class="part-letter">('+letter+')</span><span class="part-title">'+escapeText(parts[question+letter].title)+'</span><span class="arrow" aria-hidden="true">→</span></a>').join('')+'</div><nav class="part-navigation" aria-label="Question navigation"><a class="nav-button back" href="#">← Back to question menu</a>'+nextQuestion+'</nav>';
+      } else {
+        const id=question+letter,part=parts[id],next=nextDestination(question,letter);
+        document.title='Question '+question+'('+letter+') hints | Week 7';
+        main.innerHTML=stages(2)+'<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#">All questions</a><span class="separator" aria-hidden="true">/</span><a href="#q'+question+'">Question '+question+'</a><span class="separator" aria-hidden="true">/</span><span aria-current="page">Part ('+letter+')</span></nav><p class="eyebrow">Question '+question+'('+letter+')</p><h1 tabindex="-1">'+escapeText(part.title)+'</h1><div class="question-text"><p>'+math(part.summary)+'</p></div><p class="hint-intro">Choose the kind of help you need. You can open any hint.</p><div class="hint-options" id="hint-options"></div><nav class="part-navigation" aria-label="Move between parts"><a class="nav-button back" href="#q'+question+'">← Back to Question '+question+'</a><a class="nav-button next" href="'+next.href+'">'+next.label+'</a></nav>';
+        renderHints(id);
+      }
+      if(focus) { window.scrollTo({top:0,behavior:'auto'}); main.querySelector('h1').focus({preventScroll:true}); }
+    }
+    function renderHints(id,focusHint=null,focusButton=null) {
+      const part=parts[id], open=revealed[id]||(revealed[id]=new Set());
+      document.getElementById('hint-options').innerHTML=part.hints.map((hint,index)=>{
+        const isOpen=open.has(index), buttonId='hint-button-'+index, panelId='hint-panel-'+index;
+        return '<section class="hint-option"><button class="hint-choice" type="button" id="'+buttonId+'" data-hint="'+index+'" aria-expanded="'+isOpen+'" aria-controls="'+panelId+'"><span><span class="choice-kind">'+escapeText(hint.category)+'</span><span class="choice-title">'+escapeText(hint.title)+'</span></span><span class="choice-action">'+(isOpen?'Hide':'Show')+' hint</span></button>'+(isOpen?'<div class="hint" id="'+panelId+'" role="region" aria-labelledby="'+buttonId+'" tabindex="-1"><p>'+math(hint.text)+'</p></div>':'')+'</section>';
+      }).join('');
+      document.querySelectorAll('.hint-choice').forEach(button=>button.addEventListener('click',()=>{
+        const index=Number(button.dataset.hint), isOpening=!open.has(index);
+        if(isOpening) open.add(index); else open.delete(index);
+        renderHints(id,isOpening?index:null,isOpening?null:index);
+      }));
+      if(focusHint!==null) { document.getElementById('hint-panel-'+focusHint).focus(); announcement.textContent=part.hints[focusHint].category+' hint shown.'; }
+      if(focusButton!==null) { document.getElementById('hint-button-'+focusButton).focus(); announcement.textContent=part.hints[focusButton].category+' hint hidden.'; }
+    }
+    window.addEventListener('hashchange',()=>{ if(location.hash==='#main'){main.querySelector('h1').focus();return;} render(); });
+    render(false);
+  </script>
+</body>
+</html>

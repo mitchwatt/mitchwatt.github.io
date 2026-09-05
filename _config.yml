@@ -192,6 +192,11 @@ collections:
 
 # Defaults
 defaults:
+  # Class materials remain accessible by link and are omitted from the XML sitemap.
+  - scope:
+      path: "teaching/ecf3900"
+    values:
+      sitemap: false
   # _posts
   - scope:
       path: ""
