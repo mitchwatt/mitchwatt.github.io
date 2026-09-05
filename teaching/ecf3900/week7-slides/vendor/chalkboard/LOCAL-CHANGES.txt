@@ -1,0 +1,18 @@
+Local extensions to Chalkboard 2.3.3 for ECF3900 Week 7, 4 September 2026
+
+Upstream commit: 5e5375a830eb8101836c10c1f3b56c71066c458e
+
+- Accept chalkEffect: 0 and skip the random texture pass for smooth strokes.
+- Allow a boardmarker to specify width and lineCap, with context save/restore.
+- Allow palette entries to specify a label, icon and separate paletteColor.
+- Initialize new drawing coordinates using the saved slide dimensions,
+  matching the existing reload transform so new annotations stay in place.
+
+The deck appends a translucent yellow highlighter as boardmarker index 7.
+Original pen indices 0-6 and the recorded drawing schema remain unchanged.
+The highlighter uses a flat-ended 26px stroke at 28% opacity. Flat ends keep
+straight segments from developing dark spots at every mouse-move join.
+Repeated passes or crossing strokes can deepen the highlight colour.
+
+The original MIT licence is retained in LICENSE. Preserve these local
+extensions when replacing the upstream plugin, or reapply them explicitly.

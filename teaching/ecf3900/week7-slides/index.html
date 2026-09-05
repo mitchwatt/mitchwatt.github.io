@@ -1,0 +1,1856 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Mitchell Watt">
+  <meta name="description" content="ECF3900 Week 7: Mergers and Competitive Effects. Editable, offline reveal.js presentation.">
+  <title>ECF3900 Week 7 — Merger Workshop</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="vendor/reveal/dist/reset.css">
+  <link rel="stylesheet" href="vendor/reveal/dist/reveal.css">
+  <link rel="stylesheet" href="vendor/katex/katex.min.css">
+  <link rel="stylesheet" href="vendor/fontawesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="vendor/fontawesome/css/solid.min.css">
+  <link rel="stylesheet" href="vendor/chalkboard/style.css">
+  <link rel="stylesheet" href="theme.css?v=20260905-r3">
+</head>
+<body>
+<!-- Each section below is one slide. Original slides retain their order;
+     continuation slides give dense calculations more space.
+     Math remains editable TeX in .math-inline / .math-display elements.
+     Source notes are in aside.notes. Keep vendor/, theme.css and deck.js beside this file.
+     Beamer pauses and column reveals use reveal.js fragments.
+     To insert a poll, copy the section from poll-template.html between two sections.
+     Do not run the converter again after making HTML edits. -->
+<div class="reveal"><div class="slides">
+
+<!-- Logical slide 1 of 103; Beamer title -->
+<section id="title" class="title-slide"><h1 class="course-title">ECF3900: Business, Competition and Regulation</h1><h2 class="week-title">Week 7: Mergers and Competitive Effects<br>Workshop</h2><p class="author">Mitchell Watt</p><p class="institution">Department of Economics<br>Monash University</p><p class="date">Semester 2, 2026</p></section>
+
+<!-- Arrival poll immediately after the title; original slide numbers are unchanged. -->
+<!-- Logical slide 2 of 103; Beamer poll -->
+<section id="poll-arrival-01" class="poll-slide poll-full-height" data-section="Before class" data-menu-title="Poll: opening results" data-poll-stage="results" aria-label="Poll Everywhere: opening results">
+<div class="slide-body poll-arrival-live-grid">
+<div class="poll-arrival-results">
+<div class="poll-embed">
+<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/LTe05F4yHd5UFlip8mxHG?controls=none&amp;short_poll=true" width="800" height="600" title="Poll Everywhere opening poll results"></iframe>
+</div>
+<p class="poll-fallback"><a href="https://embed.polleverywhere.com/multiple_choice_polls/LTe05F4yHd5UFlip8mxHG?controls=none&amp;short_poll=true" target="_blank" rel="noopener">Open results in a separate tab</a></p>
+</div>
+<figure class="poll-qr poll-arrival-qr">
+<a class="poll-qr-image-link" href="https://PollEv.com/mitchellwatt497" target="_blank" rel="noopener"><span class="poll-arrival-live-qr" role="img" aria-label="Poll Everywhere Live QR code for the opening video-game usage poll"></span></a>
+<figcaption>Scan to join</figcaption>
+<p class="poll-response-link"><a href="https://PollEv.com/mitchellwatt497" target="_blank" rel="noopener">PollEv.com/mitchellwatt497</a></p>
+</figure>
+</div>
+<aside class="notes"><p>Opening poll on video-game usage. Leave this slide visible as students arrive so they can scan the Poll Everywhere Live code while the class responses remain visible. Run Poll Everywhere Live, sign in, select the display showing this presentation and activate the opening activity. Students can also join at PollEv.com/mitchellwatt497.</p>
+<p>The activity requires internet access. The iframe stays loaded when navigating between slides. Manage activation, responses and answer display in Poll Everywhere. Advancing to this slide does not activate the activity automatically. Click outside the embed before using slide-navigation or drawing shortcuts.</p></aside>
+</section>
+
+<!-- Logical slide 3 of 103; Beamer divider -->
+<section id="section-2" class="section-divider" data-background-color="#bc5e27" data-section="Introduction"><h1>What are mergers and why do they matter?</h1></section>
+
+<!-- Logical slide 4 of 103; Beamer 1 -->
+<section id="slide-003" class="" data-section="Introduction" data-frame="1">
+<h2>What is a merger?</h2>
+<div class="slide-body">
+<ul>
+<li><p>A <strong>merger</strong> brings previously independent firms under common ownership.</p></li>
+<li><p>An <strong>acquisition</strong> transfers control of a firm, business or collection of assets to a buyer.</p></li>
+<li><p>The collective label <strong>mergers and acquisitions (M&amp;A)</strong> covers both forms of transaction.</p></li>
+</ul>
+<div class="spacer" data-size="bigskip"></div>
+<div class="fragment" data-fragment-index="0"><div class="block"><div class="block-title">Three broad forms</div><div class="block-body"><ul>
+<li><p><strong>Horizontal mergers</strong> combine current or potential competitors.</p></li>
+<li><p><strong>Vertical mergers</strong> combine firms at different supply-chain stages. (<em>Our focus next week.</em>)</p></li>
+<li><p><strong>Conglomerate mergers</strong> combine firms whose products occupy distinct markets.</p></li>
+</ul></div></div>
+<div class="spacer" data-size="bigskip"></div></div>
+<div class="fragment" data-fragment-index="1"><p>Internationally, around US$4.60 trillion in merger deals were announced in 2025, including 68 deals valued above $10 billion.</p></div>
+</div>
+</section>
+
+<!-- Logical slide 5 of 103; Beamer 2 -->
+<section id="slide-004" class="" data-section="Introduction" data-frame="2">
+<h2>Significant mergers can reshape industries for decades</h2>
+<div class="slide-body">
+<ul>
+<li><p><strong>Coles–Myer</strong> created a large diversified retail group in 1985; its later unwinding illustrates the difficulty of sustaining conglomerate synergies.</p></li>
+<li><p><strong>Google–YouTube</strong> combined a fast-growing video network with Google's search, advertising and technical infrastructure.</p></li>
+<li><p><strong>Facebook–Instagram</strong> and <strong>Facebook–WhatsApp</strong> placed major emerging social and messaging platforms inside Facebook's ecosystem.</p></li>
+<li><p><strong>Disney–21st Century Fox</strong> expanded Disney's content portfolio and accelerated its streaming strategy.</p></li>
+<li><p><strong>Microsoft–Activision Blizzard</strong> - more on this later on.</p></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 6 of 103; Beamer 3 -->
+<section id="slide-005" class="" data-section="Introduction" data-frame="3">
+<h2>Some proposed mergers are stopped by competition authorities</h2>
+<div class="slide-body">
+<ul>
+<li><p>The ACCC opposed <strong>Qantas–Alliance Airlines</strong> because Alliance was an important rival in charter air transport for resource-industry customers.</p></li>
+<li><p>The ACCC opposed the proposed acquisition of <strong>Kmart and Officeworks by Woolworths</strong>; the principal concerns arose from the Kmart overlaps.</p></li>
+<li><p><strong>Nvidia–Arm</strong> was abandoned after competition authorities raised concerns about rivals' access to Arm technology, sensitive information and future innovation.</p></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 7 of 103; Beamer divider -->
+<section id="section-6" class="section-divider" data-background-color="#bc5e27" data-section="Why firms merge"><h1>Why do firms merge? How do mergers create or capture value?</h1></section>
+
+<!-- Logical slide 8 of 103; Beamer 4 -->
+<section id="slide-007" class="equation-slide" data-section="Why firms merge" data-frame="4" data-body-size="33">
+<h2>Private merger incentives</h2>
+<div class="slide-body">
+<ul>
+<li><p>Let <span class="math-inline">V_A</span> and <span class="math-inline">V_B</span> be the values of firms A and B under continued independent ownership.</p></li>
+<li><p>Let <span class="math-inline">V_{A+B}</span> be their value under common ownership after integration costs.</p></li>
+<li><p>The <strong>private value gain</strong> from combining them is</p></li>
+</ul>
+<div class="math-display">\begin{aligned}
+    S&amp;=V_{A+B}-V_A-V_B.
+  \end{aligned}</div>
+<ul>
+<li><p>If Firm A buys Firm B for <span class="math-inline">V_B+\tau</span>, its private benefit from the transaction is <span class="math-inline">S-\tau</span>.</p></li>
+<li><p><span class="math-inline">S&gt;0</span> means the merged business is worth more than the two stand-alone firms and there is an incentive for the firms to merge.</p></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 9 of 103; Beamer 5 -->
+<section id="slide-008" class="" data-section="Why firms merge" data-frame="5">
+<h2>Some factors make mergers profitable and <em>increase</em> welfare</h2>
+<div class="slide-body">
+<ul>
+<li><p><strong>Cost synergies</strong> reduce fixed or marginal cost through economies of scale or scope, lower-cost plants, shared systems or removal of duplication.</p></li>
+<li><p><strong>Complementary assets</strong> become more productive together: technology and distribution, brands and geographic reach, or data combined with expertise or infrastructure.</p></li>
+<li><p><strong>Corporate control</strong> can replace bad management, redeploy underused assets or change investment discipline.</p></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 10 of 103; Beamer 6 -->
+<section id="slide-009" class="" data-section="Why firms merge" data-frame="6">
+<h2>Other factors make mergers profitable but <em>reduce</em> welfare</h2>
+<div class="slide-body">
+<ul>
+<li><p><strong>Market power</strong> can raise private profit by weakening a competitive constraint, increasing bargaining power or making coordination easier.</p></li>
+<li><p><strong>Managerial incentives</strong> can favour larger organisations through prestige, influence, compensation or job security.</p></li>
+<li><p><strong>Hubris</strong> can lead managers to overestimate synergies and underestimate integration costs.</p></li>
+<li><p><strong>Strategic and financial motives</strong> include:</p>
+<ul>
+<li><p>different valuations of the target;</p></li>
+<li><p>access to finance or highly valued shares;</p></li>
+<li><p>defensive acquisition when rivals are consolidating;</p></li>
+<li><p>an expectation that the buyer can manage the assets more effectively.</p></li>
+</ul></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 11 of 103; Beamer divider -->
+<section id="section-10" class="section-divider" data-background-color="#bc5e27" data-section="Assessing mergers"><h1>How do government assess and regulate mergers?</h1></section>
+
+<!-- Logical slide 12 of 103; Beamer 7 -->
+<section id="slide-011" class="" data-section="Assessing mergers" data-frame="7">
+<h2>Mergers can create substantial benefits</h2>
+<div class="slide-body">
+<div class="align-center"><div class="minipage" data-tex-width="0.88\textwidth"><div class="large"><div class="italic"><div class="align-left"><p>“<span class="text-group"></span>Mergers are important for the efficient functioning of our open market economy. They allow businesses to achieve greater economies of scale, and to access new resources, technology and expertise. Most mergers pose little or no risk to competition and are unlikely to harm consumers. In fact, many mergers are pro-competitive and enhance consumer welfare. The merger control regime aims to focus on the small number of mergers that undermine the competitive process and risk significant consumer detriment.”<span class="text-group"></span></p></div></div></div></div></div>
+<div class="spacer" data-size="0.9em" style="--space:0.9em"></div>
+<div class="align-right"><div class="small"><p>ACCC, <a href="https://www.accc.gov.au/system/files/merger-control-regime-assessment-guidelines.pdf" target="_blank" rel="noopener"><em>Merger assessment guidelines</em></a> (June 2025), p.&nbsp;2.</p></div></div>
+</div>
+</section>
+
+<!-- Logical slide 13 of 103; Beamer 8 -->
+<section id="slide-012" class="" data-section="Assessing mergers" data-frame="8">
+<h2>Australia requires advance notification of certain acquisitions</h2>
+<div class="slide-body">
+<ul>
+<li><p>The <strong>Australian Competition and Consumer Commission (ACCC)</strong> assesses acquisitions for their likely effect on competition.</p></li>
+<li><p>Since <strong>1 January 2026</strong>, Australia has a <strong>mandatory notification regime</strong>: acquisitions meeting the applicable requirements must be notified, subject to exemptions and notification waivers.</p></li>
+<li><p>The main thresholds use Australian revenue and transaction value (approx. $200 million / $500 million); a sequence of smaller acquisitions can also trigger notification.</p></li>
+<li><p>The regime is <strong>suspensory</strong>: parties must wait until approval takes effect before completing a notified acquisition.</p></li>
+<li><p><strong>Phase 1</strong> is the initial review. Acquisitions requiring further investigation move to an in-depth <strong>Phase 2</strong>.</p></li>
+<li><p>ACCC Decisions can be challenged in the Australian Competition Tribunal.</p></li>
+</ul>
+<div class="block"><div class="block-title">The assessment question</div><div class="block-body"><p>Would the merger <strong>substantially lessen competition</strong>? Even so, does it produce a <strong>net public benefit</strong>?</p></div></div>
+</div>
+</section>
+
+<!-- Logical slide 14 of 103; Beamer 9 -->
+<section id="slide-013" class="" data-section="Assessing mergers" data-frame="9">
+<h2>Most reviewed mergers are cleared without conditions</h2>
+<div class="slide-body">
+<ul>
+<li><p>Authorities can <strong>clear</strong> a merger, require <strong>remedies</strong> that address competition concerns (such as selling an overlapping business), or challenge or prohibit it.</p></li>
+</ul>
+<div class="spacer" data-size="0.5em" style="--space:0.5em"></div>
+<p>Internationally, OECD CompStats records about 91,000 merger decisions across 59 jurisdictions during 2015–2024:</p>
+<div class="columns"><div class="column" data-tex-width="0.32\textwidth"><div class="block"><div class="block-title">97.98%</div><div class="block-body"><p>Cleared unconditionally</p></div></div></div>
+<div class="column" data-tex-width="0.32\textwidth"><div class="block"><div class="block-title">1.76%</div><div class="block-body"><p>Cleared with remedies</p></div></div></div>
+<div class="column" data-tex-width="0.32\textwidth"><div class="block"><div class="block-title">0.25%</div><div class="block-body"><p>Challenged or prohibited</p></div></div></div></div>
+<div class="smallnote"><p>Sources: OECD, <a href="https://www.oecd.org/en/publications/a-decade-of-oecd-competition-trends-data-and-insights_05021ff2-en/full-report/component-6.html" target="_blank" rel="noopener"><em>A Decade of OECD Competition Trends, Data and Insights</em></a> (2025).</p></div>
+</div>
+<aside class="notes"><p>[Sources]</p>
+<p><a href="https://www.oecd.org/en/publications/a-decade-of-oecd-competition-trends-data-and-insights_05021ff2-en/full-report/component-6.html" target="_blank" rel="noopener">https://www.oecd.org/en/publications/a-decade-of-oecd-competition-trends-data-and-insights_05021ff2-en/full-report/component-6.html</a></p>
+<p><a href="https://www.accc.gov.au/business/mergers-and-acquisitions/assessment-process-and-review-timelines" target="_blank" rel="noopener">https://www.accc.gov.au/business/mergers-and-acquisitions/assessment-process-and-review-timelines</a></p>
+<p>[/Sources]</p></aside>
+</section>
+
+<!-- Logical slide 15 of 103; Beamer 10 -->
+<section id="slide-014" class="" data-section="Assessing mergers" data-frame="10">
+<h2>Key questions for merger analysis</h2>
+<div class="slide-body">
+<ol>
+<li><p><strong>Market definition:</strong> Which products and geographic areas form the relevant market?</p></li>
+<li><p><strong>Concentration:</strong> How much would the merger change market shares and concentration?</p></li>
+<li><p><strong>Counterfactual:</strong> How would competition develop without the merger?</p></li>
+<li><p><strong>Competitive effects:</strong> Would losing an independent competitor increase prices, reduce quality or innovation, or make coordination easier?</p></li>
+<li><p><strong>Remaining competitive constraints:</strong> Could rivals expand, new firms enter, or powerful buyers constrain the merged firm?</p></li>
+<li><p><strong>Efficiencies:</strong> Could the merger lower costs or improve products, and would consumers benefit?</p></li>
+</ol>
+</div>
+</section>
+
+<!-- Logical slide 16 of 103; Beamer divider -->
+<section id="section-15" class="section-divider" data-background-color="#bc5e27" data-section="Market definition"><h1>Market Definition</h1></section>
+
+<!-- Logical slide 17 of 103; Beamer 11 -->
+<section id="slide-016" class="" data-section="Market definition" data-frame="11">
+<h2>Market definition is about substitution</h2>
+<div class="slide-body">
+<ul>
+<li><p><strong>Market definition</strong> identifies the product group and geographic area within which the effects on competition are assessed.</p></li>
+<li><p>In Australian law, a market includes goods or services that are “substitutable for, or otherwise competitive with” those under assessment (Competition and Consumer Act 2010 (Cth), s.&nbsp;4E).</p></li>
+<li><p>Market definition has a major effect on the estimation of market shares and concentration.</p></li>
+</ul>
+<div class="spacer" data-size="medskip"></div>
+<div class="fragment" data-fragment-index="0"><p><strong>Two well-known disputes</strong></p>
+<ul>
+<li><p><strong>Staples/Office Depot (US merger, 1997):</strong> Office supplies sold through specialist superstores, or all retailers selling the same pens and paper? How readily would customers switch between these stores?</p></li>
+<li><p><strong>Epic v Apple (US conduct case, 2021):</strong> Epic proposed an iPhone/iPad app-distribution market; Apple argued for all video-game transactions. Are Android devices, consoles and PCs close enough substitutes?</p></li>
+</ul></div>
+</div>
+</section>
+
+<!-- Poll inserted after numbered slide 11; original slide numbers are unchanged. -->
+<!-- Logical slide 18 of 103; Beamer poll -->
+<section id="poll-market-definition-question-01" class="poll-slide poll-question-slide case-discussion" data-section="Market definition" data-menu-title="Poll: Sony market definition question" data-poll-stage="question" aria-labelledby="sony-poll-question">
+<h2 id="sony-poll-question">Suppose Sony opposed Microsoft's acquisition of Activision. Which argument about market definition is Sony most likely to make?</h2>
+<div class="slide-body poll-question-grid">
+<ol class="poll-options" type="A">
+<li>Console, PC, and mobile games all belong to one broad market because they all compete for players’ time.</li>
+<li>AAA console first-person shooter games form a separate market because other types of games are poor substitutes.</li>
+<li>Video games compete in a wider entertainment market that includes films, television, and social media.</li>
+<li>First-person shooter games and other genres belong to one market because many players enjoy several genres.</li>
+</ol>
+<figure class="poll-qr">
+<a class="poll-qr-image-link" href="https://PollEv.com/mitchellwatt497" target="_blank" rel="noopener"><span class="poll-live-qr" role="img" aria-label="Poll Everywhere Live QR code for the Sony market-definition question"></span></a>
+<figcaption>Scan to join</figcaption>
+<p class="poll-response-link"><a href="https://PollEv.com/mitchellwatt497" target="_blank" rel="noopener">PollEv.com/mitchellwatt497</a></p>
+</figure>
+</div>
+<aside class="notes"><p>Run Poll Everywhere Live and sign in before class. With this slide visible on the display the app monitors, use the app's floating control to activate the Sony activity. Students join at PollEv.com/mitchellwatt497. Give them time to choose an answer, then use Poll Everywhere Live to show and discuss the responses. Lock the activity when you want voting to finish. The next slide introduces the Hypothetical Monopolist Test.</p>
+<p>Question and choices supplied in “Screenshot 2026-09-04 at 5.35.11 PM.png”. The Live QR image and presenter URL were supplied by Mitchell Watt on 4 September 2026. Student login and response availability follow the settings in Poll Everywhere.</p>
+<p><a href="https://support.polleverywhere.com/hc/en-us/articles/46042587174683-Poll-Everywhere-Live-App-Presenting-with-Slides">Poll Everywhere Live presentation guidance</a></p></aside>
+</section>
+
+<!-- Logical slide 19 of 103; Beamer 12 -->
+<section id="slide-017" class="" data-section="Market definition" data-frame="12">
+<h2>Market definitions often uses a “Hypothetical Monopolist Test” (HMT)</h2>
+<div class="slide-body">
+<ul>
+<li><p>Begin with a narrow plausible <strong>candidate market</strong>.</p></li>
+<li><p>Treat every product and location inside the candidate as controlled by one hypothetical monopolist.</p></li>
+<li><p>Apply a <strong>small but significant and non-transitory increase in price (SSNIP)</strong>, commonly 5 per cent.</p></li>
+<li><p>Under the HMT, the market is the smallest set of products for which a hypothetical monopolist could profitably impose a SSNIP.</p></li>
+<li><p>Compare:</p>
+<ul>
+<li><p>the higher margin on retained sales;</p></li>
+<li><p>the lost margin when customers switch outside the candidate.</p></li>
+</ul></li>
+<li><p>A <em>profitable</em> SSNIP means the candidate passes the test.</p></li>
+<li><p>Otherwise, add the closest outside substitute and repeat the analysis.</p></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 20 of 103; Beamer 13 -->
+<section id="slide-018" class="poll-slide poll-question-slide hmt-poll-question-slide equation-slide" data-section="Market definition" data-frame="13" data-menu-title="Poll: HMT profit change" data-poll-stage="question" aria-labelledby="hmt-poll-heading">
+<h2 id="hmt-poll-heading">Worked example: the hypothetical monopolist test</h2>
+<div class="slide-body poll-question-grid">
+<div class="hmt-poll-content">
+<p>Demand for products A and B is</p>
+<div class="math-display">\begin{aligned}
+    q_A&amp;=1700-70p_A+20p_B,\\
+    q_B&amp;=1700+20p_A-70p_B.
+  \end{aligned}</div>
+<p>Initially, <span class="math-inline">p_A=p_B=\$20</span>. Both products have constant marginal cost $10. Ignore fixed costs.</p>
+<p class="hmt-poll-question"><strong>A hypothetical monopolist controlling A raises its price by 5%, while B’s price stays at $20. How does A’s profit change?</strong></p>
+<ol class="poll-options" type="A">
+<li>It increases by $70.</li>
+<li>It increases by $700.</li>
+<li>It decreases by $700.</li>
+<li>It decreases by $70.</li>
+</ol>
+</div>
+<figure class="poll-qr hmt-poll-qr">
+<a class="poll-qr-image-link" href="https://PollEv.com/mitchellwatt497" target="_blank" rel="noopener"><span class="poll-hmt-live-qr" role="img" aria-label="Poll Everywhere Live QR code for the HMT profit-change question"></span></a>
+<figcaption>Scan to join</figcaption>
+<p class="poll-response-link"><a href="https://PollEv.com/mitchellwatt497" target="_blank" rel="noopener">PollEv.com/mitchellwatt497</a></p>
+</figure>
+</div>
+<aside class="notes"><p>With this slide visible on the display monitored by Poll Everywhere Live, activate the HMT profit-change activity. Let students calculate before they answer. Once voting closes, use Poll Everywhere Live to show the distribution of responses, then advance to the solution.</p>
+<p>The correct answer is D. A initially earns $7,000. After the price rises from $20 to $21, A sells 630 units and earns $6,930, so profit decreases by $70.</p>
+<p>The Live QR image and presenter URL were supplied by Mitchell Watt on 5 September 2026. Student login and response availability follow the settings in Poll Everywhere.</p></aside>
+</section>
+
+<!-- Logical slide 21 of 103; Beamer 14 -->
+<section id="slide-019" class="equation-slide" data-section="Market definition" data-frame="14">
+<h2>Solution: A’s profit decreases by $70</h2>
+<div class="slide-body">
+<p>First calculate the initial quantity at <span class="math-inline">p_A=p_B=\$20</span>: each product sells <span class="math-inline">1700-70(20)+20(20)=700</span> units.</p>
+<div class="fragment calc-step" data-fragment-index="0">
+<p>Multiply the margin by quantity: A earns <span class="math-inline">\pi_A^0=(20-10)(700)=\$7{,}000</span>. B earns the same.</p>
+</div>
+<div class="fragment calc-step" data-fragment-index="1">
+<p>A 5 per cent SSNIP raises A's price from $20 to $21 while B remains at $20.</p>
+<p>New quantity: <span class="math-inline">q_A(21,20)=1700-70(21)+20(20)=630</span>.</p>
+</div>
+<div class="fragment calc-step" data-fragment-index="2">
+<p>Use the new margin and quantity to calculate profit:</p>
+<p><span class="math-inline">\pi_A^1=(21-10)(630)=\$6{,}930</span>.</p>
+</div>
+<div class="fragment calc-step" data-fragment-index="3">
+<div class="block"><div class="block-title">Conclusion</div><div class="block-body"><p><strong>Answer D.</strong> The SSNIP reduces profit by $70. A alone fails as a candidate market, so we add B, its closest substitute.</p></div></div>
+</div>
+</div>
+</section>
+
+<!-- Poll inserted after numbered slide 14; original slide numbers are unchanged. -->
+<!-- Logical slide 22 of 103; Beamer poll -->
+<section id="poll-hmt-combined-profit-01" class="poll-slide poll-question-slide hmt-poll-question-slide equation-slide" data-section="Market definition" data-menu-title="Poll: HMT combined profit" data-poll-stage="question" aria-labelledby="hmt-combined-poll-heading">
+<h2 id="hmt-combined-poll-heading">Worked example: the hypothetical monopolist test</h2>
+<div class="slide-body poll-question-grid">
+<div class="hmt-poll-content">
+<p>Demand for products A and B is</p>
+<div class="math-display">\begin{aligned}
+    q_A&amp;=1700-70p_A+20p_B,\\
+    q_B&amp;=1700+20p_A-70p_B.
+  \end{aligned}</div>
+<p>Initially, <span class="math-inline">p_A=p_B=\$20</span>. Both products have constant marginal cost $10. Ignore fixed costs.</p>
+<p class="hmt-poll-question"><strong>A hypothetical monopolist controlling both products raises both prices by 5%. What is the new combined profit?</strong></p>
+<ol class="poll-options" type="A">
+<li>$14,300</li>
+<li>$13,860</li>
+<li>$7,150</li>
+<li>$14,000</li>
+</ol>
+</div>
+<figure class="poll-qr hmt-poll-qr">
+<a class="poll-qr-image-link" href="https://PollEv.com/mitchellwatt497" target="_blank" rel="noopener"><span class="poll-hmt-combined-live-qr" role="img" aria-label="Poll Everywhere Live QR code for the HMT combined-profit question"></span></a>
+<figcaption>Scan to join</figcaption>
+<p class="poll-response-link"><a href="https://PollEv.com/mitchellwatt497" target="_blank" rel="noopener">PollEv.com/mitchellwatt497</a></p>
+</figure>
+</div>
+<aside class="notes"><p>With this slide visible on the display monitored by Poll Everywhere Live, activate the HMT combined-profit activity. Let students calculate before they answer. Once voting closes, use Poll Everywhere Live to show the distribution of responses, then advance to the solution.</p>
+<p>The correct answer is A. Raising both prices to $21 gives quantities of 650 for each product. New combined profit is 2(21-10)(650)=$14,300.</p>
+<p>The Live QR image and presenter URL were supplied by Mitchell Watt on 5 September 2026. Student login and response availability follow the settings in Poll Everywhere.</p></aside>
+</section>
+
+<!-- Logical slide 23 of 103; Beamer 15 -->
+<section id="slide-020" class="equation-slide" data-section="Market definition" data-frame="15">
+<h2>Solution: combined profit is $14,300</h2>
+<div class="slide-body">
+<p>A alone fails, so expand the candidate market to A and B. Raise <em>both</em> prices from $20 to $21 and compare joint profit.</p>
+<div class="fragment calc-step" data-fragment-index="0">
+<p>Substitute both new prices into demand:</p>
+<p><span class="math-inline">q_A=q_B=1700-70(21)+20(21)=650</span>.</p>
+</div>
+<div class="fragment calc-step" data-fragment-index="1">
+<p>Initial joint profit: <span class="math-inline">\Pi^0=2(20-10)(700)=\$14{,}000</span>.</p>
+</div>
+<div class="fragment calc-step" data-fragment-index="2">
+<p>New joint profit: <span class="math-inline">\Pi^1=2(21-10)(650)=\$14{,}300</span>.</p>
+</div>
+<div class="fragment calc-step" data-fragment-index="3">
+<div class="block"><div class="block-title">Conclusion</div><div class="block-body"><p><strong>Answer A.</strong> The common price increase raises joint profit by $300, so the candidate market containing A and B passes the HMT.</p></div></div>
+</div>
+</div>
+</section>
+
+<!-- Logical slide 24 of 103; Beamer 16 -->
+<section id="slide-021" class="case-discussion discussion-prompt plain-slide" data-background-color="#e8c7b3" data-section="Market definition" data-frame="16">
+
+<div class="slide-body">
+<div class="align-center"><div class="minipage" data-tex-width="0.47\textwidth"><div class="align-center"><p><img src="figures/microsoft-activision/xbox-series-x.jpg" alt="Xbox Series X console and controller" style="width:100%;height:auto"></p>
+<div class="spacer" data-size="0.18cm"></div>
+<p><span class="text-group"><span class="tex-font" style="font-size:1.4em;line-height:1.2142857142857142"><span class="bold">Microsoft</span></span></span></p></div></div>
+<div class="minipage" data-tex-width="0.47\textwidth"><div class="align-center"><p><img src="figures/microsoft-activision/call-of-duty-mwii.jpg" alt="Call of Duty: Modern Warfare II" style="width:100%;height:auto"></p>
+<div class="spacer" data-size="0.18cm"></div>
+<p><span class="text-group"><span class="tex-font" style="font-size:1.4em;line-height:1.2142857142857142"><span class="bold">Activision</span></span></span></p></div></div>
+<div class="spacer" data-size="0.6cm"></div>
+<p><span class="text-group"><span class="tex-font" style="font-size:1.7em;line-height:1.2941176470588236"><span class="bold">Which markets would you examine in this merger,<br> and who are the main competitors in each?</span></span></span></p></div>
+</div>
+<aside class="notes"><p>Open discussion of market definition and competitors in the Microsoft/Activision merger. Follow-up prompts and the reading's chart appear on the next slide.</p>
+<p>[Sources]</p>
+<p>Xbox Series X promotional image, Microsoft/Xbox Wire (12 December 2019).</p>
+<p><a href="https://news.xbox.com/en-us/2019/12/12/microsoft-unveils-xbox-series-x/" target="_blank" rel="noopener">https://news.xbox.com/en-us/2019/12/12/microsoft-unveils-xbox-series-x/</a></p>
+<p>Call of Duty: Modern Warfare II promotional artwork, Activision, via Xbox Wire (8 June 2022).</p>
+<p><a href="https://news.xbox.com/en-us/2022/06/08/announcing-call-of-duty-modern-warfare-ii/" target="_blank" rel="noopener">https://news.xbox.com/en-us/2022/06/08/announcing-call-of-duty-modern-warfare-ii/</a></p>
+<p>[/Sources]</p></aside>
+</section>
+
+<!-- Logical slide 25 of 103; Beamer 17 -->
+<section id="slide-022" class="case-discussion" data-background-color="#e8c7b3" data-section="Market definition" data-frame="17">
+<h2>Microsoft/Activision: questions to consider</h2>
+<div class="slide-body">
+<div class="columns"><div class="column" data-tex-width="0.66\textwidth"><ul>
+<li><p><strong>Mobile vs PC vs console games?</strong> How readily would players switch between them?</p></li>
+<li><p><strong>Cloud gaming vs downloaded games?</strong> What about subscription services offering libraries of games?</p></li>
+<li><p><strong>All games, high-budget (AAA) games, or particular genres?</strong></p></li>
+<li><p><strong>Substitution:</strong> which products would consumers switch between? What evidence would help us decide?</p></li>
+</ul>
+<div class="spacer" data-size="medskip"></div>
+<p><strong>Potential competitors, depending on the market:</strong></p>
+<ul>
+<li><p>Game publishing: EA, Sony, Nintendo, Take-Two, Ubisoft, Epic Games.</p></li>
+<li><p>Consoles: Sony, Nintendo.</p></li>
+<li><p>Cloud gaming: Nvidia, Amazon, Sony.</p></li>
+</ul></div>
+<div class="column" data-tex-width="0.31\textwidth"><div class="align-center"><p><img src="figures/microsoft-activision/economist-market-shares-2022.png" alt="The Economist chart: worldwide gaming console and subscription-service shares, 2022" style="height:420px;width:auto;max-width:100%;object-fit:contain"></p>
+<div class="spacer" data-size="smallskip"></div>
+<p><span class="text-group"><span class="scriptsize"><a href="https://www.economist.com/business/2022/11/29/microsoft-activision-blizzard-and-the-future-of-gaming" target="_blank" rel="noopener"><em>The Economist</em>, 29 November 2022.</a></span></span></p></div></div></div>
+</div>
+<aside class="notes"><p>Questions and candidate competitors refer to the 2022–23 merger review. Invite students to explain substitution before choosing boundaries. The chart compares consoles in use (forecast) and subscription services (Q2), both for 2022. These are different activities and measures from the publishing shares in the later HHI exercise. Cloud streaming and subscription libraries are overlapping concepts: a library may support downloads, streaming or both.</p>
+<p>[Sources]</p>
+<p><a href="https://ec.europa.eu/competition/mergers/cases1/202330/M_10646_9311516_7443_3.pdf" target="_blank" rel="noopener">https://ec.europa.eu/competition/mergers/cases1/202330/M_10646_9311516_7443_3.pdf</a></p>
+<p>Chart reproduced from the user-supplied reading, <em>Microsoft, Activision Blizzard and the future of gaming</em>, The Economist, 29 November 2022; underlying sources Omdia and Ampere Analysis.</p>
+<p><a href="https://www.economist.com/business/2022/11/29/microsoft-activision-blizzard-and-the-future-of-gaming" target="_blank" rel="noopener">https://www.economist.com/business/2022/11/29/microsoft-activision-blizzard-and-the-future-of-gaming</a></p>
+<p>[/Sources]</p></aside>
+</section>
+
+<!-- Logical slide 26 of 103; Beamer divider -->
+<section id="section-23" class="section-divider" data-background-color="#bc5e27" data-section="Concentration"><h1>Concentration</h1></section>
+
+<!-- Logical slide 27 of 103; Beamer 18 -->
+<section id="slide-024" class="" data-section="Concentration" data-frame="18">
+<h2>Market shares help us assess concentration</h2>
+<div class="slide-body">
+<ul>
+<li><p>A firm's <strong>market share</strong> is its sales as a percentage of total sales in the relevant market.</p></li>
+<li><p>We can calculate shares using sales revenue or units sold, using the same measure for all firms.</p></li>
+<li><p>Looking at the shares of all firms is a common way to assess <strong>market concentration</strong>: the extent to which sales are accounted for by a small number of firms.</p></li>
+<li><p>A market where a few firms account for most sales is more concentrated than one where sales are spread across many similarly sized firms.</p></li>
+<li><p><strong>Market definition is vital:</strong> the products and geographic areas included determine which sales and firms we count, and hence the shares and concentration we measure.</p></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 28 of 103; Beamer 19 -->
+<section id="slide-025" class="equation-slide" data-section="Concentration" data-frame="19">
+<h2>A common approach: HHI</h2>
+<div class="slide-body">
+<p>With percentage market shares <span class="math-inline">s_i</span>, the <strong>Herfindahl–Hirschman Index</strong> is</p>
+<div class="math-display">\begin{aligned}
+    HHI=\sum_{i=1}^{n}s_i^2.
+  \end{aligned}</div>
+<ul>
+<li><p>Squaring makes the index sensitive to both the number of firms and inequality in their sizes. The HHI gives greater weight to larger firms.</p></li>
+<li><p>With percentage shares, the HHI ranges from close to zero to 10,000.</p></li>
+<li><p>Five equal firms each with 20 per cent have <span class="math-inline">HHI=5(20^2)=2000</span>.</p></li>
+<li><p>The ACCC treats an HHI above 2,000 as highly concentrated and an increase above 100 points as significant for screening purposes.</p></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 29 of 103; Beamer 20 -->
+<section id="hhi-summary" class="equation-slide" data-section="Concentration" data-frame="20">
+<h2>Another justification for HHI</h2>
+<div class="slide-body">
+<p>In the Cournot model, concentration is linked to firms' markups.</p>
+<p>Firm <span class="math-inline">i</span>'s <strong>Lerner index</strong> is <span class="math-inline">L_i=(P-c_i)/P</span>, and its output share is <span class="math-inline">s_i=q_i/Q</span>.</p>
+<p>Absolute market-demand elasticity is <span class="math-inline">\varepsilon=-\dfrac{dQ}{dP}\dfrac{P}{Q}&gt;0</span>.</p>
+<p>With HHI on the 0–10,000 scale:</p>
+<div class="math-display">\sum_i s_iL_i=\frac{HHI}{10{,}000\varepsilon}.</div>
+<ul>
+<li><p>Holding demand elasticity fixed, a higher HHI is associated with higher markups.</p></li>
+<li><p><strong>Caution:</strong> a cost reduction at one firm can let it gain market share, raising HHI even while prices fall and welfare improves.</p></li>
+</ul>
+<p><a class="button" href="#/hhi-derivation">Derivation</a></p>
+</div>
+<aside class="notes"><p>[Sources]</p>
+<p><a href="https://ocw.mit.edu/courses/14-271-industrial-organization-i-fall-2022/mit14_271_f22_lec5slides.pdf" target="_blank" rel="noopener">https://ocw.mit.edu/courses/14-271-industrial-organization-i-fall-2022/mit14_271_f22_lec5slides.pdf</a></p>
+<p>[/Sources]</p></aside>
+</section>
+
+<!-- Logical slide 30 of 103; Beamer 21 -->
+<section id="slide-027" class="equation-slide" data-section="Concentration" data-frame="21">
+<h2>A two-firm merger raises HHI by twice the share product</h2>
+<div class="slide-body">
+<p>Suppose firms A and B have shares <span class="math-inline">s_A</span> and <span class="math-inline">s_B</span> and all other shares remain unchanged.</p>
+<div class="fragment calc-step" data-fragment-index="0">
+<p>Replace their separate contributions with the square of their combined share:</p>
+<div class="math-display">\Delta HHI=(s_A+s_B)^2-s_A^2-s_B^2.</div>
+</div>
+<div class="fragment calc-step" data-fragment-index="1">
+<p>Expand the square:</p>
+<div class="math-display">\Delta HHI=s_A^2+2s_As_B+s_B^2-s_A^2-s_B^2.</div>
+</div>
+<div class="fragment calc-step" data-fragment-index="2">
+<p>Cancel the two original squared shares: <span class="math-inline">\Delta HHI=2s_As_B</span>.</p>
+</div>
+<div class="fragment calc-step" data-fragment-index="3">
+<ul>
+<li><p>The increment is larger when either merging firm is larger.</p></li>
+<li><p>The formula measures the structural change created by placing the two shares under common ownership.</p></li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- Logical slide 31 of 103; Beamer 22 -->
+<section id="slide-028" class="case-discussion poll-slide poll-question-slide hhi-poll-question-slide" data-background-color="#e8c7b3" data-section="Concentration" data-frame="22" data-menu-title="Poll: pre-merger HHI" data-poll-stage="question" aria-labelledby="hhi-pre-poll-heading">
+<h2 id="hhi-pre-poll-heading">Microsoft/Activision: pre-merger HHI</h2>
+<div class="slide-body poll-question-grid">
+<div class="hhi-poll-content">
+<p>Consider worldwide <strong>AAA (high-budget) console-game publishing</strong> in 2022. Use these illustrative revenue shares:</p>
+<ul class="hhi-share-list">
+<li><p>Electronic Arts: 25%</p></li>
+<li><p>Nintendo: 15%</p></li>
+<li><p><strong>Activision Blizzard: 10%</strong></p></li>
+<li><p><strong>Microsoft: 5%</strong></p></li>
+<li><p>Nine other publishers: 5% each</p></li>
+</ul>
+<p class="hhi-poll-question"><strong>What is the pre-merger HHI?</strong></p>
+</div>
+<figure class="poll-qr hhi-poll-qr">
+<a class="poll-qr-image-link" href="https://PollEv.com/mitchellwatt497" target="_blank" rel="noopener"><span class="poll-hhi-pre-live-qr" role="img" aria-label="Poll Everywhere Live QR code for the pre-merger HHI question"></span></a>
+<figcaption>Scan to join</figcaption>
+<p class="poll-response-link"><a href="https://PollEv.com/mitchellwatt497" target="_blank" rel="noopener">PollEv.com/mitchellwatt497</a></p>
+</figure>
+</div>
+<aside class="notes"><p>The Poll Everywhere Live app should detect the supplied activity code. Activate the pre-merger HHI poll, show the responses, and then advance to the solution.</p>
+<p>Market: worldwide AAA console-game development and publishing, 2022 revenue shares. The named-firm shares are whole-number assumptions selected within the public bands, with endpoints used for simple arithmetic. The published bands are Microsoft 0–5; Activision Blizzard 10–20; combined 10–20; Nintendo 10–20; Electronic Arts 20–30; Take-Two, Sony and Ubisoft 5–10 each; Epic Games, Bandai Namco and Embracer 0–5 each; Others 10–20. The residual 15 per cent is assumed to belong to three separate publishers at 5 per cent each. The full HHI levels depend on this teaching assumption; the increment depends only on the merging parties' shares. The EC table uses estimated revenues, including forecasts for rivals (footnote 155).</p>
+<p>[Sources]</p>
+<p><a href="https://ec.europa.eu/competition/mergers/cases1/202330/M_10646_9311516_7443_3.pdf" target="_blank" rel="noopener">https://ec.europa.eu/competition/mergers/cases1/202330/M_10646_9311516_7443_3.pdf</a></p>
+<p>[/Sources]</p></aside>
+</section>
+
+<!-- Logical slide 32 of 103; Beamer 23 -->
+<section id="slide-029" class="case-discussion equation-slide" data-background-color="#e8c7b3" data-section="Concentration" data-frame="23">
+<h2>Solution: pre-merger HHI</h2>
+<div class="slide-body">
+<p>Square each publisher's market share and add the results:</p>
+<div class="math-display">HHI_{\mathrm{pre}}=25^2+15^2+10^2+5^2+9(5^2).</div>
+<div class="fragment calc-step" data-fragment-index="0">
+<div class="math-display">HHI_{\mathrm{pre}}=625+225+100+25+225.</div>
+</div>
+<div class="fragment calc-step" data-fragment-index="1">
+<p class="calculation-answer">The pre-merger HHI is <span class="math-inline">1200</span>.</p>
+</div>
+</div>
+<aside class="notes"><p>This calculation uses the assumptions on the preceding slide. The illustrative shares sum to 100 per cent.</p></aside>
+</section>
+
+<!-- Logical slide 33 of 103; additional poll slide -->
+<section id="poll-hhi-post-merger-01" class="case-discussion poll-slide poll-question-slide hhi-poll-question-slide" data-background-color="#e8c7b3" data-section="Concentration" data-menu-title="Poll: post-merger HHI" data-poll-stage="question" aria-labelledby="hhi-post-poll-heading">
+<h2 id="hhi-post-poll-heading">Microsoft/Activision: post-merger HHI</h2>
+<div class="slide-body poll-question-grid">
+<div class="hhi-poll-content">
+<p>Now suppose Microsoft acquires Activision Blizzard. Their combined market share is 15%, while every other share remains unchanged:</p>
+<ul class="hhi-share-list">
+<li><p>Electronic Arts: 25%</p></li>
+<li><p>Nintendo: 15%</p></li>
+<li><p><strong>Microsoft/Activision Blizzard: 15%</strong></p></li>
+<li><p>Nine other publishers: 5% each</p></li>
+</ul>
+<p class="hhi-poll-question"><strong>What is the post-merger HHI?</strong></p>
+</div>
+<figure class="poll-qr hhi-poll-qr">
+<a class="poll-qr-image-link" href="https://PollEv.com/mitchellwatt497" target="_blank" rel="noopener"><span class="poll-hhi-post-live-qr" role="img" aria-label="Poll Everywhere Live QR code for the post-merger HHI question"></span></a>
+<figcaption>Scan to join</figcaption>
+<p class="poll-response-link"><a href="https://PollEv.com/mitchellwatt497" target="_blank" rel="noopener">PollEv.com/mitchellwatt497</a></p>
+</figure>
+</div>
+<aside class="notes"><p>The Poll Everywhere Live app should detect the supplied activity code. Activate the post-merger HHI poll, show the responses, and then advance to the solution.</p></aside>
+</section>
+
+<!-- Logical slide 34 of 103; Beamer 23 continued -->
+<section id="slide-029-continued" class="case-discussion equation-slide continuation" data-background-color="#e8c7b3" data-section="Concentration" data-frame="23" data-part="2">
+<h2>Solution: post-merger HHI</h2>
+<div class="slide-body">
+<p>The merger replaces the separate 5% and 10% shares with one 15% share:</p>
+<div class="math-display">HHI_{\mathrm{post}}=25^2+15^2+15^2+9(5^2).</div>
+<div class="fragment calc-step" data-fragment-index="0">
+<div class="math-display">HHI_{\mathrm{post}}=625+225+225+225=1300.</div>
+</div>
+<div class="fragment calc-step" data-fragment-index="1">
+<p>The merger raises HHI by <span class="math-inline">1300-1200=100</span>.</p>
+<p>Check: <span class="math-inline">\Delta HHI=2s_As_B=2(5)(10)=100</span>.</p>
+</div>
+</div>
+<aside class="notes"><p>This example concerns the horizontal overlap in publishing. The EC found no horizontal competition concerns; its concerns centred on access to games through cloud streaming and related PC operating-system effects. A small HHI increment in this broad publishing market does not settle those other issues or the assessment of narrower genres.</p>
+<p>[Sources]</p>
+<p><a href="https://ec.europa.eu/competition/mergers/cases1/202330/M_10646_9311516_7443_3.pdf" target="_blank" rel="noopener">https://ec.europa.eu/competition/mergers/cases1/202330/M_10646_9311516_7443_3.pdf</a></p>
+<p><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023M10646(02)" target="_blank" rel="noopener">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023M10646(02)</a></p>
+<p>[/Sources]</p></aside>
+</section>
+
+<!-- Logical slide 35 of 103; Beamer 24 -->
+<section id="slide-030" class="case-discussion" data-background-color="#e8c7b3" data-section="Concentration" data-frame="24">
+<h2>Microsoft/Activision: what does the HHI tell us?</h2>
+<div class="slide-body">
+<p><strong>What does this calculation tell us about the horizontal effects, and what does it miss?</strong></p>
+<div class="spacer" data-size="bigskip"></div>
+<ul>
+<li><p>How much weight would you put on the change in HHI?</p></li>
+<li><p>What else would you want to know about rivalry between Microsoft and Activision's games?</p></li>
+<li><p>Could your conclusion change under a different market definition?</p></li>
+</ul>
+</div>
+<aside class="notes"><p>Keep this slide as an open discussion before revealing the interpretation on the next slide.</p></aside>
+</section>
+
+<!-- Logical slide 36 of 103; Beamer 25 -->
+<section id="slide-031" class="case-discussion" data-background-color="#e8c7b3" data-section="Concentration" data-frame="25">
+<h2>Microsoft/Activision: putting the HHI in perspective</h2>
+<div class="slide-body">
+<ul>
+<li><p><strong>The increase is modest in this candidate market.</strong> HHI rises from 1,200 to 1,300, with several substantial publishers remaining. I would give this some weight against a broad horizontal concern.</p></li>
+<li><p><strong>Closeness of competition still matters.</strong> If <em>Call of Duty</em> became more expensive, would customers switch to Microsoft's games, or mainly to other publishers?</p></li>
+<li><p><strong>The calculation is a snapshot.</strong> It uses illustrative shares and holds other firms' shares fixed. It leaves out changes in prices, costs, quality, innovation and future rivalry.</p></li>
+<li><p><strong>Market boundaries and vertical links need separate attention.</strong> A narrower genre may look different; access to games on rival platforms raises a different mechanism.</p></li>
+</ul>
+<div class="spacer" data-size="medskip"></div>
+</div>
+</section>
+
+<!-- Logical slide 37 of 103; Beamer 26 -->
+<section id="slide-032" class="" data-section="Concentration" data-frame="26">
+<h2>Concentration screens mergers for closer analysis</h2>
+<div class="slide-body">
+<ul>
+<li><p>HHI identifies transactions that warrant closer analysis.</p></li>
+<li><p>Two markets with the same HHI can behave differently because of:</p>
+<ul>
+<li><p>product differentiation and diversion;</p></li>
+<li><p>capacity constraints and cost asymmetries;</p></li>
+<li><p>entry conditions and buyer responses;</p></li>
+<li><p>innovation and future products;</p></li>
+<li><p>the competitive role of a small maverick.</p></li>
+</ul></li>
+<li><p>A high share can coexist with weak market power when substitution and entry are strong.</p></li>
+<li><p>A small-share firm can still be important when it is a close competitor, a maverick or a likely future entrant.</p></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 38 of 103; Beamer divider -->
+<section id="section-33" class="section-divider" data-background-color="#bc5e27" data-section="Unilateral effects"><h1>Unilateral effects</h1></section>
+
+<!-- Logical slide 39 of 103; Beamer 27 -->
+<section id="slide-034" class="" data-section="Unilateral effects" data-frame="27">
+<h2>Horizontal mergers remove rivalry across several dimensions</h2>
+<div class="slide-body">
+<ul>
+<li><p>Before a horizontal merger, each party constrains the other:</p>
+<ul>
+<li><p>a price increase can divert customers to the other party;</p></li>
+<li><p>an output reduction can be offset by the other party's expansion;</p></li>
+<li><p>weaker quality or service can cause switching.</p></li>
+</ul></li>
+<li><p>After the merger, the common owner internalises the effect of each firm's decisions on the other firm's profit.</p></li>
+<li><p>A <strong>unilateral effect</strong> is a change in conduct that the merged firm finds profitable through its own changed incentives.</p></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 40 of 103; Beamer 28 -->
+<section id="slide-035" class="equation-slide" data-section="Unilateral effects" data-frame="28">
+<h2>Common ownership changes which profit effects enter a decision</h2>
+<div class="slide-body">
+<ul>
+<li><p>Before the merger, firm A chooses action <span class="math-inline">a_A</span> to maximise <span class="math-inline">\pi_A</span>, while firm B chooses <span class="math-inline">a_B</span> to maximise <span class="math-inline">\pi_B</span>.</p></li>
+<li class="fragment calc-step" data-fragment-index="0"><p>At the pre-merger equilibrium <span class="math-inline">(a_A^0,a_B^0)</span>,</p></li>
+</ul>
+<div class="math-display fragment calc-step" data-fragment-index="0">\begin{aligned}
+    \left.\frac{\partial\pi_A}{\partial a_A}\right|_{(a_A^0,a_B^0)}&amp;=0,
+    &amp;
+    \left.\frac{\partial\pi_B}{\partial a_B}\right|_{(a_A^0,a_B^0)}&amp;=0.
+  \end{aligned}</div>
+<ul class="fragment calc-step" data-fragment-index="1">
+<li><p>After the merger, the common owner maximises <span class="math-inline">\Pi=\pi_A+\pi_B</span>.</p></li>
+<li><p>We ask whether the old action <span class="math-inline">a_A^0</span> still maximises joint profit.</p></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 41 of 103; Beamer 29 -->
+<section id="slide-036" class="equation-slide" data-section="Unilateral effects" data-frame="29">
+<h2>The cross-effect identifies the merger's initial incentive</h2>
+<div class="slide-body">
+<p>Evaluate the derivative of joint profit at the pre-merger actions <span class="math-inline">(a_A^0,a_B^0)</span>:</p>
+<div class="math-display">\frac{\partial\Pi}{\partial a_A}
+ =\frac{\partial\pi_A}{\partial a_A}+\frac{\partial\pi_B}{\partial a_A}.</div>
+<div class="fragment calc-step" data-fragment-index="0">
+<p>A's own-profit derivative is zero at its old optimum, so</p>
+<div class="math-display">\frac{\partial\Pi}{\partial a_A}=\frac{\partial\pi_B}{\partial a_A}.</div>
+</div>
+<div class="fragment calc-step" data-fragment-index="1">
+<p>The <strong>cross-effect</strong> is the effect of A's action on B's profit. The merger changes A's incentive because the common owner now <strong>internalises</strong> this effect.</p>
+</div>
+<div class="fragment calc-step" data-fragment-index="2">
+<p><strong>General rule:</strong> the sign of <span class="math-inline">\partial\pi_B/\partial a_A</span> gives the local direction of the incentive. Its magnitude measures the local marginal effect on joint profit.</p>
+</div>
+</div>
+</section>
+
+<!-- Logical slide 42 of 103; additional poll slide -->
+<section id="poll-bertrand-question-01" class="poll-slide poll-question-slide bertrand-poll-question-slide" data-section="Unilateral effects" data-menu-title="Poll: Bertrand pricing incentive" data-poll-stage="question" aria-labelledby="bertrand-poll-heading">
+<h2 id="bertrand-poll-heading">Applying the cross-effect to Bertrand competition</h2>
+<div class="slide-body poll-question-grid">
+<div class="bertrand-poll-content">
+<p>Products A and B are substitutes and are initially owned by separate firms. They now merge. Starting from the pre-merger prices, an increase in A's price would cause some customers to switch to B. Both products have positive price–cost margins. Assume demand and costs do not change.</p>
+<p class="bertrand-poll-question"><strong>What happens to the incentive to set A's price, holding the price of B fixed?</strong></p>
+<ol class="poll-options poll-options-numbered bertrand-poll-options">
+<li><p>The merged firm has a stronger incentive to raise A's price.</p></li>
+<li><p>The merged firm has a stronger incentive to reduce A's price.</p></li>
+<li><p>The merged firm does not want to change price.</p></li>
+<li><p>We cannot tell without knowing market shares.</p></li>
+</ol>
+</div>
+<figure class="poll-qr bertrand-poll-qr">
+<a class="poll-qr-image-link" href="https://PollEv.com/mitchellwatt497" target="_blank" rel="noopener"><span class="poll-bertrand-live-qr" role="img" aria-label="Poll Everywhere Live QR code for the Bertrand pricing-incentive question"></span></a>
+<figcaption>Scan to join</figcaption>
+<p class="poll-response-link"><a href="https://PollEv.com/mitchellwatt497" target="_blank" rel="noopener">PollEv.com/mitchellwatt497</a></p>
+</figure>
+</div>
+<aside class="notes"><p>The Poll Everywhere Live app should detect the supplied activity code. Activate the activity, show the responses, and then advance to the solution. Correct answer: 1.</p>
+<p>The question applies the general cross-effect result to price-setting. Holding B's price fixed and assuming substitute products with positive margins identify the direction of the initial incentive.</p></aside>
+</section>
+
+<!-- Logical slide 43 of 103; additional poll solution slide -->
+<section id="poll-bertrand-solution-01" class="" data-section="Unilateral effects" data-menu-title="Solution: Bertrand pricing incentive">
+<h2>The merged firm has a stronger incentive to raise A's price</h2>
+<div class="slide-body">
+<p><strong>Answer: 1.</strong></p>
+<ul>
+<li><p>Before the merger, customers who leave A for B generate profit for a rival.</p></li>
+<li><p>After the merger, some lost A sales become profitable B sales for the same owner.</p></li>
+<li><p>The common owner internalises this gain in B's profit when setting A's price.</p></li>
+<li><p>Greater diversion from A to B and a larger margin on B make the incentive stronger. Market shares answer different questions about market structure.</p></li>
+</ul>
+</div>
+<aside class="notes"><p>Consumers' switching behaviour stays fixed in this thought experiment, while common ownership changes the firm's objective. This is a local incentive result. Later slides use diversion and UPP to measure the strength of the same mechanism.</p></aside>
+</section>
+
+<!-- Logical slide 44 of 103; Beamer 30 -->
+<section id="slide-037" class="equation-slide bertrand-formalisation-slide" data-section="Unilateral effects" data-frame="30">
+<h2>The Bertrand cross-effect is positive for substitutes</h2>
+<div class="slide-body">
+<p>B's profit is <span class="math-inline">\pi_B=(p_B-c_B)q_B(p_A,p_B)</span>.</p>
+<div class="fragment calc-step" data-fragment-index="0">
+<p>Holding B's price fixed, differentiate B's profit with respect to A's price:</p>
+<div class="math-display">\frac{\partial\pi_B}{\partial p_A}
+  =(p_B-c_B)\frac{\partial q_B}{\partial p_A}.</div>
+</div>
+<div class="fragment calc-step" data-fragment-index="1">
+<p>For substitutes, <span class="math-inline">\partial q_B/\partial p_A&gt;0</span>. With a positive margin on B, <span class="math-inline">\partial\pi_B/\partial p_A&gt;0</span>.</p>
+</div>
+<div class="fragment calc-step" data-fragment-index="2">
+<p>At A's pre-merger optimum, <span class="math-inline">\partial\pi_A/\partial p_A=0</span>. Therefore, at the old prices,</p>
+<div class="math-display">\frac{\partial(\pi_A+\pi_B)}{\partial p_A}
+  =\frac{\partial\pi_B}{\partial p_A}&gt;0.</div>
+</div>
+</div>
+<aside class="notes"><p>This calculation formalises the poll result. It isolates the initial incentive at the pre-merger prices. The final equilibrium price change also depends on B's response, competitors' responses, demand curvature, pass-through and efficiencies.</p></aside>
+</section>
+
+<!-- Logical slide 45 of 103; Beamer 31 -->
+<section id="slide-038" class="" data-section="Unilateral effects" data-frame="31">
+<h2>Rivals' responses shape the overall merger effect</h2>
+<div class="slide-body">
+<p>Extra output by one merging firm lowers the price received on the other firm's sales. Common ownership therefore encourages the merging firms to reduce their combined output. The final effect on price also depends on how their rivals respond.</p>
+<div class="spacer" data-size="medskip"></div>
+<p>We will derive equilibrium output and price in the Cournot model, then compare the outcomes before and after a merger.</p>
+<ul>
+<li><p>There are <span class="math-inline">N\geq 2</span> independent firms selling an identical product.</p></li>
+<li><p>Firms choose quantities simultaneously; demand is <span class="math-inline">P=A-BQ</span>, with <span class="math-inline">B&gt;0</span>.</p></li>
+<li><p>Each firm has constant marginal cost <span class="math-inline">c&lt;A</span>.</p></li>
+<li><p>Costs stay unchanged after the merger, with no entry or capacity constraints.</p></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 46 of 103; Beamer 32 -->
+<section id="slide-039" class="equation-slide" data-section="Unilateral effects" data-frame="32">
+<h2>Profits and best responses</h2>
+<div class="slide-body">
+<p>Firm <span class="math-inline">i</span>'s <strong>best response</strong> maximises its profit given rivals' total output <span class="math-inline">Q_{-i}</span>, where <span class="math-inline">Q=q_i+Q_{-i}</span>.</p>
+<table class="derivation-table" aria-label="Profit and best-response derivation"><tbody>
+<tr>
+<th class="derivation-explanation" scope="row">Profit</th>
+<td class="derivation-lhs"><span class="derivation-accessible">\pi_i(q_i,Q_{-i})=\big[A-B(q_i+Q_{-i})-c\big]q_i.</span><span class="math-inline derivation-math" aria-hidden="true">\displaystyle \pi_i(q_i,Q_{-i})</span></td>
+<td class="derivation-rhs"><span class="math-inline derivation-math" aria-hidden="true">\displaystyle {}=\big[A-B(q_i+Q_{-i})-c\big]q_i.</span></td>
+</tr>
+<tr class="fragment calc-step" data-fragment-index="0">
+<th class="derivation-explanation" scope="row">Expand</th>
+<td class="derivation-lhs"><span class="derivation-accessible">\pi_i=(A-c-BQ_{-i})q_i-Bq_i^2.</span><span class="math-inline derivation-math" aria-hidden="true">\displaystyle \pi_i</span></td>
+<td class="derivation-rhs"><span class="math-inline derivation-math" aria-hidden="true">\displaystyle {}=(A-c-BQ_{-i})q_i-Bq_i^2.</span></td>
+</tr>
+<tr class="fragment calc-step" data-fragment-index="1">
+<th class="derivation-explanation" scope="row">Differentiate in <span class="math-inline">q_i</span>,<br>holding <span class="math-inline">Q_{-i}</span> fixed</th>
+<td class="derivation-lhs"><span class="derivation-accessible">\frac{\partial\pi_i}{\partial q_i}=A-c-BQ_{-i}-2Bq_i=0.</span><span class="math-inline derivation-math" aria-hidden="true">\displaystyle \frac{\partial\pi_i}{\partial q_i}</span></td>
+<td class="derivation-rhs"><span class="math-inline derivation-math" aria-hidden="true">\displaystyle {}=A-c-BQ_{-i}-2Bq_i=0.</span></td>
+</tr>
+<tr class="fragment calc-step" data-fragment-index="2">
+<th class="derivation-explanation" scope="row">Rearrange</th>
+<td class="derivation-lhs"><span class="derivation-accessible">2Bq_i=A-c-BQ_{-i}.</span><span class="math-inline derivation-math" aria-hidden="true">\displaystyle 2Bq_i</span></td>
+<td class="derivation-rhs"><span class="math-inline derivation-math" aria-hidden="true">\displaystyle {}=A-c-BQ_{-i}.</span></td>
+</tr>
+<tr class="fragment calc-step" data-fragment-index="3">
+<th class="derivation-explanation" scope="row">Divide by <span class="math-inline">2B</span>,<br>allowing zero output</th>
+<td class="derivation-lhs"><span class="derivation-accessible">q_i=\max\!\left\{0,\frac{A-c-BQ_{-i}}{2B}\right\}.</span><span class="math-inline derivation-math" aria-hidden="true">\displaystyle q_i</span></td>
+<td class="derivation-rhs"><span class="math-inline derivation-math" aria-hidden="true">\displaystyle {}=\max\!\left\{0,\frac{A-c-BQ_{-i}}{2B}\right\}.</span></td>
+</tr>
+</tbody></table>
+</div>
+</section>
+
+<!-- Logical slide 47 of 103; Beamer 33 -->
+<section id="slide-040" class="equation-slide" data-section="Unilateral effects" data-frame="33">
+<h2>Output</h2>
+<div class="slide-body">
+<p>At a <strong>Cournot equilibrium</strong>, each firm best responds to rivals' outputs. With identical costs, we seek a <strong>symmetric equilibrium</strong>: all <span class="math-inline">N</span> independent firms produce the same output <span class="math-inline">q_N</span>.</p>
+<p>Each firm's rivals therefore produce <span class="math-inline">Q_{-i}=(N-1)q_N</span>.</p>
+<table class="derivation-table" aria-label="Symmetric equilibrium output derivation"><tbody>
+<tr class="fragment calc-step" data-fragment-index="0">
+<th class="derivation-explanation" scope="row">Substitute into<br>the best response</th>
+<td class="derivation-lhs"><span class="derivation-accessible">2Bq_N=A-c-B(N-1)q_N.</span><span class="math-inline derivation-math" aria-hidden="true">\displaystyle 2Bq_N</span></td>
+<td class="derivation-rhs"><span class="math-inline derivation-math" aria-hidden="true">\displaystyle {}=A-c-B(N-1)q_N.</span></td>
+</tr>
+<tr class="fragment calc-step" data-fragment-index="1">
+<th class="derivation-explanation" scope="row">Collect output terms</th>
+<td class="derivation-lhs"><span class="derivation-accessible">2Bq_N+B(N-1)q_N=A-c.</span><span class="math-inline derivation-math" aria-hidden="true">\displaystyle 2Bq_N+B(N-1)q_N</span></td>
+<td class="derivation-rhs"><span class="math-inline derivation-math" aria-hidden="true">\displaystyle {}=A-c.</span></td>
+</tr>
+<tr class="fragment calc-step" data-fragment-index="2">
+<th class="derivation-explanation" scope="row">Factor out <span class="math-inline">Bq_N</span>, using<br><span class="math-inline">2+(N-1)=N+1</span></th>
+<td class="derivation-lhs"><span class="derivation-accessible">B(N+1)q_N=A-c.</span><span class="math-inline derivation-math" aria-hidden="true">\displaystyle B(N+1)q_N</span></td>
+<td class="derivation-rhs"><span class="math-inline derivation-math" aria-hidden="true">\displaystyle {}=A-c.</span></td>
+</tr>
+<tr class="fragment calc-step" data-fragment-index="3">
+<th class="derivation-explanation" scope="row">Divide by <span class="math-inline">B(N+1)</span></th>
+<td class="derivation-lhs"><span class="derivation-accessible">q_N=\frac{A-c}{B(N+1)}&gt;0.</span><span class="math-inline derivation-math" aria-hidden="true">\displaystyle q_N</span></td>
+<td class="derivation-rhs"><span class="math-inline derivation-math" aria-hidden="true">\displaystyle {}=\frac{A-c}{B(N+1)}&gt;0.</span></td>
+</tr>
+</tbody></table>
+</div>
+</section>
+
+<!-- Logical slide 48 of 103; Beamer 34 -->
+<section id="slide-041" class="equation-slide" data-section="Unilateral effects" data-frame="34">
+<h2>Market price</h2>
+<div class="slide-body">
+<p>Given each firm's output <span class="math-inline">q_N=\dfrac{A-c}{B(N+1)}</span>, calculate the market price.</p>
+<table class="derivation-table" aria-label="Equilibrium market-price derivation"><tbody>
+<tr class="fragment calc-step" data-fragment-index="0">
+<th class="derivation-explanation" scope="row">Total output</th>
+<td class="derivation-lhs"><span class="derivation-accessible">Q_N=Nq_N=\frac{N(A-c)}{B(N+1)}.</span><span class="math-inline derivation-math" aria-hidden="true">\displaystyle Q_N</span></td>
+<td class="derivation-rhs"><span class="math-inline derivation-math" aria-hidden="true">\displaystyle {}=Nq_N=\frac{N(A-c)}{B(N+1)}.</span></td>
+</tr>
+<tr class="fragment calc-step" data-fragment-index="1">
+<th class="derivation-explanation" scope="row">Substitute into demand<br>and cancel <span class="math-inline">B</span></th>
+<td class="derivation-lhs"><span class="derivation-accessible">P_N=A-B\frac{N(A-c)}{B(N+1)}=A-\frac{N(A-c)}{N+1}.</span><span class="math-inline derivation-math" aria-hidden="true">\displaystyle P_N</span></td>
+<td class="derivation-rhs"><span class="math-inline derivation-math" aria-hidden="true">\displaystyle {}=A-B\frac{N(A-c)}{B(N+1)}=A-\frac{N(A-c)}{N+1}.</span></td>
+</tr>
+<tr class="fragment calc-step" data-fragment-index="2">
+<th class="derivation-explanation" scope="row">Common denominator</th>
+<td class="derivation-lhs"><span class="derivation-accessible">P_N=\frac{A(N+1)-N(A-c)}{N+1}=\frac{A+Nc}{N+1}.</span><span class="math-inline derivation-math" aria-hidden="true">\displaystyle P_N</span></td>
+<td class="derivation-rhs"><span class="math-inline derivation-math" aria-hidden="true">\displaystyle {}=\frac{A(N+1)-N(A-c)}{N+1}=\frac{A+Nc}{N+1}.</span></td>
+</tr>
+<tr class="fragment calc-step" data-fragment-index="3">
+<th class="derivation-explanation" scope="row">Cost plus the margin</th>
+<td class="derivation-lhs"><span class="derivation-accessible">P_N=c+\frac{A-c}{N+1}.</span><span class="math-inline derivation-math" aria-hidden="true">\displaystyle P_N</span></td>
+<td class="derivation-rhs"><span class="math-inline derivation-math" aria-hidden="true">\displaystyle {}=c+\frac{A-c}{N+1}.</span></td>
+</tr>
+</tbody></table>
+<p class="fragment calc-step" data-fragment-index="3">Price exceeds marginal cost by <span class="math-inline">\dfrac{A-c}{N+1}</span>, so more independent firms mean a smaller margin.</p>
+</div>
+</section>
+
+<!-- Logical slide 49 of 103; Beamer 35 -->
+<section id="slide-042" class="equation-slide" data-section="Unilateral effects" data-frame="35">
+<h2>Merger effects</h2>
+<div class="slide-body">
+<p>Two of the <span class="math-inline">N</span> firms merge. With constant marginal cost <span class="math-inline">c</span> and unrestricted capacity, their owner chooses their <em>combined</em> output as one Cournot firm. Use <span class="math-inline">N-1</span> in the equilibrium formulas.</p>
+<div class="columns"><div class="column" data-tex-width="0.48\textwidth"><div class="block"><div class="block-title">Before: <span class="math-inline">\color{white}N</span> independent firms</div><div class="block-body"><ul>
+<li><p>Each firm's output:</p>
+<p><span class="math-inline">q^{\mathrm{pre}}=\dfrac{A-c}{B(N+1)}</span>.</p></li>
+<li><p>Total output:</p>
+<p><span class="math-inline">Q^{\mathrm{pre}}=\dfrac{N(A-c)}{B(N+1)}</span>.</p></li>
+</ul></div></div></div>
+<div class="column" data-tex-width="0.48\textwidth"><div class="block"><div class="block-title">After: <span class="math-inline">\color{white}N-1</span> independent firms</div><div class="block-body"><ul>
+<li class="fragment calc-step" data-fragment-index="0"><p>Each firm's output:</p>
+<p><span class="math-inline">q^{\mathrm{post}}=\dfrac{A-c}{BN}</span>.</p></li>
+<li class="fragment calc-step" data-fragment-index="1"><p>Total output:</p>
+<p><span class="math-inline">Q^{\mathrm{post}}=\dfrac{(N-1)(A-c)}{BN}</span>.</p></li>
+</ul></div></div></div></div>
+<div class="fragment calc-step" data-fragment-index="2">
+<p>Total market output falls.</p>
+</div>
+</div>
+</section>
+
+<!-- Logical slide 50 of 103; Beamer 35 (continued) -->
+<section id="slide-042-continued" class="equation-slide continuation" data-section="Unilateral effects" data-frame="35" data-part="2">
+<h2>Merger effects: market price</h2>
+<div class="slide-body">
+<p>The merged owner acts as one Cournot firm, reducing the number of independent firms from <span class="math-inline">N</span> to <span class="math-inline">N-1</span>.</p>
+<table class="derivation-table" aria-label="Merger effect on market price"><tbody>
+<tr>
+<th class="derivation-explanation" scope="row">Before the merger</th>
+<td class="derivation-lhs"><span class="derivation-accessible">P^{\mathrm{pre}}=c+\frac{A-c}{N+1}.</span><span class="math-inline derivation-math" aria-hidden="true">\displaystyle P^{\mathrm{pre}}</span></td>
+<td class="derivation-rhs"><span class="math-inline derivation-math" aria-hidden="true">\displaystyle {}=c+\frac{A-c}{N+1}.</span></td>
+</tr>
+<tr class="fragment calc-step" data-fragment-index="0">
+<th class="derivation-explanation" scope="row">After the merger</th>
+<td class="derivation-lhs"><span class="derivation-accessible">P^{\mathrm{post}}=c+\frac{A-c}{N}.</span><span class="math-inline derivation-math" aria-hidden="true">\displaystyle P^{\mathrm{post}}</span></td>
+<td class="derivation-rhs"><span class="math-inline derivation-math" aria-hidden="true">\displaystyle {}=c+\frac{A-c}{N}.</span></td>
+</tr>
+<tr class="fragment calc-step" data-fragment-index="1">
+<th class="derivation-explanation" scope="row">Subtract the<br>pre-merger price</th>
+<td class="derivation-lhs"><span class="derivation-accessible">P^{\mathrm{post}}-P^{\mathrm{pre}}=(A-c)\left(\frac1N-\frac1{N+1}\right).</span><span class="math-inline derivation-math" aria-hidden="true">\displaystyle P^{\mathrm{post}}-P^{\mathrm{pre}}</span></td>
+<td class="derivation-rhs"><span class="math-inline derivation-math" aria-hidden="true">\displaystyle {}=(A-c)\left(\frac1N-\frac1{N+1}\right).</span></td>
+</tr>
+<tr class="fragment calc-step" data-fragment-index="2">
+<th class="derivation-explanation" scope="row">Common denominator</th>
+<td class="derivation-lhs"><span class="derivation-accessible">P^{\mathrm{post}}-P^{\mathrm{pre}}=\frac{A-c}{N(N+1)}&gt;0.</span><span class="math-inline derivation-math" aria-hidden="true">\displaystyle P^{\mathrm{post}}-P^{\mathrm{pre}}</span></td>
+<td class="derivation-rhs"><span class="math-inline derivation-math" aria-hidden="true">\displaystyle {}=\frac{A-c}{N(N+1)}&gt;0.</span></td>
+</tr>
+</tbody></table>
+<p class="fragment calc-step" data-fragment-index="2">The merger raises price and reduces total output.</p>
+</div>
+</section>
+
+<!-- Logical slide 51 of 103; Beamer 36 -->
+<section id="slide-043" class="" data-section="Unilateral effects" data-frame="36">
+<h2>Rivals' expansion offsets part of the output reduction</h2>
+<div class="slide-body">
+<ul>
+<li><p>The merged firm <em>reduces</em> its combined output: <span class="math-inline">q^{\mathrm{post}}&lt;2q^{\mathrm{pre}}</span>.</p></li>
+<li><p>If outsiders remain, each expands: <span class="math-inline">q^{\mathrm{post}}&gt;q^{\mathrm{pre}}</span>.</p></li>
+<li><p>This expansion replaces part of the merging firms' output reduction. Total output still falls, so the market price rises.</p></li>
+<li><p>Consumers face a higher price and buy less, reducing consumer surplus.</p></li>
+</ul>
+<div class="spacer" data-size="medskip"></div>
+<p>In the applied session, we will calculate these changes for a merger between two of three firms.</p>
+</div>
+</section>
+
+<!-- Logical slide 52 of 103; Beamer 37 -->
+<section id="slide-044" class="" data-section="Unilateral effects" data-frame="37">
+<h2>A merger can raise price while reducing the merging firms' profit</h2>
+<div class="slide-body">
+<p>The <strong>Cournot merger paradox</strong> is that a merger can reduce the merging parties' combined profit, even as the market price rises.</p>
+<div class="spacer" data-size="medskip"></div>
+<ul>
+<li><p>The relevant comparison is the merged firm's profit against the <em>combined</em> pre-merger profit of both parties.</p></li>
+<li><p>Any remaining outsiders benefit from the output contraction, expanding and earning more.</p></li>
+</ul>
+<div class="spacer" data-size="bigskip"></div>
+<p>In the applied session, we will derive the merger paradox in the three-to-two firm merger.</p>
+<div class="spacer" data-size="bigskip"></div>
+<p>A merger needs a private rationale. Cost savings, capacity advantages, product differentiation or a larger coalition can change the result.</p>
+</div>
+<aside class="notes"><p>Applied-session Problem 1(c)–(d) establishes the profit and welfare comparisons. These are results for the specified three-firm example, rather than a claim that every Cournot merger is unprofitable.</p></aside>
+</section>
+
+<!-- Logical slide 53 of 103; Beamer divider -->
+<section id="section-45" class="section-divider" data-background-color="#bc5e27" data-section="Efficiencies"><h1>Merger efficiencies</h1></section>
+
+<!-- Logical slide 54 of 103; Beamer 38 -->
+<section id="slide-046" class="" data-section="Efficiencies" data-frame="38">
+<h2>Marginal cost, fixed cost and quality affect competition differently</h2>
+<div class="slide-body">
+<ul>
+<li><p>A <strong>marginal-cost saving</strong> lowers the cost of an additional unit and directly affects price or output incentives. Pass-through determines how much reaches customers.</p></li>
+<li><p>A <strong>fixed-cost saving</strong> raises profit while leaving marginal cost unchanged. Price effects arise through entry, exit, investment or innovation over time.</p></li>
+<li><p><strong>Quality and innovation efficiencies</strong> can increase willingness to pay, reduce effective price or accelerate new products.</p></li>
+<li><p>ACCC gives greatest weight to <strong>likely, verifiable, timely</strong> efficiencies that <strong>require the merger</strong> and benefit customers in the affected market.</p></li>
+</ul>
+<div class="spacer" data-size="medskip"></div>
+<div class="fragment" data-fragment-index="0"><p><strong>MillerCoors (2008 US joint venture): evidence of realised efficiencies</strong></p>
+<ul>
+<li><p>Combining brewery networks allowed Coors beer to be made at Miller plants closer to customers, reducing shipping costs. The DOJ accepted credible forecasts of merger-specific production and distribution savings.</p></li>
+<li><p>A later study estimated that shipping efficiencies lowered average lager prices by about <strong>1.8%</strong>, holding other effects fixed (Ashenfelter, Hosken and Weinberg, 2015).</p></li>
+</ul></div>
+</div>
+</section>
+
+<!-- Logical slide 55 of 103; Beamer 39 -->
+<section id="slide-047" class="" data-section="Efficiencies" data-frame="39">
+<h2>Cost savings can offset the loss of rivalry</h2>
+<div class="slide-body">
+<p>In the applied session, we will return to the three-firm example and allow the merger to lower the merged firm's marginal cost.</p>
+<div class="spacer" data-size="medskip"></div>
+<p>We will see that:</p>
+<ul>
+<li><p>lower marginal cost encourages the merged firm to expand output, counteracting its incentive to restrict supply;</p></li>
+<li><p>a sufficiently large saving can restore the original three-firm price and total output;</p></li>
+<li><p>at that point, consumers are as well off as before, while producing the same output with fewer resources raises total surplus;</p></li>
+<li><p>a smaller saving offsets only part of the price increase in this example, a larger cost saving leads to welfare benefits from merger.</p></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 56 of 103; Beamer divider -->
+<section id="section-48" class="section-divider" data-background-color="#bc5e27" data-section="Differentiated products"><h1>Differentiated products</h1></section>
+
+<!-- Logical slide 57 of 103; Beamer 40 -->
+<section id="slide-049" class="" data-section="Differentiated products" data-frame="40">
+<h2>Differentiated products compete more closely with some rivals than others</h2>
+<div class="slide-body">
+<ul>
+<li><p>Product characteristics, quality, location, brand and customer group shape substitution.</p></li>
+<li><p>A price increase for one product can send different proportions of lost sales to different alternatives (<strong>diversion</strong>).</p></li>
+<li><p>Products with similar attributes generally have higher diversion between them.</p></li>
+<li><p>A merger between close substitutes removes a stronger constraint than a merger between distant substitutes.</p></li>
+<li><p>Looking at current market shares alone can miss this product-level closeness.</p></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 58 of 103; Beamer 41 -->
+<section id="slide-050" class="equation-slide" data-section="Differentiated products" data-frame="41">
+<h2>The diversion ratio measures where a product's lost sales go</h2>
+<div class="slide-body">
+<div class="block"><div class="block-title">Diversion</div><div class="block-body"><p>A diversion ratio is the proportion of one product's lost sales that switch to another product following a small worsening in price or another competitive term.</p></div></div>
+<div class="smallnote"><p>Source: ACCC, <em>Merger Assessment Guidelines</em>, June 2025, para. 2.5.</p></div>
+<div class="spacer" data-size="bigskip"></div>
+<p class="fragment calc-step" data-fragment-index="0">The diversion ratio from product <span class="math-inline">i</span> to product <span class="math-inline">j</span> is</p>
+<div class="math-display fragment calc-step" data-fragment-index="0">\begin{aligned}
+    D_{ij}
+      =\frac{\partial q_j/\partial p_i}
+             {-\partial q_i/\partial p_i}.
+  \end{aligned}</div>
+<ul>
+<li class="fragment calc-step" data-fragment-index="0"><p>The denominator is the number of sales product <span class="math-inline">i</span> loses after a small price increase.</p></li>
+<li class="fragment calc-step" data-fragment-index="0"><p>The numerator is the number of those sales product <span class="math-inline">j</span> gains.</p></li>
+<li class="fragment calc-step" data-fragment-index="1"><p>Diversion is directional: <span class="math-inline">D_{ij}</span> can differ from <span class="math-inline">D_{ji}</span>.</p></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 59 of 103; Beamer 42 -->
+<section id="slide-051" class="" data-section="Differentiated products" data-frame="42">
+<h2>Diversion measures product-level closeness</h2>
+<div class="slide-body">
+<ul>
+<li><p>A high <span class="math-inline">D_{ij}</span> means product <span class="math-inline">j</span> is a common next choice for customers leaving product <span class="math-inline">i</span>.</p></li>
+<li><p>A ratio close to one indicates very close substitution; a ratio close to zero indicates little direct substitution.</p></li>
+<li><p>Before the merger, the risk of switching to <span class="math-inline">j</span> constrains product <span class="math-inline">i</span>'s price, quality and service.</p></li>
+<li><p>After an <span class="math-inline">i</span>–<span class="math-inline">j</span> merger, the common owner recaptures the sales that move from <span class="math-inline">i</span> to <span class="math-inline">j</span>.</p></li>
+<li><p>A small-share product can therefore impose a strong constraint when it receives a large share of another product's lost sales.</p></li>
+</ul>
+<div class="block"><div class="block-title">Evidence</div><div class="block-body"><p>Diversion can be estimated from switching data, bidding or win–loss records, surveys, availability changes and demand responses. It should be measured in both directions.</p></div></div>
+</div>
+</section>
+
+<!-- Logical slide 60 of 103; Beamer 43 -->
+<section id="slide-052" class="equation-slide" data-section="Differentiated products" data-frame="43">
+<h2>UPP expresses the pricing cross-effect in dollars per lost sale</h2>
+<div class="slide-body">
+<p><strong>Gross upward pricing pressure (UPP)</strong> measures profit recaptured on the partner product per sale lost by the product raising its price, before allowing for merger-related cost efficiencies.</p>
+<div class="fragment calc-step" data-fragment-index="0">
+<p>At pre-merger prices and unchanged costs, divide the pricing cross-effect by product <span class="math-inline">i</span>'s lost sales:</p>
+<div class="math-display">\begin{aligned}
+    \mathrm{UPP}^{\mathrm{gross}}_i
+      &amp;=\frac{(p_j-c_j)(\partial q_j/\partial p_i)}
+         {-\partial q_i/\partial p_i}.
+  \end{aligned}</div>
+</div>
+<div class="fragment calc-step" data-fragment-index="1">
+<p>The ratio of sales gained to sales lost is the diversion ratio <span class="math-inline">D_{ij}</span>:</p>
+<div class="math-display">\mathrm{UPP}^{\mathrm{gross}}_i=D_{ij}(p_j-c_j).</div>
+</div>
+</div>
+<aside class="notes"><p>Gross UPP is an initial incentive measure at pre-merger prices. Translating it into an equilibrium price change requires demand curvature, pass-through and joint pricing responses. There is no fixed UPP threshold stated here.</p>
+<p>[Sources]</p>
+<p><a href="https://faculty.haas.berkeley.edu/shapiro/alternative.pdf" target="_blank" rel="noopener">https://faculty.haas.berkeley.edu/shapiro/alternative.pdf</a></p>
+<p><a href="https://www.accc.gov.au/system/files/merger-control-regime-assessment-guidelines.pdf" target="_blank" rel="noopener">https://www.accc.gov.au/system/files/merger-control-regime-assessment-guidelines.pdf</a></p>
+<p>[/Sources]</p></aside>
+</section>
+
+<!-- Logical slide 61 of 103; Beamer 43 (continued) -->
+<section id="slide-052-continued" class="equation-slide continuation" data-section="Differentiated products" data-frame="43" data-part="2">
+<h2>Interpreting upward pricing pressure</h2>
+<div class="slide-body">
+<p>Gross UPP is diversion multiplied by the partner product's margin:</p>
+<div class="math-display">\mathrm{UPP}^{\mathrm{gross}}_i=D_{ij}(p_j-c_j).</div>
+<ul>
+<li class="fragment calc-step" data-fragment-index="0"><p>All else equal, a larger UPP suggests a stronger incentive for the merged firm to raise A's price.</p></li>
+<li class="fragment calc-step" data-fragment-index="1"><p>Higher diversion from A to B, or a larger margin on B, means more profit is recaptured. Lost sales become less costly to the combined firm.</p></li>
+<li class="fragment calc-step" data-fragment-index="2"><p>Marginal-cost efficiencies can offset this pressure. The actual price change also depends on demand and other firms' responses.</p></li>
+</ul>
+</div>
+<aside class="notes"><p>Gross UPP is an initial incentive measure at pre-merger prices. Translating it into an equilibrium price change requires demand curvature, pass-through and joint pricing responses. There is no fixed UPP threshold stated here.</p>
+<p>[Sources]</p>
+<p><a href="https://faculty.haas.berkeley.edu/shapiro/alternative.pdf" target="_blank" rel="noopener">https://faculty.haas.berkeley.edu/shapiro/alternative.pdf</a></p>
+<p><a href="https://www.accc.gov.au/system/files/merger-control-regime-assessment-guidelines.pdf" target="_blank" rel="noopener">https://www.accc.gov.au/system/files/merger-control-regime-assessment-guidelines.pdf</a></p>
+<p>[/Sources]</p></aside>
+</section>
+
+<!-- Logical slide 62 of 103; Beamer 44 -->
+<section id="slide-053" class="poll-slide poll-question-slide diversion-poll-question-slide equation-slide" data-section="Differentiated products" data-frame="44" data-menu-title="Poll: diversion ratio" data-poll-stage="question" aria-labelledby="diversion-poll-heading">
+<h2 id="diversion-poll-heading">Worked example: diversion ratio</h2>
+<div class="slide-body poll-question-grid">
+<div class="diversion-poll-content">
+<p>A small increase in product A's price causes A to lose <strong>100 unit sales</strong>. Product B gains <strong>40 unit sales</strong>, with B's price unchanged.</p>
+<p class="diversion-poll-question"><strong>What is the diversion ratio from A to B, expressed as a percentage?</strong></p>
+<ol class="poll-options" type="A">
+<li><p>250%</p></li>
+<li><p>40%</p></li>
+<li><p>25%</p></li>
+<li><p>4%</p></li>
+</ol>
+</div>
+<figure class="poll-qr diversion-poll-qr">
+<a class="poll-qr-image-link" href="https://PollEv.com/mitchellwatt497" target="_blank" rel="noopener"><span class="poll-diversion-live-qr" role="img" aria-label="Poll Everywhere Live QR code for the diversion-ratio question"></span></a>
+<figcaption>Scan to join</figcaption>
+<p class="poll-response-link"><a href="https://PollEv.com/mitchellwatt497" target="_blank" rel="noopener">PollEv.com/mitchellwatt497</a></p>
+</figure>
+</div>
+<aside class="notes"><p>The Poll Everywhere Live app should detect the supplied diversion-ratio activity code. Activate the activity, show the responses, and then advance to the solution. Correct answer: B, 40%.</p></aside>
+</section>
+
+<!-- Logical slide 63 of 103; Beamer 44 (continued) -->
+<section id="slide-053-continued" class="equation-slide continuation" data-section="Differentiated products" data-frame="44" data-part="2" data-menu-title="Solution: diversion ratio">
+<h2>Solution: the diversion ratio from A to B is 40%</h2>
+<div class="slide-body">
+<p>The denominator is the 100 sales lost by A. The numerator is the 40 sales gained by B.</p>
+<div class="fragment calc-step" data-fragment-index="0">
+<p class="calculation-answer"><span class="math-inline">D_{AB}=\dfrac{40}{100}=0.40=40\%</span>.</p>
+</div>
+<div class="block fragment calc-step" data-fragment-index="1"><div class="block-title">Interpretation</div><div class="block-body"><ul>
+<li><p>For every 100 sales A loses, 40 switch to B.</p></li>
+<li><p>This indicates substantial substitution from A to B. Its significance depends on the other alternatives available to consumers.</p></li>
+<li><p>Diversion is directional. This calculation does not tell us the diversion ratio from B to A.</p></li>
+</ul></div></div>
+</div>
+</section>
+
+<!-- Logical slide 64 of 103; Beamer 45 -->
+<section id="slide-054" class="poll-slide poll-question-slide upp-poll-question-slide equation-slide" data-section="Differentiated products" data-frame="45" data-menu-title="Poll: gross UPP" data-poll-stage="question" aria-labelledby="upp-poll-heading">
+<h2 id="upp-poll-heading">Worked example: gross upward pricing pressure</h2>
+<div class="slide-body poll-question-grid">
+<div class="upp-poll-content">
+<p>Product A has price $10 and marginal cost $6. Product B has price $12 and marginal cost $7.</p>
+<p>A small increase in A's price causes A to lose 100 unit sales and B to gain 40 unit sales. B's price stays unchanged. Suppose A and B merge, with marginal costs unchanged.</p>
+<p class="upp-poll-question"><strong>What is gross upward pricing pressure for A, measured in dollars per sale lost by A?</strong></p>
+<ol class="poll-options upp-poll-options" type="A">
+<li><p>$1.60</p></li>
+<li><p>$4.80</p></li>
+<li><p>$200</p></li>
+<li><p>$2.00</p></li>
+</ol>
+</div>
+<figure class="poll-qr upp-poll-qr">
+<a class="poll-qr-image-link" href="https://PollEv.com/mitchellwatt497" target="_blank" rel="noopener"><span class="poll-upp-live-qr" role="img" aria-label="Poll Everywhere Live QR code for the gross-UPP question"></span></a>
+<figcaption>Scan to join</figcaption>
+<p class="poll-response-link"><a href="https://PollEv.com/mitchellwatt497" target="_blank" rel="noopener">PollEv.com/mitchellwatt497</a></p>
+</figure>
+</div>
+<aside class="notes"><p>The Poll Everywhere Live app should detect the supplied gross-UPP activity code. Activate the activity, show the responses, and then advance to the solution. Correct answer: D, $2.00.</p></aside>
+</section>
+
+<!-- Logical slide 65 of 103; Beamer 45 (continued) -->
+<section id="slide-054-continued" class="equation-slide continuation" data-section="Differentiated products" data-frame="45" data-part="2" data-menu-title="Solution: gross UPP">
+<h2>Solution: gross UPP for A is $2 per lost sale</h2>
+<div class="slide-body">
+<p>Diversion from A to B is <span class="math-inline">D_{AB}=40/100=0.40</span>.</p>
+<div class="fragment calc-step" data-fragment-index="0">
+<p>B's price–cost margin is <span class="math-inline">p_B-c_B=12-7=\$5</span> per sale.</p>
+</div>
+<div class="fragment calc-step" data-fragment-index="1">
+<p class="calculation-answer"><span class="math-inline">\mathrm{UPP}^{\mathrm{gross}}_A=D_{AB}(p_B-c_B)=0.40(5)=\$2</span>.</p>
+</div>
+<div class="fragment calc-step" data-fragment-index="2">
+<p>Equivalently, the 40 diverted sales generate $200 of profit on B. Dividing by A's 100 lost sales gives $2 per lost sale.</p>
+</div>
+<div class="block fragment calc-step" data-fragment-index="3"><div class="block-title">Interpretation</div><div class="block-body"><ul>
+<li><p><strong>Answer D.</strong> Common ownership recaptures $2 through B for each sale lost by A, strengthening the local incentive to raise A's price, all else equal.</p></li>
+<li><p>Gross UPP does not predict a $2 price increase. The eventual price change also depends on demand, merger efficiencies and rival responses.</p></li>
+</ul></div></div>
+</div>
+</section>
+
+<!-- Logical slide 66 of 103; Beamer 46 -->
+<section id="slide-055" class="" data-section="Differentiated products" data-frame="46">
+<h2>A merger can change product variety as well as price</h2>
+<div class="slide-body">
+<p>Mergers can change product variety in two ways.</p>
+<ul>
+<li><p>First, a merged firm may choose to retire a product (e.g., when its incremental profit does not justify its fixed cost). This can leave some consumers with a poorer match.</p></li>
+<li><p>Second, a merged firm may change the types of products offered.</p>
+<ul>
+<li><p>Before the merger, A may become more like B to attract B's customers.</p></li>
+<li><p>After the merger, the common owner internalises <strong>cannibalisation</strong>: the loss of B's sales or profit when A attracts its customers.</p></li>
+<li><p>This can encourage the firm to give retained products less similar characteristics and appeal to different consumer groups.</p></li>
+</ul></li>
+</ul>
+<p><em>In the Microsoft/Activision example, how might a merger affect the offering of Halo and Call of Duty?</em></p>
+</div>
+</section>
+
+<!-- Logical slide 67 of 103; Beamer divider -->
+<section id="section-56" class="section-divider" data-background-color="#bc5e27" data-section="Coordinated effects and entry"><h1>Coordinated effects and entry</h1></section>
+
+<!-- Logical slide 68 of 103; Beamer 47 -->
+<section id="slide-057" class="" data-section="Coordinated effects and entry" data-frame="47">
+<h2>Coordinated effects concern the equilibrium among remaining firms</h2>
+<div class="slide-body">
+<ul>
+<li><p><strong>Unilateral effects</strong> ask how the merged firm's own optimal conduct changes.</p></li>
+<li><p><strong>Coordinated effects</strong> ask whether the merger makes coordination among firms more likely, complete or sustainable.</p></li>
+<li><p>Coordination can concern price, customers, territories, service, investment, capacity or innovation.</p></li>
+<li><p>A merger can affect:</p>
+<ul>
+<li><p>the payoff from adhering to a common understanding;</p></li>
+<li><p>the short-run gain from deviation;</p></li>
+<li><p>the severity of punishment;</p></li>
+<li><p>the ability to detect deviations.</p></li>
+</ul></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 69 of 103; Beamer 48 -->
+<section id="slide-058" class="equation-slide" data-section="Coordinated effects and entry" data-frame="48">
+<h2>Recall the Week 4 repeated-game rule</h2>
+<div class="slide-body">
+<p>Suppose a firm earns:</p>
+<ul>
+<li><p><span class="math-inline">\pi^{\mathrm{Coll}}</span> in each coordinated period;</p></li>
+<li><p><span class="math-inline">\pi^{\mathrm{Dev}}</span> in the period when it deviates;</p></li>
+<li><p><span class="math-inline">\pi^{\mathrm{Pun}}</span> in every later punishment period.</p></li>
+</ul>
+<p>Assume <span class="math-inline">\pi^{\mathrm{Dev}}&gt;\pi^{\mathrm{Coll}}&gt;\pi^{\mathrm{Pun}}</span>.</p>
+<div class="fragment calc-step" data-fragment-index="0"><p>From Week 4, coordination is sustainable when</p>
+<div class="math-display">\begin{aligned}
+    \delta\geq\bar\delta
+      =\frac{\pi^{\mathrm{Dev}}-\pi^{\mathrm{Coll}}}
+             {\pi^{\mathrm{Dev}}-\pi^{\mathrm{Pun}}}.
+  \end{aligned}</div>
+</div>
+<div class="fragment calc-step" data-fragment-index="1">
+<p>The <strong>critical discount factor</strong> <span class="math-inline">\bar\delta</span> is the minimum weight on future profit needed to sustain coordination.</p>
+</div>
+<div class="fragment calc-step" data-fragment-index="2">
+<p>Does common ownership raise or lower this threshold?</p>
+</div>
+</div>
+</section>
+
+<!-- Logical slide 70 of 103; Beamer 49 -->
+<section id="slide-059" class="equation-slide" data-section="Coordinated effects and entry" data-frame="49">
+<h2>Effects of merger on critical discount factor</h2>
+<div class="slide-body">
+<p>Suppose <span class="math-inline">n\geq 3</span> firms share joint monopoly profit <span class="math-inline">\Pi^M</span> equally under coordination. A deviator captures <span class="math-inline">\Pi^M</span> for one period. Punishment profit is zero.</p>
+<div class="fragment calc-step" data-fragment-index="0"><p>Write the three profit terms:</p>
+<div class="math-display">\begin{aligned}
+    \pi^{\mathrm{Coll}}&amp;=\frac{\Pi^M}{n}, &amp;
+    \pi^{\mathrm{Dev}}&amp;=\Pi^M, &amp;
+    \pi^{\mathrm{Pun}}&amp;=0.
+  \end{aligned}</div></div>
+<div class="fragment calc-step" data-fragment-index="1">
+<p>Substitute into the Week 4 threshold:</p>
+<div class="math-display">\bar\delta=\frac{\Pi^M-\Pi^M/n}{\Pi^M-0}.</div>
+</div>
+<div class="fragment calc-step" data-fragment-index="2">
+<p>Cancel <span class="math-inline">\Pi^M</span>:</p>
+<div class="math-display">\bar\delta=\frac{n-1}{n}=1-\frac1n.</div>
+</div>
+</div>
+</section>
+
+<!-- Logical slide 71 of 103; Beamer 49 (continued) -->
+<section id="slide-059-continued" class="equation-slide continuation" data-section="Coordinated effects and entry" data-frame="49" data-part="2">
+<h2>A merger lowers the critical discount factor</h2>
+<div class="slide-body">
+<p>With equal sharing and zero punishment profit, the threshold is <span class="math-inline">\bar\delta(n)=1-1/n</span>.</p>
+<p>A merger reduces the number of independent firms from <span class="math-inline">n</span> to <span class="math-inline">n-1</span>.</p>
+<div class="fragment calc-step" data-fragment-index="0">
+<p>Before the merger: <span class="math-inline">\bar\delta_{\mathrm{pre}}=1-\dfrac1n</span>.</p>
+</div>
+<div class="fragment calc-step" data-fragment-index="1">
+<p>After the merger: <span class="math-inline">\bar\delta_{\mathrm{post}}=1-\dfrac1{n-1}</span>.</p>
+</div>
+<div class="fragment calc-step" data-fragment-index="2">
+<p>Since <span class="math-inline">1/(n-1)&gt;1/n</span>, the threshold falls. Coordination is sustainable for a wider range of <span class="math-inline">\delta</span>.</p>
+</div>
+</div>
+</section>
+
+<!-- Logical slide 72 of 103; Beamer 50 -->
+<section id="slide-060" class="" data-section="Coordinated effects and entry" data-frame="50">
+<h2>Maverick firms can make coordination harder to sustain</h2>
+<div class="slide-body">
+<p>A <strong>maverick firm</strong> is an aggressive competitor whose pricing, expansion or innovation disrupts coordination.</p>
+<ul>
+<li><p>It may refuse to follow rivals' price increases, forcing them to compete harder. Its influence can exceed what its market share suggests.</p></li>
+<li><p>A merger that weakens this behaviour can make coordination easier to sustain.</p></li>
+</ul>
+<div class="fragment" data-fragment-index="0"><div class="spacer" data-size="medskip"></div>
+<p><strong>Examples from practice</strong></p>
+<ul>
+<li><p><strong>BP/Woolworths petrol (2017):</strong> The ACCC found Woolworths generally raised prices later and discounted sooner than BP. It opposed the takeover, warning of larger, more coordinated petrol-price increases.</p></li>
+<li><p><strong>AT&amp;T/T-Mobile (2011):</strong> US authorities argued that T-Mobile's aggressive pricing and innovation disrupted rivals, and its acquisition would increase coordination risk. The deal was abandoned after their legal challenge.</p></li>
+</ul></div>
+</div>
+</section>
+
+<!-- Logical slide 73 of 103; Beamer 51 -->
+<section id="slide-061" class="" data-section="Coordinated effects and entry" data-frame="51">
+<h2>Mergers can encourage entry, but credible forecasts are essential</h2>
+<div class="slide-body">
+<ul>
+<li><p>Higher prices after a merger can make entry by new firms, or expansion by existing rivals, more profitable.</p></li>
+<li><p>Competition authorities need credible evidence that entry will be:</p>
+<ul>
+<li><p><strong>Likely</strong>: commercially viable and feasible, allowing for costs and risk;</p></li>
+<li><p><strong>Timely</strong>: fast enough to prevent or counteract the merger's competitive harm;</p></li>
+<li><p><strong>Sufficient</strong>: able to compete on the scale and in the products needed to replace the lost constraint.</p></li>
+</ul></li>
+<li><p>Assess practical evidence: entry costs, access to finance and key inputs, approvals, capacity, customer switching and past entry experience.</p></li>
+<li><p>Forecast profits after entry, allowing for how incumbents adjust prices and output. A temporarily high post-merger price may fall once entry occurs.</p></li>
+<li><p>Often, claims of future entry are looked on critically: <em>if the merging firms expect entry to restore competition, where do they expect the gains from merging to come from?</em></p></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 74 of 103; Beamer divider -->
+<section id="section-62" class="section-divider" data-background-color="#bc5e27" data-section="Dynamic and cumulative issues"><h1>Dynamics of mergers</h1></section>
+
+<!-- Logical slide 75 of 103; Beamer 52 -->
+<section id="slide-063" class="" data-section="Dynamic and cumulative issues" data-frame="52">
+<h2>Looking across time raises three further merger questions</h2>
+<div class="slide-body">
+<ol>
+<li><p>Why do mergers cluster within industries and periods? (Merger waves)</p></li>
+<li><p>How do the effects of repeated acquisitions by one buyer accumulate? (Serial acquisitions)</p></li>
+<li><p>How can an acquisition change the development of products that do not yet exist? (Killer acquisitions)</p></li>
+</ol>
+</div>
+</section>
+
+<!-- Logical slide 76 of 103; Beamer 53 -->
+<section id="slide-064" class="" data-section="Dynamic and cumulative issues" data-frame="53">
+<h2>Merger waves are clusters of transactions within industries and time</h2>
+<div class="slide-body">
+<ul>
+<li><p>A <strong>merger wave</strong> is a period in which merger activity rises and transactions cluster across industries or within a particular industry.</p></li>
+<li><p>Some examples include:</p>
+<ul>
+<li><p>horizontal industrial consolidation around the turn of the twentieth century;</p></li>
+<li><p>conglomerate expansion during the 1960s;</p></li>
+<li><p>debt-financed takeovers during the 1980s;</p></li>
+<li><p>globalisation- and technology-related megadeals around 2000;</p></li>
+<li><p>recent acquisition activity involving technology, data and investment funds.</p></li>
+</ul></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 77 of 103; Beamer 54 -->
+<section id="slide-065" class="" data-section="Dynamic and cumulative issues" data-frame="54">
+<h2>Explanations for merger waves</h2>
+<div class="slide-body">
+<ul>
+<li><p><strong>Industry shocks:</strong> Changes in technology, regulation, trade, demand or input costs can alter efficient scale and the value of combining assets. Many firms face these changes at the same time.</p></li>
+<li><p><strong>Financing and valuation:</strong> Available credit makes more acquisitions feasible, and highly valued shares can be used to pay for them. Different beliefs about future asset values can also create opportunities for trade.</p></li>
+<li><p><strong>Strategic responses:</strong> An initial merger can change the profitability of later deals. Rivals may seek matching scale or complementary assets, or acquire another firm to avoid becoming a takeover target.</p></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 78 of 103; Beamer 55 -->
+<section id="slide-066" class="" data-section="Dynamic and cumulative issues" data-frame="55">
+<h2>Serial acquisitions can transform a market gradually</h2>
+<div class="slide-body">
+<ul>
+<li><p><strong>Serial acquisitions</strong> are a sequence of acquisitions made by the same buyer.</p></li>
+<li><p><strong>Cumulative effects</strong> are the combined competitive effects of that sequence relative to the likely path without it.</p></li>
+</ul>
+<div class="fragment" data-fragment-index="0"><div class="spacer" data-size="medskip"></div>
+<p><strong>Examples studied or challenged in practice</strong></p>
+<ul>
+<li><p><strong>PETstock (Australia):</strong> Acquired Best Friends Pets, Pet City and Animal Tuckerbox. ACCC concerns led to a 2023 undertaking to divest 41 retail stores.</p></li>
+<li><p><strong>US Anesthesia Partners (Texas):</strong> The FTC alleged that a decade of buying anaesthesia practices built market power and enabled higher prices.</p></li>
+<li><p><strong>Luxottica (eyewear):</strong> Acquired Ray-Ban, Oakley, Sunglass Hut and OPSM. The OECD uses it to illustrate consolidation of brands and retail chains.</p></li>
+</ul>
+<div class="spacer" data-size="medskip"></div>
+<p>Each individual acquisition may look modest even when the sequence materially changes rivalry.</p></div>
+</div>
+</section>
+
+<!-- Logical slide 79 of 103; Beamer 56 -->
+<section id="serial-hhi-claim" class="equation-slide" data-section="Dynamic and cumulative issues" data-frame="56">
+<h2>The acquirer's share before transaction <span class="math-inline">j</span> contains all earlier targets</h2>
+<div class="slide-body">
+<p>An acquirer starts with share <span class="math-inline">s_0</span> and buys targets with shares <span class="math-inline">t_1,t_2,\ldots,t_k</span>. All shares use percentage points in one unchanged relevant market.</p>
+<div class="fragment calc-step" data-fragment-index="0"><p>Immediately before acquisition <span class="math-inline">j</span>, the acquirer's share is</p>
+<div class="math-display">\begin{aligned}
+    S_{j-1}=s_0+\sum_{\ell&lt;j}t_\ell.
+  \end{aligned}</div></div>
+<div class="block fragment calc-step" data-fragment-index="1"><div class="block-title">Key observation</div><div class="block-body"><p>Acquisition <span class="math-inline">j</span> increases the HHI by <span class="math-inline">2S_{j-1}t_j</span>. The same-sized target therefore creates a larger HHI increment after the acquirer has grown.</p></div></div>
+<p><a class="button" href="#/serial-hhi-derivation">Derivation</a></p>
+</div>
+</section>
+
+<!-- Logical slide 80 of 103; Beamer 57 -->
+<section id="slide-068" class="" data-section="Dynamic and cumulative issues" data-frame="57">
+<h2>Worked serial acquisitions: what happens to concentration?</h2>
+<div class="slide-body">
+<p>A firm begins with a 20 per cent share and sequentially acquires four firms, each with a 5 per cent share. Assume all firms operate in the same market and all other shares remain fixed.</p>
+<div class="spacer" data-size="0.5em" style="--space:0.5em"></div>
+<p>Calculate:</p>
+<ol>
+<li><p>the acquirer's share before and after each transaction;</p></li>
+<li><p>the HHI increment from each acquisition;</p></li>
+<li><p>the cumulative HHI increase, checking it directly using the initial and final ownership shares;</p></li>
+<li><p>whether successive acquisitions create equal HHI increments, and why.</p></li>
+</ol>
+</div>
+</section>
+
+<!-- Logical slide 81 of 103; Beamer 58 -->
+<section id="slide-069" class="equation-slide" data-section="Dynamic and cumulative issues" data-frame="58">
+<h2>Each equal-sized target produces a larger HHI increment</h2>
+<div class="slide-body">
+<div><table class="calculation-table">
+<thead><tr><th>Acquisition</th><th>Share before</th><th>Share after</th><th>HHI increment <span class="math-inline">2S_{j-1}t_j</span></th></tr></thead>
+<tbody><tr class="fragment calc-step" data-fragment-index="0"><td>1</td><td>20</td><td>25</td><td><span class="math-inline">2(20)(5)=200</span></td></tr>
+<tr class="fragment calc-step" data-fragment-index="1"><td>2</td><td>25</td><td>30</td><td><span class="math-inline">2(25)(5)=250</span></td></tr>
+<tr class="fragment calc-step" data-fragment-index="2"><td>3</td><td>30</td><td>35</td><td><span class="math-inline">2(30)(5)=300</span></td></tr>
+<tr class="fragment calc-step" data-fragment-index="3"><td>4</td><td>35</td><td>40</td><td><span class="math-inline">2(35)(5)=350</span></td></tr></tbody>
+</table>
+<div class="spacer" data-size="0.55em" style="--space:0.55em"></div>
+<div class="fragment calc-step" data-fragment-index="4">
+<p>Add the increments: <span class="math-inline">\sum_{j=1}^{4}\Delta HHI_j=200+250+300+350=1100</span>.</p>
+</div>
+<div class="fragment calc-step" data-fragment-index="5">
+<p>Check directly: <span class="math-inline">40^2-20^2-4(5^2)=1100</span>. The acquirer grows, so each 5% target produces a larger increment.</p>
+</div></div>
+</div>
+</section>
+
+<!-- Logical slide 82 of 103; Beamer 59 -->
+<section id="slide-070" class="" data-section="Dynamic and cumulative issues" data-frame="59">
+<h2>Serial acquisitions in Australia</h2>
+<div class="slide-body">
+<ul>
+<li><p>Current shares may understate targets with valuable capacity, sites, technology, licences or expansion plans.</p></li>
+<li><p>Earlier acquisitions can alter the market total, future entry and the counterfactual shares used for later transactions.</p></li>
+<li><p>In Australia, qualifying target revenue from acquisitions during the preceding three years can be aggregated for the notification thresholds.</p></li>
+<li><p>A sequence of individually modest transactions can therefore create a compulsory notification obligation.</p></li>
+<li><p>The relevant counterfactual is the likely market path without the sequence, rather than the market immediately before the final acquisition.</p></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 83 of 103; Beamer 60 -->
+<section id="slide-071" class="" data-section="Dynamic and cumulative issues" data-frame="60">
+<h2>Potential competition can matter before a target earns revenue</h2>
+<div class="slide-body">
+<ul>
+<li><p><strong>Potential competition</strong> is the constraint exerted by a firm that may enter or expand.</p></li>
+<li><p>An <strong>actual potential competitor</strong> is likely to enter or expand in the counterfactual.</p></li>
+<li><p>A <strong>perceived potential competitor</strong> constrains current conduct because incumbents anticipate possible entry.</p></li>
+<li><p>A <strong>killer acquisition</strong> occurs when an incumbent acquires a rival firm or project and discontinues, delays or scales back development to avoid competition with existing products.</p></li>
+</ul>
+<div class="spacer" data-size="medskip"></div>
+<p><strong>Examples raising this concern</strong></p>
+<ul>
+<li><p><strong>Questcor/Synacthen (2013):</strong> Acquired US rights to a potential rival to its Acthar drug. The FTC alleged that this prevented rival development; the case settled in 2017.</p></li>
+<li><p><strong>Facebook/Giphy (2020):</strong> Giphy's advertising service was closed after acquisition. The CMA found a loss of potential advertising competition and ordered divestment in 2022.</p></li>
+</ul>
+<div class="spacer" data-size="medskip"></div>
+<p>A target with zero current share can still be a significant future constraint. HHI may record no merger increment.</p>
+<div class="smallnote"><p>Sources: <a href="https://www.ftc.gov/news-events/news/press-releases/2017/01/mallinckrodt-will-pay-100-million-settle-ftc-state-charges-it-illegally-maintained-its-monopoly" target="_blank" rel="noopener">FTC (2017)</a>; <a href="https://www.gov.uk/government/news/cma-orders-meta-to-sell-giphy" target="_blank" rel="noopener">CMA (2022)</a>.</p></div>
+</div>
+<aside class="notes"><p>[Sources]</p>
+<p>FTC, 18 January 2017, <em>Mallinckrodt Will Pay $100 Million to Settle FTC, State Charges It Illegally Maintained its Monopoly of Specialty Drug Used to Treat Infants</em>. Questcor acquired US rights to Synacthen from Novartis in June 2013. The FTC alleged that the acquisition prevented other bidders from developing a competing US product and preserved Acthar's monopoly. The transaction concerned drug rights and prospective US development. The slide reports an allegation resolved by settlement.</p>
+<p><a href="https://www.ftc.gov/news-events/news/press-releases/2017/01/mallinckrodt-will-pay-100-million-settle-ftc-state-charges-it-illegally-maintained-its-monopoly" target="_blank" rel="noopener">https://www.ftc.gov/news-events/news/press-releases/2017/01/mallinckrodt-will-pay-100-million-settle-ftc-state-charges-it-illegally-maintained-its-monopoly</a></p>
+<p>CMA, 18 October 2022, <em>CMA orders Meta to sell Giphy</em>. The CMA found that Meta terminated Giphy's advertising services upon acquisition, removing potential competition in UK display advertising, and required divestment. Giphy's advertising service had operated in the US and could have expanded into the UK. The finding concerns loss of dynamic competition; the slide does not assert a separate finding of intent to suppress a rival.</p>
+<p><a href="https://www.gov.uk/government/news/cma-orders-meta-to-sell-giphy" target="_blank" rel="noopener">https://www.gov.uk/government/news/cma-orders-meta-to-sell-giphy</a></p>
+<p>[/Sources]</p></aside>
+</section>
+
+<!-- Logical slide 84 of 103; Beamer 61 -->
+<section id="slide-072" class="equation-slide" data-section="Dynamic and cumulative issues" data-frame="61">
+<h2>Mergers and innovation</h2>
+<div class="slide-body">
+<p>Let:</p>
+<ul>
+<li><p><span class="math-inline">V_E</span> be the present value of profit generated by the entrant's project;</p></li>
+<li><p><span class="math-inline">F</span> be the development cost;</p></li>
+<li><p><span class="math-inline">\Delta V_I</span> be the change in the incumbent's existing-product profit after launch.</p></li>
+</ul>
+<div class="fragment calc-step" data-fragment-index="0"><p>An independent owner launches when</p>
+<div class="math-display">\begin{aligned}
+    V_E-F\geq 0.
+  \end{aligned}</div></div>
+<div class="fragment calc-step" data-fragment-index="1"><p>A common owner launches when</p>
+<div class="math-display">\begin{aligned}
+    V_E-F+\Delta V_I\geq 0.
+  \end{aligned}</div></div>
+<p class="fragment calc-step" data-fragment-index="2"><strong>Cannibalisation</strong> implies <span class="math-inline">\Delta V_I&lt;0</span>, which can reverse the launch decision.</p>
+</div>
+</section>
+
+<!-- Logical slide 85 of 103; Beamer 62 -->
+<section id="slide-073" class="equation-slide" data-section="Dynamic and cumulative issues" data-frame="62">
+<h2>Uncertain success changes values but preserves the comparison</h2>
+<div class="slide-body">
+<p>Suppose successful launch occurs with probability <span class="math-inline">\rho</span>, and entrant profit and cannibalisation occur only after success.</p>
+<div class="fragment calc-step" data-fragment-index="0"><p>The independent owner launches when</p>
+<div class="math-display">\begin{aligned}
+    \rho V_E-F\geq 0.
+  \end{aligned}</div></div>
+<div class="fragment calc-step" data-fragment-index="1"><p>The common owner launches when</p>
+<div class="math-display">\begin{aligned}
+    \rho(V_E+\Delta V_I)-F\geq 0.
+  \end{aligned}</div></div>
+<ul class="fragment calc-step" data-fragment-index="2">
+<li><p>A modest probability can still represent an important expected constraint when success would have a large competitive effect.</p></li>
+<li><p>Evidence should address investment stages, technical risk, rival projects and how acquisition changes the probability or timing of success.</p></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 86 of 103; Beamer divider -->
+<section id="section-74" class="section-divider" data-background-color="#bc5e27" data-section="Summing Up"><h1>Summing Up</h1></section>
+
+<!-- Logical slide 87 of 103; Beamer 63 -->
+<section id="slide-075" class="" data-section="Summing Up" data-frame="63">
+<h2>Summary of merger analysis</h2>
+<div class="slide-body">
+<ol>
+<li><p>Specify the likely future without the merger.</p></li>
+<li><p>Identify the current or future competitive constraint placed under common control.</p></li>
+<li><p>Choose a model that matches the market's competitive process.</p></li>
+<li><p>Derive how common ownership changes incentives.</p></li>
+<li><p>Predict the merged firm's conduct and rivals' equilibrium responses.</p></li>
+<li><p>Incorporate merger-specific efficiencies and product changes.</p></li>
+<li><p>Assess entry, expansion, repositioning and coordination.</p></li>
+<li><p>Compare price, output, quality, innovation, consumer surplus and total surplus across the two futures.</p></li>
+</ol>
+</div>
+</section>
+
+<!-- Logical slide 88 of 103; Beamer 64 -->
+<section id="slide-076" class="case-discussion" data-background-color="#e8c7b3" data-section="Summing Up" data-frame="64">
+<h2>Microsoft/Activision: weighing the horizontal effects</h2>
+<div class="slide-body">
+<div class="columns"><div class="column" data-tex-width="0.73\textwidth"><ul>
+<li><p><strong>What might consumers lose?</strong> How much rivalry disappears between the firms' games? Could common ownership weaken incentives to compete on price, quality, variety or new titles?</p></li>
+<li><p><strong>What might consumers gain?</strong> Could shared technology, development resources or lower costs improve games or reduce prices? Which gains require the merger, and would they reach consumers?</p></li>
+<li><p><strong>Which arguments are stronger?</strong> On the horizontal effects alone, how concerned are you? What evidence would change your view?</p></li>
+</ul>
+<div class="spacer" data-size="medskip"></div>
+<p><strong>Next week: vertical mergers.</strong> We have focused on rivalry between publishers today. We will examine how control of games could affect competing consoles, subscription services and cloud-gaming providers.</p></div>
+<div class="column" data-tex-width="0.23\textwidth"><div class="align-center"><p><img src="figures/microsoft-activision/xbox-series-x.jpg" alt="Xbox Series X console and controller" style="width:100%;height:auto"></p>
+<p><span class="text-group"><span class="footnotesize"><a href="https://news.xbox.com/en-us/2019/12/12/microsoft-unveils-xbox-series-x/" target="_blank" rel="noopener">Microsoft: Xbox Series X</a></span></span></p>
+<div class="spacer" data-size="medskip"></div>
+<p><img src="figures/microsoft-activision/call-of-duty-mwii.jpg" alt="Call of Duty: Modern Warfare II" style="width:100%;height:auto"></p>
+<p><span class="text-group"><span class="footnotesize"><a href="https://news.xbox.com/en-us/2022/06/08/announcing-call-of-duty-modern-warfare-ii/" target="_blank" rel="noopener">Activision: <em>Call of Duty</em></a></span></span></p></div></div></div>
+</div>
+<aside class="notes"><p>Encourage students to distinguish plausible benefits from demonstrated, merger-specific efficiencies, and ask how gains would reach consumers. Arguments about withholding games from rival platforms or changing access terms lead into the vertical-merger class. Our horizontal discussion leaves those vertical concerns for next week.</p>
+<p>[Sources]</p>
+<p>Xbox Series X promotional image, Microsoft/Xbox Wire (12 December 2019).</p>
+<p><a href="https://news.xbox.com/en-us/2019/12/12/microsoft-unveils-xbox-series-x/" target="_blank" rel="noopener">https://news.xbox.com/en-us/2019/12/12/microsoft-unveils-xbox-series-x/</a></p>
+<p>Call of Duty: Modern Warfare II promotional artwork, Activision, via Xbox Wire (8 June 2022).</p>
+<p><a href="https://news.xbox.com/en-us/2022/06/08/announcing-call-of-duty-modern-warfare-ii/" target="_blank" rel="noopener">https://news.xbox.com/en-us/2022/06/08/announcing-call-of-duty-modern-warfare-ii/</a></p>
+<p>[/Sources]</p></aside>
+</section>
+
+<!-- Logical slide 89 of 103; Beamer 65 -->
+<section id="slide-077" class="case-discussion" data-background-color="#e8c7b3" data-section="Summing Up" data-frame="65">
+<h2>Microsoft/Activision: horizontal effects in the decisions</h2>
+<div class="slide-body">
+<blockquote><div class="align-left"><div class="italic"><p>“The Commission considers that the Transaction does not raise competition concerns as regards horizontally affected markets…”</p></div></div></blockquote>
+<div class="smallnote"><p>European Commission, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023M10646(02)" target="_blank" rel="noopener"><em>Summary of Commission Decision</em></a>, 15 May 2023, para.&nbsp;12, OJ p.&nbsp;C&nbsp;285/9.</p></div>
+<div class="spacer" data-size="smallskip"></div>
+<p>The EC pointed to generally limited combined shares and small increments, including in its assessment of narrower game segments.</p>
+<div class="spacer" data-size="bigskip"></div>
+<p>The US appeals court described the FTC's case as:</p>
+<blockquote><div class="align-left"><div class="italic"><p>“viewing the merger as a vertical integration between a content-platform operator and a content producer”</p></div></div></blockquote>
+<div class="smallnote"><p>US Ninth Circuit, <a href="https://cdn.ca9.uscourts.gov/datastore/opinions/2025/05/07/23-15992.pdf" target="_blank" rel="noopener"><em>FTC v. Microsoft</em></a>, 7 May 2025, p.&nbsp;6.</p></div>
+<div class="spacer" data-size="smallskip"></div>
+<p>The FTC's challenge focused on competing consoles, subscription services and cloud streaming. This appeal concerned the denial of a preliminary injunction.</p>
+</div>
+<aside class="notes"><p>The EC quotation is a 16-word excerpt from the official summary, paragraph 12, printed Official Journal page C 285/9 (PDF page 2). The ellipsis marks the omitted explanation of the limited shares and marginal increments. The EC also considered potentially narrower genres and game types; its overall clearance was subject to commitments addressing other concerns.</p>
+<p>The US quotation is a 15-word excerpt from the court's own opinion at printed page 6, rather than the non-binding staff summary at page 2. The court is describing the FTC's vertical theory. It does not make an express finding in this passage that all horizontal effects were harmless. On pages 6–7 it explains that the appeal concerns preliminary relief and that the administrative proceeding remained pending at that time. The wording on the slide preserves this distinction.</p>
+<p>[Sources]</p>
+<p><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023M10646(02)" target="_blank" rel="noopener">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023M10646(02)</a></p>
+<p><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=oj:JOC_2023_285_R_0005" target="_blank" rel="noopener">https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=oj:JOC_2023_285_R_0005</a></p>
+<p><a href="https://cdn.ca9.uscourts.gov/datastore/opinions/2025/05/07/23-15992.pdf" target="_blank" rel="noopener">https://cdn.ca9.uscourts.gov/datastore/opinions/2025/05/07/23-15992.pdf</a></p>
+<p>[/Sources]</p></aside>
+</section>
+
+<!-- Logical slide 90 of 103; Beamer 66 -->
+<section id="slide-078" class="" data-section="Summing Up" data-frame="66">
+<h2>Final takeaways</h2>
+<div class="slide-body">
+<ul>
+<li><p>Common ownership makes firms internalise how their prices, quantities and product choices affect one another's profits.</p></li>
+<li><p>Removing a close competitor strengthens the incentive to raise prices or reduce output, all else equal.</p></li>
+<li><p>Marginal-cost savings make extra output more profitable and can offset the loss of rivalry.</p></li>
+<li><p>Rivals' expansion or entry can limit price increases. Their responses can also make a merger unprofitable for the merging firms.</p></li>
+<li><p>A merger can make coordination easier by changing the payoffs from cooperation, deviation and punishment, especially when it removes a maverick.</p></li>
+<li><p>Common ownership changes product and innovation incentives: it can support better products, while protecting existing profits can encourage product withdrawal or cancellation of competing projects.</p></li>
+<li><p>A profitable merger can harm consumers. Total welfare also depends on resource savings, product variety, quality and future innovation.</p></li>
+</ul>
+</div>
+</section>
+
+<!-- Logical slide 91 of 103; Beamer divider -->
+<section id="section-applied-session" class="section-divider" data-background-color="#bc5e27" data-section="Applied Session"><h1>Applied Session</h1></section>
+
+<!-- Logical slide 92 of 103; Beamer 67 -->
+<section id="slide-applied-hints" class="applied-hints-slide" data-section="Applied Session" data-frame="67">
+<h2>Hints for Problems</h2>
+<div class="slide-body">
+<img src="figures/applied-session/hints-for-problems-qr.png" alt="QR code for the applied-session problem hints">
+</div>
+</section>
+
+<!-- Logical slide 93 of 103; Beamer divider -->
+<section id="section-79" class="section-divider" data-background-color="#bc5e27" data-section="Appendix"><h1>Appendix: HHI and markups</h1></section>
+
+<!-- Logical slide 94 of 103; Beamer 68 -->
+<section id="hhi-derivation" class="equation-slide" data-section="Appendix" data-frame="68" data-appendix="true">
+<h2>Cournot connects each firm's markup to its market share</h2>
+<div class="slide-body">
+<p>For inverse demand <span class="math-inline">P(Q)</span>, firm <span class="math-inline">i</span>'s first-order condition is</p>
+<div class="math-display fragment calc-step" data-fragment-index="0">\begin{aligned}
+    P(Q)+P'(Q)q_i-c_i=0.
+  \end{aligned}</div>
+<div class="fragment calc-step" data-fragment-index="1">
+<p>Rearrange and divide by price:</p>
+<div class="math-display">\begin{aligned}
+    \frac{P-c_i}{P}
+      =-\frac{P'(Q)q_i}{P}.
+  \end{aligned}</div>
+</div>
+<div class="fragment calc-step" data-fragment-index="2">
+<p>Use these definitions:</p>
+<ul>
+<li><p>Output share: <span class="math-inline">s_i=q_i/Q</span>.</p></li>
+<li><p>Lerner index: <span class="math-inline">L_i=(P-c_i)/P</span>.</p></li>
+<li><p>Absolute market-demand elasticity: <span class="math-inline">\varepsilon&gt;0</span>.</p></li>
+</ul>
+</div>
+<div class="spacer" data-size="medskip"></div>
+<p><a class="button" href="#/hhi-summary">Back to HHI summary</a></p>
+</div>
+</section>
+
+<!-- Logical slide 95 of 103; Beamer 69 -->
+<section id="slide-081" class="equation-slide" data-section="Appendix" data-frame="69" data-appendix="true">
+<h2>The inverse-demand elasticity</h2>
+<div class="slide-body">
+<div class="math-display">\begin{aligned}
+    \varepsilon
+      =-\frac{dQ}{dP}\frac{P}{Q}.
+  \end{aligned}</div>
+<div class="fragment calc-step" data-fragment-index="0">
+<p>Use <span class="math-inline">dQ/dP=1/P'(Q)</span>:</p>
+<div class="math-display">\begin{aligned}
+    \varepsilon=-\frac{P}{P'(Q)Q}.
+  \end{aligned}</div>
+</div>
+<div class="fragment calc-step" data-fragment-index="1">
+<p>Taking the reciprocal gives</p>
+<div class="math-display">\begin{aligned}
+    \frac{1}{\varepsilon}
+      =-\frac{P'(Q)Q}{P}.
+  \end{aligned}</div>
+</div>
+<p class="fragment calc-step" data-fragment-index="2">Larger <span class="math-inline">\varepsilon</span> means a stronger demand response to price.</p>
+<div class="spacer" data-size="medskip"></div>
+<p><a class="button" href="#/hhi-summary">Back to HHI summary</a></p>
+</div>
+</section>
+
+<!-- Logical slide 96 of 103; Beamer 70 -->
+<section id="slide-082" class="equation-slide" data-section="Appendix" data-frame="70" data-appendix="true">
+<h2>The firm-level Lerner index is share divided by elasticity</h2>
+<div class="slide-body">
+<p>Recall the Lerner index <span class="math-inline">L_i=(P-c_i)/P</span>. The first-order condition gives</p>
+<div class="math-display fragment calc-step" data-fragment-index="0">\begin{aligned}
+    L_i=-\frac{P'(Q)q_i}{P}.
+  \end{aligned}</div>
+<div class="fragment calc-step" data-fragment-index="1">
+<p>Multiply and divide by total output <span class="math-inline">Q</span>:</p>
+<div class="math-display">\begin{aligned}
+    L_i
+      =\frac{q_i}{Q}\left[-\frac{P'(Q)Q}{P}\right]
+  \end{aligned}</div>
+</div>
+<div class="fragment calc-step" data-fragment-index="2">
+<div class="math-display">\begin{aligned}
+    L_i=\frac{s_i}{\varepsilon}.
+  \end{aligned}</div>
+<p>With a common price and demand elasticity, a larger output share implies a larger price–cost margin.</p>
+</div>
+<div class="spacer" data-size="medskip"></div>
+<p><a class="button" href="#/hhi-summary">Back to HHI summary</a></p>
+</div>
+</section>
+
+<!-- Logical slide 97 of 103; Beamer 71 -->
+<section id="slide-083" class="equation-slide" data-section="Appendix" data-frame="71" data-appendix="true">
+<h2>Share-weighting produces the HHI–margin identity</h2>
+<div class="slide-body">
+<p>Start from <span class="math-inline">L_i=s_i/\varepsilon</span>, with shares measured as fractions. Weight each firm's margin by its share:</p>
+<div class="math-display fragment calc-step" data-fragment-index="0">\begin{aligned}
+    \sum_i s_iL_i
+      =\sum_i s_i\frac{s_i}{\varepsilon}
+  \end{aligned}</div>
+<div class="math-display fragment calc-step" data-fragment-index="1">\begin{aligned}
+    \sum_i s_iL_i=\frac{\sum_i s_i^2}{\varepsilon}
+  \end{aligned}</div>
+<div class="fragment calc-step" data-fragment-index="2">
+<div class="math-display">\begin{aligned}
+    \sum_i s_iL_i=\frac{HHI}{\varepsilon}.
+  \end{aligned}</div>
+<p>Here <span class="math-inline">HHI=\sum_i s_i^2</span> uses shares between 0 and 1.</p>
+</div>
+<p><a class="button" href="#/hhi-summary">Back to HHI summary</a></p>
+</div>
+</section>
+
+<!-- Logical slide 98 of 103; Beamer 71 (continued) -->
+<section id="slide-083-continued" class="equation-slide continuation" data-section="Appendix" data-frame="71" data-part="2" data-appendix="true">
+<h2>Converting the HHI identity to percentage shares</h2>
+<div class="slide-body">
+<p>With fractional shares, we found <span class="math-inline">\sum_i s_iL_i=HHI/\varepsilon</span>.</p>
+<p>Now use percentage shares <span class="math-inline">\widetilde{s}_i=100s_i</span>. On the 0–10,000 scale,</p>
+<div class="math-display fragment calc-step" data-fragment-index="0">\begin{aligned}
+    HHI=\sum_i\widetilde{s}_i^2
+       =10{,}000\sum_i s_i^2.
+  \end{aligned}</div>
+<div class="fragment calc-step" data-fragment-index="1">
+<p>The share-weighted margin is therefore</p>
+<div class="math-display">\begin{aligned}
+    \sum_i \frac{\widetilde{s}_i}{100}L_i
+      =\frac{HHI}{10{,}000\varepsilon}.
+  \end{aligned}</div>
+</div>
+<p class="fragment calc-step" data-fragment-index="2">Holding demand elasticity fixed, greater Cournot concentration implies a larger share-weighted markup.</p>
+<div class="spacer" data-size="medskip"></div>
+<p><a class="button" href="#/hhi-summary">Back to HHI summary</a></p>
+</div>
+</section>
+
+<!-- Logical slide 99 of 103; Beamer 72 -->
+<section id="slide-084" class="" data-section="Appendix" data-frame="72" data-appendix="true">
+<h2>The HHI–margin identity is conditional on the Cournot model</h2>
+<div class="slide-body">
+<p>The result uses several assumptions:</p>
+<ul>
+<li><p>firms choose quantities;</p></li>
+<li><p>products are homogeneous and sell at one market price;</p></li>
+<li><p>each firm treats rivals' quantities as fixed;</p></li>
+<li><p>the relevant demand elasticity is well defined at the equilibrium;</p></li>
+<li><p>market shares reflect firms' output choices.</p></li>
+</ul>
+<p>Product differentiation, capacity constraints, asymmetric costs, entry and innovation can make markets with the same HHI behave differently.</p>
+<div class="block"><div class="block-title">Use of concentration</div><div class="block-body"><p>HHI has a precise interpretation inside this benchmark. Outside it, concentration remains evidence that must be connected to an appropriate competitive mechanism.</p></div></div>
+<div class="spacer" data-size="medskip"></div>
+<p><a class="button" href="#/hhi-summary">Back to HHI summary</a></p>
+</div>
+</section>
+
+<!-- Logical slide 100 of 103; Beamer divider -->
+<section id="section-85" class="section-divider" data-background-color="#bc5e27" data-section="Appendix"><h1>Appendix: serial acquisitions and HHI</h1></section>
+
+<!-- Logical slide 101 of 103; Beamer 73 -->
+<section id="serial-hhi-derivation" class="equation-slide" data-section="Appendix" data-frame="73" data-appendix="true">
+<h2>Derive the HHI increment from acquisition <span class="math-inline">j</span></h2>
+<div class="slide-body">
+<p>The acquirer has share <span class="math-inline">S_{j-1}</span> and the target has share <span class="math-inline">t_j</span>. Compare their combined HHI contribution with their separate contributions:</p>
+<div class="math-display fragment calc-step" data-fragment-index="0">\begin{aligned}
+    \Delta HHI_j
+      =(S_{j-1}+t_j)^2-S_{j-1}^2-t_j^2.
+  \end{aligned}</div>
+<div class="fragment calc-step" data-fragment-index="1">
+<p>Expand the square:</p>
+<div class="math-display">\begin{aligned}
+    \Delta HHI_j
+      &amp;=S_{j-1}^2+2S_{j-1}t_j+t_j^2\\
+      &amp;\quad-S_{j-1}^2-t_j^2.
+  \end{aligned}</div>
+</div>
+<div class="math-display fragment calc-step" data-fragment-index="2">\begin{aligned}
+    \Delta HHI_j=2S_{j-1}t_j.
+  \end{aligned}</div>
+<p><a class="button" href="#/serial-hhi-claim">Back to serial acquisitions</a></p>
+</div>
+</section>
+
+<!-- Logical slide 102 of 103; Beamer 73 (continued) -->
+<section id="serial-hhi-derivation-continued" class="equation-slide continuation" data-section="Appendix" data-frame="73" data-part="2" data-appendix="true">
+<h2>Earlier acquisitions enter the next HHI increment</h2>
+<div class="slide-body">
+<p>We found <span class="math-inline">\Delta HHI_j=2S_{j-1}t_j</span>.</p>
+<p>Before acquisition <span class="math-inline">j</span>, the acquirer already owns the earlier targets:</p>
+<div class="math-display fragment calc-step" data-fragment-index="0">\begin{aligned}
+    S_{j-1}=s_0+\sum_{\ell&lt;j}t_\ell.
+  \end{aligned}</div>
+<div class="fragment calc-step" data-fragment-index="1">
+<p>Substituting gives</p>
+<div class="math-display">\begin{aligned}
+    \Delta HHI_j=2\left(s_0+\sum_{\ell&lt;j}t_\ell\right)t_j.
+  \end{aligned}</div>
+</div>
+<p class="fragment calc-step" data-fragment-index="2">The same-sized target adds more to HHI after the acquirer has grown.</p>
+<p><a class="button" href="#/serial-hhi-claim">Back to serial acquisitions</a></p>
+</div>
+</section>
+
+<!-- Logical slide 103 of 103; Beamer 74 -->
+<section id="slide-087" class="equation-slide" data-section="Appendix" data-frame="74" data-appendix="true">
+<h2>Summing the increments gives one cumulative identity</h2>
+<div class="slide-body">
+<p>Across <span class="math-inline">k</span> acquisitions,</p>
+<div class="math-display fragment calc-step" data-fragment-index="0">\begin{aligned}
+    \sum_{j=1}^{k}\Delta HHI_j
+      &amp;=\left(s_0+\sum_{j=1}^{k}t_j\right)^2\\
+      &amp;\quad-s_0^2-\sum_{j=1}^{k}t_j^2.
+  \end{aligned}</div>
+<ul>
+<li class="fragment calc-step" data-fragment-index="1"><p>The squared total share is the final owner's HHI contribution.</p></li>
+<li class="fragment calc-step" data-fragment-index="1"><p>Subtract the acquirer and targets' separate initial contributions.</p></li>
+</ul>
+<div class="block alert-block fragment calc-step" data-fragment-index="2"><div class="block-title">Scope</div><div class="block-body"><p>All shares must refer to the same relevant market and consistent market totals.</p></div></div>
+<p><a class="button" href="#/serial-hhi-claim">Back to serial acquisitions</a></p>
+</div>
+</section>
+</div></div>
+<div class="deck-footer"><span>ECF3900 · Week 7 · Mitchell Watt</span><span></span></div>
+<noscript>This presentation requires JavaScript to display the slides and equations.</noscript>
+<script src="vendor/katex/katex.min.js"></script>
+<script src="vendor/reveal/dist/reveal.js"></script>
+<script src="vendor/reveal/dist/plugin/notes.js"></script>
+<script src="vendor/chalkboard/plugin.js"></script>
+<script src="vendor/menu/menu.js"></script>
+<script src="deck.js?v=20260905-r1"></script>
+</body>
+</html>

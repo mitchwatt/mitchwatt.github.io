@@ -1,0 +1,19 @@
+Images used in the Week 7 lecture slides
+
+xbox-series-x.jpg
+Microsoft/Xbox Wire, "Power Your Dreams with Xbox Series X, Available Holiday 2020", 12 December 2019.
+Page: https://news.xbox.com/en-us/2019/12/12/microsoft-unveils-xbox-series-x/
+Image: https://xboxwire.thesourcemediaassets.com/sites/2/2019/12/XboxSeriesXHERO.jpg
+
+call-of-duty-mwii.jpg
+Activision promotional artwork, via Xbox Wire, "Announcing Call of Duty: Modern Warfare II", 8 June 2022.
+Page: https://news.xbox.com/en-us/2022/06/08/announcing-call-of-duty-modern-warfare-ii/
+Image: https://xboxwire.thesourcemediaassets.com/sites/2/2022/06/Call-of-Duty-Modern-Warfare-II_Reveal_X1_Wire_Hero_1920x1080-b5aea4e5ca6046ac478e.jpg
+
+economist-market-shares-2022.png
+The Economist, "Microsoft, Activision Blizzard and the future of gaming", 29 November 2022, "Gamesmasters" chart. Underlying sources: Omdia and Ampere Analysis.
+Page: https://www.economist.com/business/2022/11/29/microsoft-activision-blizzard-and-the-future-of-gaming
+Chart reproduced without alteration from the article cited above.
+Historical 2022 data; consoles in use are a forecast, subscription-service shares are for Q2. This chart uses different activities and measures from the publishing-market HHI exercise.
+
+Rights remain with their respective owners. Included with attribution for the requested educational discussion.

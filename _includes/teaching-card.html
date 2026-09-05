@@ -16,7 +16,7 @@
   {% if teaching.summary %}<p class="teaching-card__summary">{{ teaching.summary }}</p>{% endif %}
 
   {% for material in teaching.materials %}
-    <a class="teaching-card__link" href="{{ material.url | relative_url }}">{{ material.title }} <span aria-hidden="true">→</span></a>
+    <div><a class="teaching-card__link" href="{{ material.url | relative_url }}">{{ material.title }} <span aria-hidden="true">→</span></a></div>
   {% endfor %}
 
   {% unless teaching.current %}

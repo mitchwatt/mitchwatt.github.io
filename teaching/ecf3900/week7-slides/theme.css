@@ -1,0 +1,1190 @@
+/* Week 7: an offline web counterpart to wattbeamerformat.sty.
+   Slide content and mathematics remain in index.html. */
+:root {
+  --deck-teal: #16697a;
+  --deck-rust: #bc5e27;
+  --deck-case: #e8c7b3;
+  --deck-ink: #2b4554;
+  --deck-soft: #f5f7f8;
+  --deck-green: #2a744c;
+  --body-size: 30px;
+  --title-size: 37px;
+  --slide-width: 1280px;
+  --slide-height: 720px;
+  --deck-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  background: #fff;
+}
+
+.reveal {
+  color: #171b1e;
+  font-family: var(--deck-font);
+  font-size: var(--body-size);
+  font-weight: 400;
+  line-height: 1.28;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .slides > section {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 40px 62px 62px;
+  font-size: var(--body-size);
+  line-height: 1.28;
+  text-align: left;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  color: var(--deck-ink);
+  font-family: var(--deck-font);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.16;
+  text-transform: none;
+  text-shadow: none;
+  overflow-wrap: normal;
+}
+
+.reveal .slides > section > h2 {
+  margin: 0 0 26px;
+  font-size: var(--title-size);
+}
+
+.reveal .slide-body {
+  font-size: var(--body-size);
+  line-height: 1.28;
+  overflow: visible;
+}
+
+.reveal p {
+  margin: 0.5em 0;
+  line-height: inherit;
+}
+
+.reveal .slide-body > :first-child,
+.reveal .block-body > :first-child,
+.reveal .column > :first-child {
+  margin-top: 0;
+}
+
+.reveal .slide-body > :last-child,
+.reveal .block-body > :last-child,
+.reveal .column > :last-child {
+  margin-bottom: 0;
+}
+
+.reveal ul,
+.reveal ol {
+  display: block;
+  margin: 0.4em 0 0.5em;
+  padding-left: 1.18em;
+  text-align: left;
+}
+
+.reveal ul {
+  list-style-type: disc;
+}
+
+.reveal li {
+  margin: 0.34em 0;
+  padding-left: 0.08em;
+  line-height: inherit;
+}
+
+.reveal li > p {
+  margin: 0;
+}
+
+.reveal li > p + p {
+  margin-top: 0.35em;
+}
+
+.reveal li::marker {
+  color: var(--deck-teal);
+}
+
+.reveal li > ul,
+.reveal li > ol {
+  margin: 0.2em 0 0.12em;
+  font-size: 0.96em;
+}
+
+.reveal li li {
+  margin: 0.2em 0;
+}
+
+.reveal li li::marker {
+  color: var(--deck-rust);
+}
+
+.reveal strong,
+.reveal b,
+.reveal .bold {
+  font-weight: 700;
+}
+
+.reveal em,
+.reveal i,
+.reveal .italic {
+  font-style: italic;
+}
+
+.reveal a {
+  color: var(--deck-teal);
+  text-decoration: underline;
+  text-decoration-thickness: 0.055em;
+  text-underline-offset: 0.12em;
+}
+
+.reveal a:hover {
+  color: var(--deck-rust);
+}
+
+.reveal a:focus-visible,
+.reveal button:focus-visible {
+  outline: 3px solid var(--deck-rust);
+  outline-offset: 4px;
+}
+
+.reveal .block {
+  margin: 0.65em 0;
+  border-radius: 3px;
+  background: var(--deck-soft);
+  box-shadow: none;
+}
+
+.reveal .block-title {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.25em 0.6em 0.29em;
+  border-radius: 3px 3px 0 0;
+  background: var(--deck-teal);
+  color: #fff;
+  font-size: 0.97em;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.reveal .block-body {
+  box-sizing: border-box;
+  padding: 0.45em 0.6em 0.5em;
+  line-height: 1.27;
+}
+
+.reveal .alert-block > .block-title {
+  background: var(--deck-rust);
+}
+
+.reveal .columns {
+  display: flex;
+  align-items: flex-start;
+  gap: 34px;
+  width: 100%;
+  margin: 0.45em 0;
+}
+
+.reveal .column {
+  box-sizing: border-box;
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.reveal img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: none;
+  margin: 0;
+  vertical-align: middle;
+  object-fit: contain;
+}
+
+.reveal .minipage {
+  box-sizing: border-box;
+  width: 88%;
+  margin: 0.55em auto;
+  line-height: 1.32;
+}
+
+.reveal .case-discussion {
+  background: var(--deck-case);
+}
+
+.reveal .discussion-prompt {
+  padding: 46px 44px 50px;
+}
+
+.reveal .discussion-prompt .minipage {
+  display: inline-block;
+  width: 47%;
+  margin: 0 1%;
+  vertical-align: top;
+}
+
+.reveal .discussion-prompt .slide-body > .align-center > p:last-child {
+  margin-top: 0.35em;
+  color: var(--deck-ink);
+}
+
+.reveal .discussion-prompt .minipage p { margin: 0; }
+.reveal .discussion-prompt .minipage .spacer { height: 0.18em; }
+.reveal .discussion-prompt .tex-font { color: var(--deck-ink); }
+
+/* Optional activity sections can be inserted without changing the course slides. */
+.reveal .poll-embed {
+  width: 100%;
+  height: 470px;
+  overflow: auto;
+}
+.reveal .poll-embed iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* The embedded activity provides its own question heading. */
+.reveal .slides > section.poll-full-height {
+  padding-top: 20px;
+}
+
+.reveal .poll-full-height .poll-embed {
+  height: 600px;
+  overflow: hidden;
+}
+
+.reveal .poll-full-height .poll-embed iframe {
+  max-width: none;
+  max-height: none;
+}
+
+.reveal .poll-full-height .poll-fallback {
+  margin: 6px 0 0;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+/* Opening activity: keep the live results visible beside the supplied
+   Poll Everywhere Live code. */
+.reveal .poll-arrival-live-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 28px;
+  align-items: start;
+}
+
+.reveal .poll-arrival-results {
+  min-width: 0;
+}
+
+.reveal .poll-arrival-live-grid .poll-embed {
+  height: 570px;
+}
+
+.reveal .poll-arrival-qr {
+  margin: 104px 0 0;
+  text-align: center;
+}
+
+.reveal .poll-arrival-qr .poll-qr-image-link {
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+/* View the complete bordered Live code from the unchanged 2560x1440
+   supplied image. Source viewport: x=900, y=580, width=760, height=760. */
+.reveal .poll-arrival-live-qr {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background-color: #f7f8fa;
+  background-image: url("figures/polls/opening-games-live-placeholder.png");
+  background-repeat: no-repeat;
+  background-size: 1010.5263158px 568.4210526px;
+  background-position: -355.2631579px -228.9473684px;
+}
+
+.reveal .poll-arrival-qr figcaption {
+  margin-top: 12px;
+  font-size: 0.9em;
+  font-weight: 700;
+  color: var(--deck-ink);
+}
+
+.reveal .poll-arrival-qr .poll-response-link {
+  margin: 7px 0 0;
+  font-size: 0.72em;
+}
+
+/* Projected question and choices, with a direct response QR for students. */
+.reveal .poll-question-slide .poll-question-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 36px;
+  align-items: start;
+}
+
+.reveal .poll-question-slide .poll-options {
+  margin: 0;
+  padding-left: 1.15em;
+  list-style-type: upper-alpha;
+}
+
+.reveal .poll-question-slide .poll-options-numbered {
+  list-style-type: decimal;
+}
+
+.reveal .poll-question-slide .poll-options li {
+  margin: 0 0 0.48em;
+  padding-left: 0.12em;
+  line-height: 1.25;
+}
+
+.reveal .poll-question-slide .poll-options li:last-child {
+  margin-bottom: 0;
+}
+
+.reveal .poll-question-slide .poll-options li::marker {
+  color: var(--deck-ink);
+  font-weight: 700;
+}
+
+.reveal .poll-question-slide .poll-qr {
+  margin: 0;
+  text-align: center;
+}
+
+.reveal .poll-question-slide .poll-qr-image-link {
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.reveal .poll-question-slide .poll-qr img {
+  display: block;
+  width: 300px;
+  height: 300px;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  border: 0;
+  background: #fff;
+}
+
+/* View the complete bordered Live code from the unchanged 2560x1440
+   supplied image. Source viewport: x=900, y=580, width=760, height=760.
+   The viewport includes the full code and surrounding margin. */
+.reveal .poll-question-slide .poll-live-qr {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background-color: #f7f8fa;
+  background-image: url("figures/polls/sony-live-placeholder.png");
+  background-repeat: no-repeat;
+  background-size: 1010.5263158px 568.4210526px;
+  background-position: -355.2631579px -228.9473684px;
+}
+
+/* HMT activity code supplied from Poll Everywhere Live. The source image
+   uses the same 2560x1440 Live-app layout and 760px square viewport. */
+.reveal .poll-question-slide .poll-hmt-live-qr {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background-color: #f7f8fa;
+  background-image: url("figures/polls/hmt-profit-change-live-placeholder.png");
+  background-repeat: no-repeat;
+  background-size: 1010.5263158px 568.4210526px;
+  background-position: -355.2631579px -228.9473684px;
+}
+
+/* Combined-profit HMT activity code supplied from Poll Everywhere Live. */
+.reveal .poll-question-slide .poll-hmt-combined-live-qr {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background-color: #f7f8fa;
+  background-image: url("figures/polls/hmt-combined-profit-live-placeholder.png");
+  background-repeat: no-repeat;
+  background-size: 1010.5263158px 568.4210526px;
+  background-position: -355.2631579px -228.9473684px;
+}
+
+/* Microsoft/Activision HHI activity codes supplied from Poll Everywhere
+   Live. Both source images use the same 2560x1440 Live-app layout. */
+.reveal .poll-question-slide .poll-hhi-pre-live-qr,
+.reveal .poll-question-slide .poll-hhi-post-live-qr {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background-color: #f7f8fa;
+  background-repeat: no-repeat;
+  background-size: 1010.5263158px 568.4210526px;
+  background-position: -355.2631579px -228.9473684px;
+}
+
+.reveal .poll-question-slide .poll-hhi-pre-live-qr {
+  background-image: url("figures/polls/hhi-pre-merger-live-placeholder.png");
+}
+
+.reveal .poll-question-slide .poll-hhi-post-live-qr {
+  background-image: url("figures/polls/hhi-post-merger-live-placeholder.png");
+}
+
+/* Differentiated-Bertrand activity code supplied from Poll Everywhere Live. */
+.reveal .poll-question-slide .poll-bertrand-live-qr {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background-color: #f7f8fa;
+  background-image: url("figures/polls/bertrand-cross-effect-live-placeholder.png");
+  background-repeat: no-repeat;
+  background-size: 1010.5263158px 568.4210526px;
+  background-position: -355.2631579px -228.9473684px;
+}
+
+/* Diversion and gross-UPP activity codes supplied from Poll Everywhere
+   Live. Both source images use the same 2560x1440 Live-app layout. */
+.reveal .poll-question-slide .poll-diversion-live-qr,
+.reveal .poll-question-slide .poll-upp-live-qr {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background-color: #f7f8fa;
+  background-repeat: no-repeat;
+  background-size: 1010.5263158px 568.4210526px;
+  background-position: -355.2631579px -228.9473684px;
+}
+
+.reveal .poll-question-slide .poll-diversion-live-qr {
+  background-image: url("figures/polls/diversion-ratio-live-placeholder.png");
+}
+
+.reveal .poll-question-slide .poll-upp-live-qr {
+  background-image: url("figures/polls/upp-live-placeholder.png");
+}
+
+.reveal .diversion-poll-question-slide .diversion-poll-content,
+.reveal .upp-poll-question-slide .upp-poll-content {
+  min-width: 0;
+}
+
+.reveal .diversion-poll-question-slide .diversion-poll-question,
+.reveal .upp-poll-question-slide .upp-poll-question {
+  margin-top: 0.62em;
+  margin-bottom: 0.42em;
+  font-size: 1.04em;
+  line-height: 1.2;
+}
+
+.reveal .diversion-poll-question-slide .diversion-poll-qr {
+  margin-top: 54px;
+}
+
+.reveal .upp-poll-question-slide .upp-poll-content {
+  font-size: 0.94em;
+}
+
+.reveal .upp-poll-question-slide .upp-poll-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.38em 1.25em;
+}
+
+.reveal .upp-poll-question-slide .upp-poll-options li {
+  margin: 0;
+}
+
+.reveal .upp-poll-question-slide .upp-poll-qr {
+  margin-top: 76px;
+}
+
+.reveal .bertrand-poll-question-slide .bertrand-poll-content {
+  min-width: 0;
+}
+
+.reveal .bertrand-poll-question-slide .bertrand-poll-question {
+  margin-top: 0.58em;
+  margin-bottom: 0.42em;
+  font-size: 1.04em;
+  line-height: 1.18;
+}
+
+.reveal .bertrand-poll-question-slide .bertrand-poll-options {
+  font-size: 0.9em;
+}
+
+.reveal .bertrand-poll-question-slide .bertrand-poll-options li {
+  margin-bottom: 0.3em;
+  line-height: 1.18;
+}
+
+.reveal .bertrand-poll-question-slide .bertrand-poll-qr {
+  margin-top: 82px;
+}
+
+.reveal .hhi-poll-question-slide .hhi-poll-content {
+  min-width: 0;
+}
+
+.reveal .hhi-poll-question-slide .hhi-share-list {
+  margin: 0.48em 0 0;
+}
+
+.reveal .hhi-poll-question-slide .hhi-share-list li {
+  margin-bottom: 0.12em;
+}
+
+.reveal .hhi-poll-question-slide .hhi-share-list p {
+  margin: 0;
+}
+
+.reveal .hhi-poll-question-slide .hhi-poll-question {
+  margin-top: 0.62em;
+  font-size: 1.12em;
+  line-height: 1.18;
+}
+
+.reveal .hhi-poll-question-slide .hhi-poll-qr {
+  margin-top: 70px;
+}
+
+.reveal .hmt-poll-question-slide .hmt-poll-content {
+  min-width: 0;
+}
+
+.reveal .hmt-poll-question-slide .math-display {
+  margin-top: 0.24em;
+  margin-bottom: 0.3em;
+}
+
+.reveal .hmt-poll-question-slide .hmt-poll-question {
+  margin-top: 0.58em;
+  margin-bottom: 0.42em;
+  font-size: 1.02em;
+  line-height: 1.2;
+}
+
+.reveal .hmt-poll-question-slide .poll-options li {
+  margin: 0;
+}
+
+.reveal .hmt-poll-question-slide .poll-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.38em 1.25em;
+}
+
+.reveal .hmt-poll-question-slide .hmt-poll-qr {
+  margin-top: 68px;
+}
+
+.reveal .poll-question-slide .poll-qr figcaption {
+  margin-top: 12px;
+  font-size: 0.9em;
+  font-weight: 700;
+  color: var(--deck-ink);
+}
+
+.reveal .poll-question-slide .poll-response-link {
+  margin: 7px 0 0;
+  font-size: 0.72em;
+}
+
+.reveal .column > .block {
+  margin-top: 0;
+}
+
+.reveal .math-inline {
+  color: var(--deck-ink);
+  /* KaTeX may break between complete terms at relations/operators. */
+  white-space: normal;
+}
+
+.reveal .math-display {
+  margin: 0.45em 0 0.55em;
+  color: var(--deck-ink);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.reveal .math-inline .katex {
+  font-size: 1.13em;
+}
+
+.reveal .math-display .katex {
+  font-size: 1.15em;
+}
+
+.reveal .math-display .katex-display {
+  margin: 0;
+  overflow: visible;
+}
+
+.reveal .math-display .katex-display > .katex {
+  white-space: nowrap;
+}
+
+.reveal .column .math-display {
+  margin: 0.45em 0;
+}
+
+.reveal .smallnote {
+  margin-top: 0.7em;
+  color: #536774;
+  font-size: 0.68em;
+  line-height: 1.3;
+}
+
+.reveal .small {
+  font-size: 0.9em;
+}
+
+.reveal .footnotesize {
+  font-size: 0.8em;
+}
+
+.reveal .scriptsize {
+  font-size: 0.71em;
+}
+
+/* The summary table has room to use presentation-sized text in the web layout. */
+.reveal .scriptsize:has(.tool-table) {
+  font-size: 0.95em;
+}
+
+.reveal .tool-table th:first-child,
+.reveal .tool-table td:first-child {
+  width: 25%;
+}
+
+.reveal .large {
+  font-size: 1.15em;
+}
+
+.reveal .text-group {
+  line-height: inherit;
+}
+
+.reveal .align-left {
+  text-align: left;
+}
+
+.reveal .align-center {
+  text-align: center;
+}
+
+.reveal .applied-hints-slide .slide-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 69px);
+}
+
+.reveal .applied-hints-slide .slide-body img {
+  display: block;
+  width: 500px;
+  height: 500px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.reveal .align-right {
+  text-align: right;
+}
+
+.reveal .quote-panel {
+  width: 88%;
+  margin: 0.55em auto;
+  line-height: 1.32;
+}
+
+.reveal .spacer {
+  display: block;
+  height: var(--space, 0.45em);
+  min-height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.reveal .spacer[data-size="small"],
+.reveal .spacer[data-size="smallskip"] {
+  height: 0.25em;
+}
+
+.reveal .spacer[data-size="medium"],
+.reveal .spacer[data-size="medskip"] {
+  height: 0.45em;
+}
+
+.reveal .spacer[data-size="large"],
+.reveal .spacer[data-size="bigskip"] {
+  height: 0.75em;
+}
+
+.reveal .spacer[data-size="baselineskip"] {
+  height: 1.28em;
+}
+
+.reveal table {
+  width: 100%;
+  margin: 0.7em auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 0.9em;
+  line-height: 1.24;
+}
+
+.reveal table th,
+.reveal table td {
+  padding: 0.34em 0.42em;
+  border: 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.reveal table thead th {
+  border-top: 2px solid var(--deck-ink);
+  border-bottom: 1.5px solid var(--deck-ink);
+  color: var(--deck-teal);
+  font-weight: 700;
+}
+
+.reveal table tbody tr:last-child td {
+  border-bottom: 2px solid var(--deck-ink);
+}
+
+.reveal table tbody tr + tr td {
+  border-top: 1px solid #dce3e7;
+}
+
+.reveal table tbody tr:nth-child(even) {
+  background: var(--deck-soft);
+}
+
+/* Shared columns align Cournot equalities while fragment rows keep their space.
+   Automatic sizing reserves the widest left-hand expression on each slide. */
+.reveal table.derivation-table {
+  table-layout: auto;
+  width: 100%;
+  margin: 0.45em 0;
+  font-size: 1em;
+  line-height: 1.18;
+}
+
+.reveal .derivation-table tbody tr,
+.reveal .derivation-table tbody tr:nth-child(even) {
+  background: transparent;
+}
+
+.reveal table.derivation-table tbody tr > th,
+.reveal table.derivation-table tbody tr > td {
+  border: 0;
+  padding: 0.25em 0.16em;
+  vertical-align: baseline;
+  font-weight: 400;
+}
+
+.reveal .derivation-table th.derivation-explanation {
+  width: 24%;
+  padding-left: 0.25em;
+  padding-right: 0.7em;
+  color: var(--deck-ink);
+}
+
+.reveal .derivation-table td.derivation-lhs {
+  width: 1%;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.reveal .derivation-table td.derivation-rhs {
+  padding-left: 0;
+  text-align: left;
+}
+
+.reveal .derivation-table .derivation-math {
+  white-space: nowrap;
+}
+
+.reveal .derivation-table .derivation-math .katex {
+  font-size: 1.15em;
+}
+
+/* Screen readers receive each complete equation once. The visible halves
+   are aria-hidden; the fitter also excludes this clipped MathML copy. */
+.reveal .derivation-accessible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.reveal .derivation-table tr.calc-step.current-fragment {
+  background-color: rgba(188, 94, 39, 0.075);
+}
+
+.reveal .tool-table th:first-child,
+.reveal .tool-table td:first-child {
+  width: 25%;
+  color: var(--deck-teal);
+  font-weight: 700;
+}
+
+.reveal .calculation-table th:nth-child(-n + 3),
+.reveal .calculation-table td:nth-child(-n + 3) {
+  text-align: center;
+}
+
+.reveal .calculation-table th:first-child {
+  width: 14%;
+}
+
+.reveal .calculation-table th:nth-child(2) {
+  width: 21%;
+}
+
+.reveal .calculation-table th:nth-child(3) {
+  width: 20%;
+}
+
+.reveal .button {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0.3em 0.65em;
+  border: 1px solid var(--deck-teal);
+  border-radius: 4px;
+  background: var(--deck-teal);
+  color: #fff;
+  font-size: 0.72em;
+  font-weight: 600;
+  line-height: 1.15;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.reveal .button:hover {
+  border-color: var(--deck-ink);
+  background: var(--deck-ink);
+  color: #fff;
+}
+
+.reveal blockquote {
+  box-sizing: border-box;
+  width: 92%;
+  margin: 0.8em auto;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  font-style: italic;
+  line-height: 1.35;
+}
+
+.reveal .compact {
+  --body-size: 25px;
+  line-height: 1.23;
+}
+
+.reveal .compact .slide-body {
+  line-height: 1.23;
+}
+
+.reveal .compact li {
+  margin-top: 0.23em;
+  margin-bottom: 0.23em;
+}
+
+.reveal .compact .block {
+  margin-top: 0.45em;
+  margin-bottom: 0.45em;
+}
+
+.reveal .compact .block-body {
+  padding-top: 0.35em;
+  padding-bottom: 0.4em;
+}
+
+.reveal .compact .math-display {
+  margin-top: 0.32em;
+  margin-bottom: 0.4em;
+}
+
+/* Equation slides retain the readable font floor configured in deck.js.
+   Compact spacing creates room without reducing the mathematical notation. */
+.reveal .equation-slide .slide-body {
+  line-height: 1.22;
+}
+
+.reveal .equation-slide p {
+  margin-top: 0.36em;
+  margin-bottom: 0.36em;
+}
+
+.reveal .bertrand-formalisation-slide div.calc-step {
+  margin-top: 0.28em;
+  margin-bottom: 0.28em;
+}
+
+.reveal .equation-slide .spacer[data-size="bigskip"] {
+  height: 0.5em;
+}
+
+.reveal .equation-slide .spacer[data-size="medskip"] {
+  height: 0.28em;
+}
+
+.reveal .slides > .title-slide {
+  padding: 127px 92px 80px;
+  text-align: center;
+}
+
+.reveal .title-slide .course-title {
+  margin: 0 auto 0.45em;
+  color: var(--deck-ink);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: -0.025em;
+}
+
+.reveal .title-slide .week-title {
+  margin: 0 auto;
+  color: var(--deck-teal);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.reveal .title-slide .author {
+  margin: 58px 0 12px;
+  font-size: 27px;
+}
+
+.reveal .title-slide .institution {
+  margin: 0;
+  color: var(--deck-ink);
+  font-size: 24px;
+  line-height: 1.35;
+}
+
+.reveal .title-slide .date {
+  margin: 30px 0 0;
+  color: var(--deck-ink);
+  font-size: 23px;
+}
+
+.reveal .slides > .section-divider {
+  background: var(--deck-rust);
+  color: #fff;
+  text-align: center;
+}
+
+.reveal .section-divider > h1 {
+  position: absolute;
+  top: 47%;
+  right: 94px;
+  left: 94px;
+  margin: 0;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 53px;
+  line-height: 1.22;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.reveal aside.notes {
+  display: none;
+}
+
+.deck-footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 25;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  min-height: 35px;
+  padding: 7px 24px;
+  background: var(--deck-ink);
+  color: #fff;
+  font-family: var(--deck-font);
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.deck-footer > :first-child {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.deck-footer > :last-child {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.deck-footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.deck-footer .footer-section {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.deck-footer .footer-section:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.deck-footer .footer-section:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 4px;
+}
+
+/* Position the standard menu control above the course footer. */
+body .reveal .slide-menu-button {
+  left: 24px;
+  bottom: 45px;
+}
+
+body .reveal .slide-menu-button i {
+  font-style: normal;
+}
+
+.reveal .palette i {
+  font-style: normal;
+}
+
+body .slide-menu-wrapper {
+  font-family: var(--deck-font);
+}
+
+body .slide-menu-wrapper .slide-menu {
+  font-size: 18px;
+}
+
+.reveal .controls {
+  right: 13px;
+  bottom: 42px;
+  color: var(--deck-teal);
+}
+
+.reveal .progress {
+  bottom: 35px;
+  height: 3px;
+  color: var(--deck-rust);
+}
+
+.reveal .slide-number {
+  right: 18px;
+  bottom: 42px;
+  background: transparent;
+  color: var(--deck-ink);
+  font-family: var(--deck-font);
+}
+
+.reveal .slides section .fragment {
+  transition-duration: 180ms;
+}
+
+/* Calculation fragments retain their space and earlier working stays visible.
+   The current step gets a quiet accent without moving the content. */
+.reveal div.calc-step {
+  margin: 0.4em 0;
+}
+
+/* A revealed column starts at the same height as its visible neighbour. */
+.reveal .column > div.calc-step {
+  margin: 0;
+}
+
+.reveal .column > .calc-step > .block {
+  margin-top: 0;
+}
+
+.reveal div.calc-step > :first-child {
+  margin-top: 0;
+}
+
+.reveal div.calc-step > :last-child {
+  margin-bottom: 0;
+}
+
+.reveal .calc-step .math-display,
+.reveal .math-display.calc-step {
+  margin-top: 0.28em;
+  margin-bottom: 0.32em;
+}
+
+.reveal .calc-step.current-fragment {
+  background-color: rgba(188, 94, 39, 0.075);
+  box-shadow: -4px 0 0 var(--deck-rust);
+}
+
+.reveal span.calc-step.current-fragment,
+.reveal tr.calc-step.current-fragment {
+  box-shadow: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal .slides section .fragment {
+    transition-duration: 0ms;
+  }
+}
+
+@media print {
+  .reveal .slides section .fragment {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  .reveal .calc-step.current-fragment {
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .deck-footer {
+    display: none;
+  }
+
+  .reveal .slides > section {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .reveal .button {
+    border-color: var(--deck-teal);
+    background: #fff;
+    color: var(--deck-teal);
+  }
+}
