@@ -173,8 +173,8 @@
       },
       {
         "category": "Maths",
-        "title": "Solve the merged firm’s profit problem",
-        "text": "Differentiate (22 − Q)Q to obtain MR_I. Set MR_I = MC_I and solve for Q^I. Then find p^I from demand and calculate (p^I − MC_I)Q^I. Compare that profit with the sum of the two profits in part (b)."
+        "title": "Reuse marginal revenue and solve the merged firm’s choice",
+        "text": "The merged firm faces the same final demand as the retailer in part (a), so reuse that marginal-revenue expression as MR_I. Set MR_I = MC_I and solve for Q^I. Then find p^I from demand and calculate (p^I − MC_I)Q^I. Compare with the combined profit already found in part (b)."
       },
       {
         "category": "Intuition",
@@ -186,7 +186,7 @@
   {
     "id": "1e",
     "title": "Label and shade the integrated market",
-    "summary": "Identify D and MR_I, fill in the integrated price and quantity, and shade profit and consumer surplus.",
+    "summary": "Identify D and MR_I, copy the integrated price and quantity from part (d), and shade profit and consumer surplus.",
     "hints": [
       {
         "category": "Setup",
@@ -195,8 +195,8 @@
       },
       {
         "category": "Diagram",
-        "title": "Use MR_I for quantity and demand for price",
-        "text": "Use the intersection of MR_I and MC_I to identify Q^I. Move vertically to demand to find p^I, checking both against part (d). Profit is the rectangle between price and marginal cost up to Q^I; consumer surplus is the triangle above price and below demand."
+        "title": "Transfer your results and shade the areas",
+        "text": "Copy Q^I and p^I from part (d) into the boxes. Check their positions: MR_I meets MC_I at the chosen quantity, and demand gives the price above it. Profit is the rectangle between price and marginal cost up to Q^I; consumer surplus is the triangle above price and below demand."
       },
       {
         "category": "Intuition",
@@ -230,34 +230,39 @@
   {
     "id": "2a",
     "title": "The incumbent’s monopoly",
-    "summary": "Find monopoly price, sales and profit per pub, then total profit across both pubs.",
+    "summary": "Find the incumbent’s monopoly price, sales and profit at two bowls clubs in neighbouring towns. Calculate members’ consumer surplus at each club.",
     "hints": [
       {
         "category": "Setup",
-        "title": "Solve for one pub first",
-        "text": "Each pub has the same inverse demand p = 12 − q. Write the incumbent’s revenue from one pub as (12 − q)q. Its marginal cost is 4, and the two pubs can be treated symmetrically."
+        "title": "Solve for one bowls club first",
+        "text": "Each bowls club has inverse demand p = 12 − q, representing its members’ combined demand. Write the incumbent’s revenue from one club as (12 − q)q. Its marginal cost is 4, and the two clubs can be treated symmetrically."
       },
       {
         "category": "Maths",
         "title": "Differentiate revenue, then calculate profit",
-        "text": "Expand the revenue expression and differentiate with respect to q. Set marginal revenue equal to 4. Substitute your quantity into inverse demand for the price, then calculate (p − 4)q. Multiply profit per pub by two for total profit."
+        "text": "Expand the revenue expression and differentiate with respect to q. Set marginal revenue equal to 4. Substitute your quantity into inverse demand for the price, then calculate (p − 4)q. Multiply profit per club by two for total profit."
+      },
+      {
+        "category": "Maths",
+        "title": "Find members’ consumer-surplus triangle",
+        "text": "Each club passes beer on at the brewer’s price and aims to maximise its members’ consumer surplus. On the demand diagram, identify the triangle above the monopoly price and below demand. Its base is the quantity per club and its height is 12 minus that price. Use one-half × base × height. Save this result for part (d)."
       },
       {
         "category": "Intuition",
-        "title": "Separate a pub’s quantity from total sales",
-        "text": "The quantity q describes sales to one pub. The incumbent supplies two identical markets. Its total sales and total profit therefore include both pubs, while the price at each pub follows that pub’s demand."
+        "title": "Separate a club’s quantity from total sales",
+        "text": "The quantity q describes sales to one club. The incumbent supplies two identical markets. Its total sales and total profit therefore include both clubs, while the price at each club follows that club’s demand."
       }
     ]
   },
   {
     "id": "2b",
-    "title": "Can the entrant serve both pubs profitably?",
-    "summary": "Calculate entrant sales and profit after the entry cost when both pubs are available. Decide whether to enter.",
+    "title": "Can the entrant serve both clubs profitably?",
+    "summary": "Calculate entrant sales and net profit with both bowls clubs available, decide whether to enter, and find members’ consumer surplus at each club.",
     "hints": [
       {
         "category": "Setup",
         "title": "Use the given entry price",
-        "text": "The entrant charges p = 4 under the stated pricing assumption and has marginal cost 2. Substitute this price into each pub’s demand q = 12 − p to find sales per pub."
+        "text": "The entrant charges p = 4 under the stated pricing assumption and has marginal cost 2. Substitute this price into each club’s demand q = 12 − p to find sales per club."
       },
       {
         "category": "Maths",
@@ -265,16 +270,21 @@
         "text": "Add sales to A and B, multiply by the entrant’s per-unit margin, then subtract F = 20 once. Compare the resulting net profit with the zero profit from staying out."
       },
       {
+        "category": "Maths",
+        "title": "Find members’ surplus at the entry price",
+        "text": "Use the same triangle method as in part (a), now at the entrant’s price p = 4. Use the sales per club you have just found for the base, and 12 minus the entry price for the height. Calculate surplus for one club’s members and retain it for the acceptance decision in part (d)."
+      },
+      {
         "category": "Intuition",
         "title": "Distinguish a positive margin from profitable entry",
-        "text": "A positive margin on each unit helps pay the fixed entry cost. Entry is worthwhile only if total operating profit covers that cost. How does access to two pubs help?"
+        "text": "A positive margin on each unit helps pay the fixed entry cost. Entry is worthwhile only if total operating profit covers that cost. How does access to two clubs help?"
       }
     ]
   },
   {
     "id": "2c",
     "title": "Does exclusivity prevent entry?",
-    "summary": "Recalculate entry profitability when A signs exclusivity, and explain the consequences for the entrant and B.",
+    "summary": "Use B’s sales from part (b) to calculate entry profit when A signs exclusivity. Explain the consequences for the entrant and B.",
     "hints": [
       {
         "category": "Setup",
@@ -283,8 +293,8 @@
       },
       {
         "category": "Maths",
-        "title": "Recalculate profit with one pub",
-        "text": "Calculate B’s demand at p = 4. Multiply that quantity by the entrant’s margin of 4 − 2, then subtract F = 20. Compare with staying out, and with your two-pub result in part (b)."
+        "title": "Reuse B’s sales and recalculate entry profit",
+        "text": "From part (b), take the quantity B buys at p = 4. Multiply that quantity by the entrant’s margin of 4 − 2, then subtract F = 20 once. Compare with staying out and with the two-club result in part (b)."
       },
       {
         "category": "Intuition",
@@ -296,22 +306,22 @@
   {
     "id": "2d",
     "title": "The payment A needs to accept",
-    "summary": "Compare A’s surplus after rejecting or accepting exclusivity, and find its minimum acceptable fixed payment.",
+    "summary": "Use the consumer-surplus results from parts (a) and (b) to compare A’s members’ benefits after rejecting or accepting exclusivity. Find the minimum acceptable payment.",
     "hints": [
       {
         "category": "Setup",
-        "title": "Work backwards from A’s two choices",
-        "text": "If A rejects, use the entry outcome from part (b). If A accepts, use the outcome from part (c). In each case, identify the price A pays and the quantity it buys before calculating A’s surplus."
+        "title": "Match each decision to an earlier result",
+        "text": "If A rejects, use members’ consumer surplus with entry from part (b). If A accepts, part (c) tells you whether entry occurs; use the monopoly consumer surplus from part (a). Carry those results forward."
       },
       {
         "category": "Maths",
-        "title": "Compare the two surplus triangles and add T",
-        "text": "For A’s demand, buyer surplus is the triangle above the beer price and below inverse demand. Use one-half × quantity × (12 − price). On acceptance, add the payment T to this surplus. Require acceptance surplus plus T to be at least rejection surplus, then rearrange for T."
+        "title": "Add the payment to the acceptance payoff",
+        "text": "Write A’s acceptance payoff as its members’ monopoly consumer surplus from part (a) plus T. Its rejection payoff is their consumer surplus with entry from part (b). Require the acceptance payoff to be at least the rejection payoff, then rearrange for T."
       },
       {
         "category": "Intuition",
         "title": "What loss must the offer compensate?",
-        "text": "The incumbent makes the take-it-or-leave-it offer. A compares its own payoff under acceptance and rejection, anticipating the effect on entry. What loss in buying surplus must the fixed payment replace? Treat A as accepting at equality when identifying the minimum."
+        "text": "The incumbent makes the take-it-or-leave-it offer. A uses the fixed payment for its members, so it compares their consumer surplus plus any payment under each choice. What loss in members’ consumer surplus must T replace? Treat A as accepting at equality when identifying the minimum."
       }
     ]
   },
@@ -322,8 +332,8 @@
     "hints": [
       {
         "category": "Setup",
-        "title": "Identify the incumbent’s outside option",
-        "text": "If A rejects and the entrant supplies both pubs, what sales remain for the incumbent? If A accepts and entry is prevented, use the incumbent’s operating profit across both pubs from part (a)."
+        "title": "Reuse the incumbent’s two operating outcomes",
+        "text": "From part (b), recall the incumbent’s profit if A rejects and entry occurs. From part (a), recall its monopoly profit across both clubs if entry is prevented. These are the two operating outcomes to use before accounting for the payment."
       },
       {
         "category": "Maths",
@@ -333,29 +343,29 @@
       {
         "category": "Intuition",
         "title": "Why can a payment benefit both parties?",
-        "text": "One agreement can protect the incumbent’s sales to both pubs. Compare the profit it preserves with A’s lost buying surplus. Then consider whose payoff is absent from these two participation conditions."
+        "text": "One agreement can protect the incumbent’s sales to both clubs. Compare the profit it preserves with the loss of consumer surplus for A’s members. Then consider whose payoff is absent from these two participation conditions."
       }
     ]
   },
   {
     "id": "2f",
     "title": "Who gains when T = 25?",
-    "summary": "Calculate the incumbent’s profit and both pubs’ payoffs, compare them with entry, and explain how the payment is financed.",
+    "summary": "Set T = 25 in the payoff expressions from parts (d) and (e), use part (a) for B, and compare all three payoffs with entry.",
     "hints": [
       {
         "category": "Setup",
-        "title": "Keep the three payoffs separate",
-        "text": "With exclusivity, the incumbent receives monopoly operating profit from both pubs and pays T. A receives monopoly buyer surplus plus T. B receives monopoly buyer surplus. Use T = 25."
+        "title": "Substitute into the payoffs already derived",
+        "text": "Use the incumbent’s profit expression from part (e) and A’s acceptance payoff from part (d), setting T = 25 in each. For B, use members’ monopoly consumer surplus from part (a). B receives no payment."
       },
       {
         "category": "Maths",
-        "title": "Compare acceptance with entry",
-        "text": "For each party, write two columns: entry and exclusivity. Use the buyer-surplus calculations from part (d) for both identical pubs, adding the payment only to A. Subtract each entry payoff from its exclusivity payoff. A transfer is an expense for the incumbent and a receipt for A."
+        "title": "Compare each payoff with its entry value",
+        "text": "For each party, write two columns: entry and exclusivity. Copy the entry outcomes from part (b) and use the exclusivity payoffs you have just found. Subtract each entry payoff from its exclusivity payoff. The payment is an expense for the incumbent and a benefit for A’s members."
       },
       {
         "category": "Intuition",
-        "title": "How can one pub’s contract protect two markets?",
-        "text": "Compare the payment with monopoly profit from A alone, then with monopoly profit from A and B together. Explain how the effect on entry protects the second market. What happens to B, which receives no payment?"
+        "title": "How can one club’s contract protect two markets?",
+        "text": "Use the profits from part (a) to compare the payment with monopoly profit from A alone and from both clubs together. Explain how the effect on entry protects the second market. What happens to B’s members, who receive no payment?"
       }
     ]
   },
@@ -366,13 +376,13 @@
     "hints": [
       {
         "category": "Setup",
-        "title": "Change only the entrant’s fixed cost",
-        "text": "Keep A tied to the incumbent and let the entrant serve B alone. Use the same price, marginal cost and B’s demand as in part (c), replacing the fixed cost with 10."
+        "title": "Carry forward B’s quantity; change the fixed cost",
+        "text": "Keep A tied to the incumbent and take the entrant’s potential sales to B from part (c). The entrant’s price and marginal cost stay the same. Replace the fixed cost with F = 10."
       },
       {
         "category": "Maths",
         "title": "Recheck entry and the scope to fund a payment",
-        "text": "Calculate (4 − 2) × B’s quantity − 10 and compare it with zero. If entry can proceed with B alone, identify which pub’s monopoly profit the incumbent could still preserve by signing A. Compare that amount with A’s required compensation from part (d)."
+        "text": "Calculate (4 − 2) × B’s quantity from part (c) − 10 and compare with zero. If the entrant can serve B alone, use part (a) to find the monopoly profit the incumbent could preserve by signing A. Compare it with A’s required compensation from part (d)."
       },
       {
         "category": "Intuition",
@@ -387,7 +397,7 @@
     const hintData = JSON.parse(document.getElementById('hint-data').textContent);
     const questions = {
       '1': { title:'Double marginalisation with retailing costs', parts:['a','b','c','d','e','f'] },
-      '2': { title:'Exclusive dealing between brewers and pubs', parts:['a','b','c','d','e','f','g'] }
+      '2': { title:'Exclusive dealing between brewers and bowls clubs', parts:['a','b','c','d','e','f','g'] }
     };
     const parts = Object.fromEntries(hintData.map(part => [part.id, part]));
     const revealed = Object.create(null);
