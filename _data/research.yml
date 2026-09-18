@@ -76,6 +76,8 @@
       links:
         - label: "Current working paper"
           url: "/files/TUOR.pdf"
+        - label: "Slides"
+          url: "/files/anu_slides.pdf"
         - label: "Optimal Redistribution Through Subsidies"
           url: "/files/toppingup.pdf"
         - label: "Optimal In-Kind Redistribution"
