@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hints for Problem 1 of the Week 9 applied exercises: price discrimination at a gym.">
+  <meta name="color-scheme" content="light">
+  <title>Week 9 hints | ECF3900</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%224%22%20fill%3D%22%23005a8b%22%2F%3E%3Ctext%20x%3D%2216%22%20y%3D%2224%22%20text-anchor%3D%22middle%22%20font-family%3D%22Georgia%2Cserif%22%20font-size%3D%2227%22%20fill%3D%22white%22%3E9%3C%2Ftext%3E%3C%2Fsvg%3E">
+  <style>
+    :root { --blue:#005a8b; --navy:#123349; --ink:#172f40; --muted:#526776; --line:#d5e2ea; --wash:#f2f7fa; --white:#fff; --focus:#9e4a00; }
+    * { box-sizing:border-box; }
+    html { font-size:100%; }
+    body { margin:0; background:var(--white); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:1.0625rem; line-height:1.65; }
+    button,a { -webkit-tap-highlight-color:transparent; }
+    a { color:var(--blue); text-underline-offset:.22em; }
+    button { font:inherit; cursor:pointer; }
+    button:focus-visible,a:focus-visible { outline:3px solid var(--focus); outline-offset:5px; }
+    [tabindex="-1"]:focus { outline:none; }
+    .skip { position:absolute; left:1rem; top:-6rem; background:white; z-index:10; padding:.65rem 1rem; }
+    .skip:focus { top:.4rem; }
+    .masthead { border-top:5px solid var(--blue); border-bottom:1px solid var(--line); }
+    .masthead-inner { max-width:58rem; margin:auto; padding:1.15rem 1.75rem; display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap; align-items:baseline; }
+    .course { font-size:.875rem; font-weight:700; letter-spacing:.06em; }
+    .week { font-size:.9375rem; color:var(--muted); }
+    main { max-width:58rem; margin:auto; padding:2rem 1.75rem 3rem; min-height:30rem; }
+    .stages { display:flex; gap:1.5rem; list-style:none; padding:0; margin:0 0 2rem; font-size:.875rem; color:var(--muted); }
+    .stages li { display:flex; gap:.5rem; align-items:center; }
+    .step-number { width:1.65rem; height:1.65rem; border:1px solid var(--line); border-radius:50%; display:inline-flex; align-items:center; justify-content:center; font-size:.8rem; }
+    .stages [aria-current="step"] { color:var(--blue); font-weight:700; }
+    .stages [aria-current="step"] .step-number { background:var(--blue); color:white; border-color:var(--blue); }
+    .breadcrumb { display:flex; flex-wrap:wrap; align-items:center; gap:.7rem; margin:0 0 1.2rem; font-size:.9375rem; }
+    .breadcrumb a { text-decoration:none; }
+    .breadcrumb a:hover { text-decoration:underline; }
+    .breadcrumb .separator { color:#7a8e9a; }
+    .eyebrow { margin:0 0 .35rem; color:var(--blue); font-size:.9375rem; font-weight:650; }
+    h1 { margin:0 0 .8rem; color:var(--navy); font-family:Georgia,"Times New Roman",serif; font-size:clamp(1.85rem,4.5vw,2.65rem); line-height:1.2; font-weight:500; max-width:48rem; text-wrap:balance; }
+    .intro { margin:0 0 1.8rem; color:var(--muted); }
+    .questions { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.15rem; }
+    .question-card { display:flex; flex-direction:column; text-decoration:none; color:var(--ink); padding:1.65rem; border:1px solid var(--line); border-top:3px solid var(--blue); border-radius:4px; background:var(--wash); transition:background .15s,border-color .15s; }
+    .question-card:hover { background:#e8f2f8; border-color:var(--blue); }
+    .question-card .number { color:var(--blue); font-size:.9375rem; font-weight:700; }
+    .question-card h2 { margin:.65rem 0 1.3rem; font-family:Georgia,"Times New Roman",serif; font-size:1.65rem; line-height:1.3; font-weight:500; }
+    .question-card .card-bottom { margin-top:auto; display:flex; align-items:center; justify-content:space-between; gap:.6rem; color:var(--muted); font-size:.9375rem; }
+    .arrow { font-size:1.45rem; color:var(--blue); line-height:1; }
+    .part-list { display:grid; gap:.6rem; margin-top:1.2rem; }
+    .part-link { display:flex; align-items:center; gap:1rem; text-decoration:none; color:var(--ink); padding:1rem 1.15rem; border:1px solid var(--line); border-radius:4px; }
+    .part-link:hover { background:var(--wash); border-color:var(--blue); }
+    .part-letter { display:flex; align-items:center; justify-content:center; flex:none; background:var(--wash); color:var(--blue); width:2.5rem; height:2.5rem; border-radius:50%; font-weight:700; }
+    .part-title { flex:1; font-weight:600; }
+    .question-text { border-left:3px solid var(--line); margin:1.4rem 0 1.8rem; padding:.15rem 0 .15rem 1.1rem; line-height:1.7; }
+    .question-text p { margin:0 0 .65rem; }
+    .question-text p:last-child { margin-bottom:0; }
+    .math { font-family:Georgia,"Times New Roman",serif; white-space:nowrap; font-size:1.075em; }
+    .math i { font-style:italic; }
+    .math sub,.math sup { font-size:.72em; line-height:0; position:relative; vertical-align:baseline; }
+    .math sub { bottom:-.25em; }
+    .math sup { top:-.55em; }
+    .formula { display:block; margin:.55rem 0; font-family:Georgia,"Times New Roman",serif; font-size:1.075em; font-style:italic; }
+    .hint-intro { margin:0 0 1rem; color:var(--muted); }
+    .hint-options { display:grid; gap:.85rem; }
+    .hint-option { border:1px solid var(--line); border-radius:4px; overflow:hidden; }
+    .hint-choice { width:100%; min-height:4.4rem; padding:.8rem 1rem; border:0; background:var(--white); color:var(--ink); display:grid; grid-template-columns:1fr auto; gap:1rem; align-items:center; text-align:left; }
+    .hint-choice:hover { background:var(--wash); }
+    .choice-kind { display:block; color:var(--blue); font-size:.875rem; font-weight:700; margin-bottom:.12rem; }
+    .choice-title { display:block; font-weight:650; }
+    .choice-action { color:var(--blue); font-size:.9375rem; font-weight:650; white-space:nowrap; }
+    .hint { background:var(--wash); padding:1.15rem 1.35rem; border-top:1px solid var(--line); animation:reveal .18s ease-out; }
+    .hint p { margin:0; }
+    .part-navigation { display:flex; justify-content:space-between; gap:1rem; margin-top:2rem; padding-top:1.3rem; border-top:1px solid var(--line); }
+    .nav-button { display:inline-flex; align-items:center; min-height:3rem; padding:.65rem 1rem; border:2px solid var(--blue); border-radius:4px; font-weight:650; line-height:1.3; text-decoration:none; }
+    .nav-button.back { color:var(--blue); background:var(--white); }
+    .nav-button.back:hover { background:var(--wash); }
+    .nav-button.next { margin-left:auto; color:var(--white); background:var(--blue); text-align:right; }
+    .nav-button.next:hover { background:var(--navy); border-color:var(--navy); }
+    .footer { max-width:54.5rem; margin:0 auto; border-top:1px solid var(--line); padding:1rem 0 1.5rem; font-size:.875rem; color:var(--muted); }
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+    noscript p { padding:1rem; background:var(--wash); }
+    @keyframes reveal { from { opacity:0; transform:translateY(4px); } to { opacity:1; transform:translateY(0); } }
+    @media (max-width:620px) { main { padding:1.4rem 1.1rem 2rem; } .masthead-inner { padding:1rem 1.1rem; } .questions { grid-template-columns:1fr; } .question-card { padding:1.3rem; } .question-card h2 { margin:.5rem 0 1rem; font-size:1.5rem; } .stages { gap:1rem; margin-bottom:1.5rem; } .part-link { padding:.85rem; gap:.7rem; } .hint { padding:1.05rem; } .hint-choice { padding:.75rem .85rem; } .part-navigation { align-items:stretch; } .nav-button { flex:1; } .footer { margin:0 1.1rem; } }
+    @media (max-width:360px) { .part-navigation { flex-direction:column; } .nav-button,.nav-button.next { justify-content:center; margin-left:0; text-align:center; } }
+    @media (prefers-reduced-motion:reduce) { *,*::before,*::after { animation:none!important; transition:none!important; scroll-behavior:auto!important; } }
+    @media print { .masthead { border-top:0; } .stages,.breadcrumb,.hint-choice,.part-navigation,.skip { display:none; } main { max-width:none; min-height:0; padding:1rem 0; } .hint-option { border:0; } .hint { border:1px solid var(--line); break-inside:avoid; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead"><div class="masthead-inner"><span class="course">ECF3900</span><span class="week">Week 9 · Applied exercises</span></div></header>
+  <main id="main"><noscript><h1>Week 9 hints</h1><p>Enable JavaScript to choose a part of Problem 1 and reveal its hints.</p></noscript></main>
+  <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
+  <footer class="footer">Price discrimination at a gym</footer>
+  <script id="hint-data" type="application/json">[
+  {
+    "id": "1a",
+    "title": "First-degree price discrimination",
+    "summary": "Find total visits, profit and consumer surplus when the gym captures each customer's full value. Shade profit on the diagram.",
+    "hints": [
+      {
+        "category": "Setup",
+        "title": "Find the last visit worth supplying",
+        "text": "The gym receives each visit's full marginal value and pays $6 to supply it. It therefore sells every visit whose marginal value is at least $6. Find where demand meets MC = 6, using the appropriate section of the market demand curve to calculate total Q."
+      },
+      {
+        "category": "Diagram",
+        "title": "Split the profit area at the bend",
+        "text": "Shade the area below demand and above MC, from Q = 0 to the quantity you found. Split the area at Q = 20. The first piece is a trapezoid: its width is 20 and its two heights are 18 − 6 and 14 − 6. The second piece is a triangle. Use your total quantity to find its base."
+      },
+      {
+        "category": "Intuition",
+        "title": "Compare total benefit with total payment",
+        "text": "Consumer surplus is total benefit minus total payment. The question says that the gym captures each customer's full value. Use that statement to decide how much surplus customers retain. The shaded area is profit because it already subtracts the cost of supplying visits."
+      }
+    ]
+  },
+  {
+    "id": "1b",
+    "title": "Prices for students and workers",
+    "summary": "Find the profit-maximising price and visits per customer for each group, then multiply quantities by ten for group totals.",
+    "hints": [
+      {
+        "category": "Setup",
+        "title": "Start with revenue from one customer",
+        "text": "For one student, revenue is (14 − 2q_L)q_L. For one worker, it is (18 − 2q_H)q_H. Expand each expression and differentiate with respect to that customer's visits to find marginal revenue."
+      },
+      {
+        "category": "Maths",
+        "title": "Use marginal revenue to choose visits",
+        "text": "Set each customer's marginal revenue equal to MC = 6 and solve for visits. Then substitute each quantity into that customer's inverse demand to find the price per visit. Inverse demand gives the price customers will pay for the quantity you have chosen."
+      },
+      {
+        "category": "Setup",
+        "title": "Convert individual visits into group totals",
+        "text": "The inverse demands describe one customer. Each group has ten identical customers, so multiply visits per customer by ten to obtain that group's total visits. The price per visit is the same for all customers within a group."
+      }
+    ]
+  },
+  {
+    "id": "1c",
+    "title": "Who gains, who loses, and total surplus",
+    "summary": "Compare the gym and both groups of customers under first-degree pricing and the group prices from part (b). Explain what happens to total surplus.",
+    "hints": [
+      {
+        "category": "Maths",
+        "title": "Compare the gym's profit",
+        "text": "For each group, multiply its price minus 6 by its total visits from part (b). Add the two amounts to find gym profit. Compare this with your first-degree profit from part (a)."
+      },
+      {
+        "category": "Maths",
+        "title": "Find surplus for each group of customers",
+        "text": "For one student, consumer surplus is the triangle with base q_L and height 14 − p_L. For one worker, use base q_H and height 18 − p_H. Calculate one-half × base × height, then multiply each triangle by ten. Compare these group surpluses with what customers retained in part (a)."
+      },
+      {
+        "category": "Intuition",
+        "title": "Connect total surplus to the visits supplied",
+        "text": "Total surplus is gym profit plus consumer surplus for both groups. Compare this total with part (a). To explain the change, compare total visits under the two pricing methods. Consider the value and marginal cost of the visits that are supplied under first-degree pricing but forgone at the group prices."
+      }
+    ]
+  },
+  {
+    "id": "1d",
+    "title": "Which package does each customer choose?",
+    "summary": "Calculate each type's utility from basic (4, 40) and premium (6, 72), then identify its preferred choice.",
+    "hints": [
+      {
+        "category": "Setup",
+        "title": "Read the two numbers in a package",
+        "text": "In a package (q, p), q is visits and p is the total payment for the package. Use q = 4 for basic and q = 6 for premium. Calculate each customer's gross benefit using v_L(q) = 14q − q² or v_H(q) = 18q − q². Each customer chooses one package or buys nothing."
+      },
+      {
+        "category": "Maths",
+        "title": "Subtract the package payment",
+        "text": "A student's utility from basic is 14(4) − 4² − 40. Follow the same steps for the other three cells: substitute the package's visits into the appropriate benefit function, then subtract that package's total payment."
+      },
+      {
+        "category": "Intuition",
+        "title": "Compare all three choices in each row",
+        "text": "Each customer chooses the option with the greatest utility, including buying nothing for utility zero. Apply the stated rules when utilities tie: customers buy when indifferent to buying nothing, and workers choose premium when indifferent between the two packages."
+      }
+    ]
+  },
+  {
+    "id": "1e",
+    "title": "The largest premium payment workers will accept",
+    "summary": "Keep basic at (4, 40) and premium at six visits. Find the largest premium payment that makes workers choose premium.",
+    "hints": [
+      {
+        "category": "Setup",
+        "title": "Carry forward the worker's basic utility",
+        "text": "A worker can still choose basic (4, 40). Take the worker's utility from basic from part (d). Premium must offer at least that much utility for the worker to choose it."
+      },
+      {
+        "category": "Maths",
+        "title": "Write the worker's choice condition",
+        "text": "Let p_H be the new total payment for premium. The worker's condition is v_H(6) − p_H ≥ v_H(4) − 40. Substitute the values you calculated in part (d), then rearrange for p_H. The largest payment satisfies this condition at equality."
+      },
+      {
+        "category": "Intuition",
+        "title": "Why does the basic package limit the premium price?",
+        "text": "As the premium payment rises, the worker's utility from premium falls. The basic package gives the worker an alternative. At the largest acceptable premium payment, the worker gets the same utility from either package and chooses premium under the stated rule."
+      }
+    ]
+  },
+  {
+    "id": "1f",
+    "title": "Reducing the basic package to two visits",
+    "summary": "Find the largest basic payment students accept, the largest premium payment workers accept, and check that students prefer basic.",
+    "hints": [
+      {
+        "category": "Maths",
+        "title": "Use the student's option of buying nothing",
+        "text": "Let p_L be the total payment for the two-visit basic package. A student accepts when v_L(2) − p_L ≥ 0. Calculate v_L(2) using the benefit function, then find the largest payment satisfying this condition."
+      },
+      {
+        "category": "Maths",
+        "title": "Recalculate the worker's alternative",
+        "text": "Using your new p_L, find the worker's utility from basic: v_H(2) − p_L. Premium still gives six visits. Set v_H(6) − p_H equal to that basic utility to find the largest premium payment that makes the worker choose premium."
+      },
+      {
+        "category": "Check",
+        "title": "Check the student's choice under the new menu",
+        "text": "Using the payments you found, compare the student's basic utility v_L(2) − p_L with premium utility v_L(6) − p_H and with zero from buying nothing. Apply the rule that customers buy when indifferent to buying nothing."
+      }
+    ]
+  },
+  {
+    "id": "1g",
+    "title": "Profit, surplus and information rent",
+    "summary": "Compare profit, total consumer surplus and total surplus under the menus from parts (e) and (f). Explain why a smaller basic package can benefit the gym while lowering total surplus.",
+    "hints": [
+      {
+        "category": "Maths",
+        "title": "Calculate profit from each package",
+        "text": "For each menu, profit per student is p_L − 6q_L and profit per worker is p_H − 6q_H. Multiply each by ten and add. Use the payments and quantities from part (e) for the first column and part (f) for the second."
+      },
+      {
+        "category": "Maths",
+        "title": "Add up customer utility and total surplus",
+        "text": "For each menu, take each type's utility from its chosen package, multiply by ten and add to find total consumer surplus. Add gym profit to obtain total surplus. You can check total surplus by adding v(q) − 6q across all customers."
+      },
+      {
+        "category": "Intuition",
+        "title": "Follow the high type's information rent",
+        "text": "The utility a worker retains because the gym cannot verify type is the high type's information rent. Compare this utility across the two menus. How does reducing the basic package change its appeal to workers, the premium payment the gym can charge, and the rent workers retain? Use your profit calculations to compare the gain from workers with the loss from students."
+      },
+      {
+        "category": "Intuition",
+        "title": "Explain the loss of total surplus",
+        "text": "Compare the visits supplied under the two menus. Workers still receive six visits, while students receive fewer. Use student demand and MC = 6 to assess the value of the forgone visits. Changes in payments redistribute surplus between customers and the gym; changes in visits affect the total surplus created."
+      }
+    ]
+  }
+]</script>
+  <script>
+    'use strict';
+    const hintData = JSON.parse(document.getElementById('hint-data').textContent);
+    const parts = Object.fromEntries(hintData.map(part => [part.id, part]));
+    const letters = hintData.map(part => part.id.slice(1));
+    const revealed = Object.create(null);
+    const main = document.getElementById('main');
+    const announcement = document.getElementById('announcement');
+    function escapeText(text) { return String(text).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char])); }
+    function math(text) {
+      const formatted = escapeText(text).replace(/\*([^*]+)\*/g, '<em>$1</em>');
+      return formatted.replace(/(?<![A-Za-z_])(MR|MC|CS|TS|pi|v|Q|q|p)(?:_([LHi]|total))?(?:\^([2]|FD)|(²))?(?![A-Za-z0-9_])/g, (match, symbol, sub, power, squared) => {
+        if (squared) power = "2";
+        return '<span class="math"><i>' + (symbol === 'pi' ? 'π' : symbol) + '</i>' + (sub ? '<sub>' + sub + '</sub>' : '') + (power ? '<sup>' + power + '</sup>' : '') + '</span>';
+      });
+    }
+    function route(hash) {
+      const match = /^#q1\/([a-g])$/.exec(hash);
+      return match && letters.includes(match[1]) ? match[1] : null;
+    }
+    function stages(active) {
+      return '<ol class="stages" aria-label="Find a hint">' + ['Part', 'Hints'].map((name, index) => '<li' + (active === index ? ' aria-current="step"' : '') + '><span class="step-number" aria-hidden="true">' + (index + 1) + '</span>' + name + '</li>').join('') + '</ol>';
+    }
+    function render(focus = true) {
+      const letter = route(location.hash);
+      announcement.textContent = '';
+      if (!letter) {
+        document.title = 'Problem 1 hints | Week 9 | ECF3900';
+        main.innerHTML = stages(0) + '<p class="eyebrow">Problem 1</p><h1 tabindex="-1">Price discrimination at a gym</h1><p class="intro">Choose a part, then open any hint you need.</p><div class="part-list">' + letters.map(letter => '<a class="part-link" href="#q1/' + letter + '"><span class="part-letter">(' + letter + ')</span><span class="part-title">' + escapeText(parts['1' + letter].title) + '</span><span class="arrow" aria-hidden="true">→</span></a>').join('') + '</div>';
+      } else {
+        const id = '1' + letter, part = parts[id], index = letters.indexOf(letter), next = letters[index + 1];
+        document.title = 'Problem 1(' + letter + ') hints | Week 9';
+        main.innerHTML = stages(1) + '<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#q1">Problem 1</a><span class="separator" aria-hidden="true">/</span><span aria-current="page">Part (' + letter + ')</span></nav><p class="eyebrow">Problem 1(' + letter + ')</p><h1 tabindex="-1">' + escapeText(part.title) + '</h1><div class="question-text"><p>' + math(part.summary) + '</p></div><p class="hint-intro">Choose the kind of help you need. You can open any hint.</p><div class="hint-options" id="hint-options"></div><nav class="part-navigation" aria-label="Move between parts"><a class="nav-button back" href="#q1">← Back to parts</a>' + (next ? '<a class="nav-button next" href="#q1/' + next + '">Next part: (' + next + ') →</a>' : '') + '</nav>';
+        renderHints(id);
+      }
+      if (focus) { window.scrollTo({top:0, behavior:'auto'}); main.querySelector('h1').focus({preventScroll:true}); }
+    }
+    function renderHints(id, focusHint = null, focusButton = null) {
+      const part = parts[id], open = revealed[id] || (revealed[id] = new Set());
+      document.getElementById('hint-options').innerHTML = part.hints.map((hint, index) => {
+        const isOpen = open.has(index), buttonId = 'hint-button-' + index, panelId = 'hint-panel-' + index;
+        return '<section class="hint-option"><button class="hint-choice" type="button" id="' + buttonId + '" data-hint="' + index + '" aria-expanded="' + isOpen + '" aria-controls="' + panelId + '"><span><span class="choice-kind">' + escapeText(hint.category) + '</span><span class="choice-title">' + escapeText(hint.title) + '</span></span><span class="choice-action">' + (isOpen ? 'Hide' : 'Show') + ' hint</span></button><div class="hint" id="' + panelId + '" role="region" aria-labelledby="' + buttonId + '" tabindex="-1"' + (isOpen ? '' : ' hidden') + '><p>' + (isOpen ? math(hint.text) : '') + '</p></div></section>';
+      }).join('');
+      document.querySelectorAll('.hint-choice').forEach(button => button.addEventListener('click', () => {
+        const index = Number(button.dataset.hint), isOpening = !open.has(index);
+        if (isOpening) open.add(index); else open.delete(index);
+        renderHints(id, isOpening ? index : null, isOpening ? null : index);
+      }));
+      if (focusHint !== null) { document.getElementById('hint-panel-' + focusHint).focus(); announcement.textContent = part.hints[focusHint].category + ' hint shown.'; }
+      if (focusButton !== null) { document.getElementById('hint-button-' + focusButton).focus(); announcement.textContent = part.hints[focusButton].category + ' hint hidden.'; }
+    }
+    window.addEventListener('hashchange', () => { if (location.hash === '#main') { main.querySelector('h1').focus(); return; } render(); });
+    render(false);
+  </script>
+</body>
+</html>

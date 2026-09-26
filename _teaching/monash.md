@@ -18,6 +18,8 @@ materials:
     url: /teaching/ecf3900/week8-hints/
   - title: "Week 8: Vertical Relationships — workshop slides (PDF)"
     url: /teaching/ecf3900/week8-slides/
+  - title: "Week 9 In-Class Exercise: hints"
+    url: /teaching/ecf3900/week9-hints/
 ---
 
 I teach ECF 3900 Business, Competition, and Regulation at Monash University.
