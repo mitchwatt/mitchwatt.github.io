@@ -90,6 +90,8 @@
       links:
         - label: "Working paper"
           url: "/files/promises.pdf"
+        - label: "Slides"
+          url: "/files/brownbagslides.pdf"
       abstract: >-
         Wages are often fixed even though tasks vary in difficulty. I study how a firm motivates workers when task assignment is its only incentive instrument. Workers observe task costs and may refuse or quit; the firm commits to compensating unpleasant work with better future assignments. With one worker, the optimal contract assigns tasks above a cutoff that rises with promised utility. With several workers, larger promises earn better tasks on average; workers complete every positive-value task and the least costly negative-value tasks. Pooling tasks among workers adds value, and spare workers expand capacity. Dynamics add value exactly when a static rule assigning all tasks is infeasible. Relative patience governs long-run assignments: negative tasks eventually disappear when workers are more patient, assignments become effectively stationary under equal patience, and difficult tasks recur when the firm is more patient. The model rationalizes task rotation and seniority rules as substitutes for task-contingent pay.
 
