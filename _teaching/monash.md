@@ -24,6 +24,8 @@ materials:
     url: /teaching/ecf3900/week9-slides/
   - title: "Week 10 In-Class Exercise: hints"
     url: /teaching/ecf3900/week10-hints/
+  - title: "Week 11 In-Class Exercise: hints"
+    url: /teaching/ecf3900/week11-hints/
 ---
 
 I teach ECF 3900 Business, Competition, and Regulation at Monash University.
