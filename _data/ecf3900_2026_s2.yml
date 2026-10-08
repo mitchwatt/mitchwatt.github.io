@@ -1,0 +1,15 @@
+weeks:
+  - number: 7
+    slides: /teaching/ecf3900/week7-slides/
+    hints: /teaching/ecf3900/week7-hints/
+  - number: 8
+    slides: /teaching/ecf3900/week8-slides/
+    hints: /teaching/ecf3900/week8-hints/
+  - number: 9
+    slides: /teaching/ecf3900/week9-slides/
+    hints: /teaching/ecf3900/week9-hints/
+  - number: 10
+    slides: /teaching/ecf3900/week10-slides/
+    hints: /teaching/ecf3900/week10-hints/
+  - number: 11
+    hints: /teaching/ecf3900/week11-hints/

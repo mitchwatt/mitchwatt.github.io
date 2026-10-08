@@ -1,0 +1,23 @@
+---
+layout: archive
+title: "ECF 3900 (Semester 2, 2026)"
+permalink: /teaching/ecf3900/2026-s2/
+author_profile: true
+---
+
+<p><a href="{{ '/teaching/' | relative_url }}">← Teaching</a></p>
+<p class="teaching-intro">Business, Competition and Regulation · Monash University</p>
+
+<div class="teaching-list">
+  {% for week in site.data.ecf3900_2026_s2.weeks %}
+    <section class="teaching-card" aria-labelledby="week-{{ week.number }}">
+      <h2 class="teaching-card__title" id="week-{{ week.number }}">Week {{ week.number }}</h2>
+      {% if week.slides %}
+        <div><a class="teaching-card__link" href="{{ week.slides | relative_url }}" aria-label="Week {{ week.number }} workshop slides">Workshop slides <span aria-hidden="true">→</span></a></div>
+      {% endif %}
+      {% if week.hints %}
+        <div><a class="teaching-card__link" href="{{ week.hints | relative_url }}" aria-label="Week {{ week.number }} applied exercise hints">Applied exercise hints <span aria-hidden="true">→</span></a></div>
+      {% endif %}
+    </section>
+  {% endfor %}
+</div>

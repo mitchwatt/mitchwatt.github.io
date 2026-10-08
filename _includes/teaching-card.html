@@ -15,6 +15,10 @@
 
   {% if teaching.summary %}<p class="teaching-card__summary">{{ teaching.summary }}</p>{% endif %}
 
+  {% for course in teaching.courses %}
+    <div><a class="teaching-card__link" href="{{ course.url | relative_url }}">{{ course.title }} <span aria-hidden="true">→</span></a></div>
+  {% endfor %}
+
   {% for material in teaching.materials %}
     <div><a class="teaching-card__link" href="{{ material.url | relative_url }}">{{ material.title }} <span aria-hidden="true">→</span></a></div>
   {% endfor %}
